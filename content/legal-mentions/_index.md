@@ -5,17 +5,17 @@ title: Legal mentions
 description: Legal mentions page
 ---
 
-## Welcome to demo.hugolify.io
+## Welcome to bluemaxmedia.com
 
 By using this site, you acknowledge having read the provisions below and you agree to respect them. The legal notices indicated below may change, we invite you to consult them regularly.
 
 ## Editor
 
-The demo.hugolify.io website is the property of {{< blank_link link="https://www.uncinq.dev" text="Un Cinq" >}}.
+The bluemaxmedia.com website is the property of BlueMax Media:
 
 ## Hosting
 
-The site demo.hugolify.io is hosted at:
+The site bluemaxmedia.com is hosted at:
 
 Netlify,\
 2325 3rd Street, \
