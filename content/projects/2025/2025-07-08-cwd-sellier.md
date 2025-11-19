@@ -14,4 +14,4 @@ image:
   src: /images/uploads/cwd.jpg
 ---
 
-{{< youtube 5CK4pQRNXL4 >}}
+{{< youtube id="5CK4pQRNXL4" class="yt" controls=false >}}
