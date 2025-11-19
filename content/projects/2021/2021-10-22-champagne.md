@@ -1,7 +1,7 @@
 ---
 title: "Champagne"
 date: 2021-10-22T12:09:30.000Z
-projects_categories: 
+projects_types: 
   - Brand content
 projects_tags:
   - Clip 

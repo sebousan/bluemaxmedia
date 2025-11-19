@@ -1,7 +1,7 @@
 ---
 title: "Serre Chevalier - Winter"
 date: 2021-10-17T11:20:06.000Z
-projects_categories: 
+projects_types: 
   - Event
 image:
   src: "/images/uploads/serre-chevalier_2019-Original.00_00_27_16.Still002-scaled.jpg"

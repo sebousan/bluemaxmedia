@@ -1,7 +1,7 @@
 ---
 title: "Frederique Constant - Manufacture"
 date: 2021-10-27T12:47:14.000Z
-projects_categories: 
+projects_types: 
   - Brand content
 projects_tags:
   - Clip 

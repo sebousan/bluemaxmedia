@@ -1,7 +1,7 @@
 ---
 title: "Faction Skis X IWC"
 date: 2022-11-30T10:10:07.000Z
-projects_categories: 
+projects_types: 
   - Brand content
   - "doc"
   - Sport

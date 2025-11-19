@@ -1,7 +1,7 @@
 ---
 title: "Serre Chavelier Vallée Briançon - \"Au Coeur des Géants\""
 date: 2024-09-12T10:23:48.000Z
-projects_categories: 
+projects_types: 
   - Brand content
 projects_tags:
   - Clip 

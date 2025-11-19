@@ -1,7 +1,7 @@
 ---
 title: "Faction  - Alta"
 date: 2021-10-27T07:42:22.000Z
-projects_categories: 
+projects_types: 
   - Brand content
   - "doc"
   - Sport

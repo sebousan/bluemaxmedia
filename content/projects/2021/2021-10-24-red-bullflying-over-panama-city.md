@@ -1,7 +1,7 @@
 ---
 title: "Red Bull - Flying Over Panama City"
 date: 2021-10-24T10:02:13.000Z
-projects_categories: 
+projects_types: 
   - Brand content
 projects_tags:
   - Clip 

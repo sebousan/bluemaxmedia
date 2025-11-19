@@ -1,7 +1,7 @@
 ---
 title: "RED BULL  - Cruzando Bogotá"
 date: 2021-10-27T09:53:59.000Z
-projects_categories: 
+projects_types: 
   - Brand content
 image:
   src: "/images/uploads/maxresdefault-2.jpg"

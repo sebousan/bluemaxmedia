@@ -1,7 +1,7 @@
 ---
 title: "Faction  - Chile"
 date: 2021-10-24T11:30:57.000Z
-projects_categories: 
+projects_types: 
   - Brand content
   - "doc"
   - Sport

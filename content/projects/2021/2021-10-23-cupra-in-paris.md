@@ -1,7 +1,7 @@
 ---
 title: "Cupra  -  In Paris"
 date: 2021-10-23T13:03:56.000Z
-projects_categories: 
+projects_types: 
   - Brand content
   - Pub
 image:

@@ -1,7 +1,7 @@
 ---
 title: "Yacht Commercial"
 date: 2021-10-22T14:30:33.000Z
-projects_categories: 
+projects_types: 
   - Event
 image:
   src: "/images/uploads/miniature-scaled.jpg"

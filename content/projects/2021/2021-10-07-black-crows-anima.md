@@ -1,7 +1,7 @@
 ---
 title: "Black Crows  - Anima"
 date: 2021-10-07T14:33:18.000Z
-projects_categories: 
+projects_types: 
   - Brand content
   - Sport
 image:

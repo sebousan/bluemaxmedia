@@ -1,7 +1,7 @@
 ---
 title: "The North Face - Walk In The Park"
 date: 2021-10-26T09:01:53.000Z
-projects_categories: 
+projects_types: 
   - Event
   - Sport
 image:

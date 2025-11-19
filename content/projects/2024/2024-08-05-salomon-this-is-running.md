@@ -1,12 +1,14 @@
 ---
 title: "Salomon - This is running"
 date: 2024-08-05T14:10:08.000Z
-projects_categories: 
+projects_types: 
   - Brand content
 projects_tags:
   - Clip 
   - Pub
   - Sport
+projects_clients:
+  - Salomon
 image:
   src: "/images/uploads/Salomon-running.png"
 ---

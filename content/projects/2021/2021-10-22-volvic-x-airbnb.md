@@ -1,7 +1,7 @@
 ---
 title: "Volvic x Airbnb"
 date: 2021-10-22T11:04:03.000Z
-projects_categories: 
+projects_types: 
   - Event
 image:
   src: "/images/uploads/airbnb-volvic-vignette.jpg"

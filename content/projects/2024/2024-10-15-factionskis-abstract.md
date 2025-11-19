@@ -1,7 +1,7 @@
 ---
 title: "Faction Skis - Abstract"
 date: 2024-10-15T12:21:13.000Z
-projects_categories: 
+projects_types: 
   - Brand content
 projects_tags:
   - Clip 

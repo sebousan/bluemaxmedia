@@ -1,7 +1,7 @@
 ---
 title: "Faction  - Mt Hood"
 date: 2021-10-26T08:23:34.000Z
-projects_categories: 
+projects_types: 
   - Brand content
   - "doc"
   - Sport

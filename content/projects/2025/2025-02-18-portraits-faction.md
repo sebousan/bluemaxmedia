@@ -1,7 +1,7 @@
 ---
 title: Portraits - Faction
 date: 2025-02-18T09:35:48.000Z
-projects_categories: 
+projects_types: 
   - Brand content
 projects_tags:
   - Clip 

@@ -1,16 +1,16 @@
 ---
 title: Prada x Red Bull - Floating Shapes
 date: 2025-03-03T11:58:12.000Z
-projects_categories: 
+projects_types: 
   - Brand content
 projects_tags:
   - Clip 
+  - Sport
+projects_clients:
   - Prada
   - Red Bull
-  - Sport
-data:
-  - title: Place
-    text: Serre Chevalier
+projects_places:
+  - Serre Chevalier
 image:
   src: /images/uploads/prada-redbull-floattingshape.jpg
 ---

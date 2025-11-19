@@ -1,7 +1,7 @@
 ---
 title: "Red Bull  -  Shapes Documentary"
 date: 2021-10-22T13:35:39.000Z
-projects_categories: 
+projects_types: 
   - Brand content
   - "doc"
   - "making-of-work"

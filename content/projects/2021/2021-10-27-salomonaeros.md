@@ -1,7 +1,7 @@
 ---
 title: "Salomon - Aeros"
 date: 2021-10-27T11:30:54.000Z
-projects_categories: 
+projects_types: 
   - Brand content
 projects_tags:
   - Clip 

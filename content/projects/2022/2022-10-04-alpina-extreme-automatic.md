@@ -1,7 +1,7 @@
 ---
 title: "Alpina  - Extreme Automatic"
 date: 2022-10-04T09:25:54.000Z
-projects_categories: 
+projects_types: 
   - Brand content
   - "doc"
   - Sport

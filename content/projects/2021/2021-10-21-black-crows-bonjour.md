@@ -1,7 +1,7 @@
 ---
 title: "Black Crows  - Bonjour"
 date: 2021-10-21T14:44:37.000Z
-projects_categories: 
+projects_types: 
   - Brand content
   - Sport
 image:

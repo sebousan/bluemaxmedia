@@ -1,7 +1,7 @@
 ---
 title: "Aerial Reel"
 date: 2021-10-18T10:05:04.000Z
-projects_categories: 
+projects_types: 
   - Showreel
 image:
   src: "/images/uploads/SHOWREEL-Drone-BlueMax-Media-2020.jpg"

@@ -1,7 +1,7 @@
 ---
 title: "Red Bull  -  Shapes"
 date: 2021-10-22T13:45:36.000Z
-projects_categories: 
+projects_types: 
   - Brand content
   - "photo"
   - Sport

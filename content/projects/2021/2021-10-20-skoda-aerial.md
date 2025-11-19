@@ -1,7 +1,7 @@
 ---
 title: "Skoda Aerial"
 date: 2021-10-20T10:06:39.000Z
-projects_categories: 
+projects_types: 
   - Event
 image:
   src: "/images/uploads/Aerial-Miniature2-scaled.jpg"

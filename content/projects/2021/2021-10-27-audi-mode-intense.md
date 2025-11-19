@@ -1,7 +1,7 @@
 ---
 title: "AUDI  - Mode Intense"
 date: 2021-10-27T10:46:26.000Z
-projects_categories: 
+projects_types: 
   - Brand content
 image:
   src: "/images/uploads/AUDI-A1_EPIC_MASTER.jpg"

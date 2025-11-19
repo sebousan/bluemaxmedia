@@ -1,12 +1,14 @@
 ---
 title: "Monster - Counting to three"
 date: 2024-10-15T10:52:54.000Z
-projects_categories: 
+projects_types: 
   - Brand content
 projects_tags:
   - Clip 
   - Pub
   - Sport
+projects_clients:
+  - Monster
 image:
   src: "/images/uploads/COUNTING-TO-THREE-WEB.png"
 ---

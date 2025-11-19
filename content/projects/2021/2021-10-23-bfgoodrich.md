@@ -1,7 +1,7 @@
 ---
 title: "BFGoodrich"
 date: 2021-10-23T13:43:53.000Z
-projects_categories: 
+projects_types: 
   - Brand content
 image:
   src: "/images/uploads/buggy.jpg"

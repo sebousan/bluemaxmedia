@@ -1,7 +1,7 @@
 ---
 title: "Cupra  - Padel"
 date: 2021-10-20T15:18:00.000Z
-projects_categories: 
+projects_types: 
   - Brand content
   - Sport
 image:

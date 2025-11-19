@@ -1,7 +1,7 @@
 ---
 title: "Audi x Emmanuel Renaut"
 date: 2021-10-14T15:35:38.000Z
-projects_categories: 
+projects_types: 
   - Event
 image:
   src: "/images/uploads/AUDI-X-Emmanuel-Renaut.jpg"

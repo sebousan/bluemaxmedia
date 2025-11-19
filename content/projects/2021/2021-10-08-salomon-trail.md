@@ -1,7 +1,7 @@
 ---
 title: "Salomon  - Trail"
 date: 2021-10-08T15:41:06.000Z
-projects_categories: 
+projects_types: 
   - Event
 image:
   src: "/images/uploads/Trail-salomon-2020.jpg"

@@ -1,7 +1,7 @@
 ---
 title: "Faction  - Utah to BC"
 date: 2021-10-15T15:52:05.000Z
-projects_categories: 
+projects_types: 
   - Brand content
   - Sport
 image:

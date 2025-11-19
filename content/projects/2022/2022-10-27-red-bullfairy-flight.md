@@ -1,18 +1,19 @@
 ---
 title: "Red Bull - Fairy Flight"
 date: 2022-10-27T09:41:53.000Z
-projects_categories: 
+projects_types: 
   - Brand content
 projects_tags:
   - Clip 
   - Pub
   - Sport
-  - Red Bull
   - Speed flying
+projects_talents:
   - Valentin Delluc
-datas:
-  - title: Place
-    text: Cappadocia, Turkey
+projects_clients:
+  - Red Bull
+projects_places:
+  - Cappadocia
 image:
   src: "/images/uploads/Cover-Fairy-Flight.jpg"
 ---

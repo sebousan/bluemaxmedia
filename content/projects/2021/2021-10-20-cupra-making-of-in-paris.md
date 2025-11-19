@@ -1,7 +1,7 @@
 ---
 title: "Cupra  -  Making Of In Paris"
 date: 2021-10-20T17:50:00.000Z
-projects_categories: 
+projects_types: 
   - Brand content
 projects_tags:
   - Clip 

@@ -1,7 +1,7 @@
 ---
 title: "REDBULL  - Skiing Through a School"
 date: 2021-10-27T10:59:54.000Z
-projects_categories: 
+projects_types: 
   - Brand content
 image:
   src: "/images/uploads/maxresdefault-1.jpg"
