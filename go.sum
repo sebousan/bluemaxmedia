@@ -10,6 +10,12 @@ github.com/hugolify/hugolify-admin v0.0.0-20251017083719-000d2715df1c h1:m+wb5yk
 github.com/hugolify/hugolify-admin v0.0.0-20251017083719-000d2715df1c/go.mod h1:qB7ndiuXR6XZu3r9UX3LtTHnrMF98U7vJHg6XXb6NvA=
 github.com/hugolify/hugolify-theme v1.26.21 h1:A8o/Nxkq4WMYaYQT3sv0SUuigqybdI3IMLBmuYpscRo=
 github.com/hugolify/hugolify-theme v1.26.21/go.mod h1:Rc64eJSSIWGeU6eHfSzUISNfL9UrJmy3Xs3H05Gz9rQ=
+github.com/hugolify/hugolify-theme-projects v1.2.1 h1:7ut7AVAKAJ7rsDpYk2ekaNgEhmFamsL2VEtUzCYSwKk=
+github.com/hugolify/hugolify-theme-projects v1.2.1/go.mod h1:Hp7SADxClFM2SYLjUZvX8Q/bf0pj/RperC3uK0KsYHc=
+github.com/hugolify/hugolify-theme-projects-tags v1.1.2 h1:vNn0ZKkA4nX0qDEb4wq4SHdW01HApG8EcT9K5l6CotI=
+github.com/hugolify/hugolify-theme-projects-tags v1.1.2/go.mod h1:/4CdPgLuI/lKr5v3312vCuhjQyJUnfptGxvIgZhwe3Q=
+github.com/hugolify/hugolify-theme-projects-types v1.0.14 h1:meirPvf8EphoJutkkgHGhu5T8ctduiM0vmrXi/o15bU=
+github.com/hugolify/hugolify-theme-projects-types v1.0.14/go.mod h1:6w9aM4KMjvQspp6wm67iFZzVRuC6gRR3PTXgxud8BAg=
 github.com/midzer/tobii v3.0.0+incompatible h1:cccjAG0fN1u/kdnquWm/FLYffjX53Dj4kSbWFQSlKLc=
 github.com/midzer/tobii v3.0.0+incompatible/go.mod h1:ByXFkVm8ja2+TXT7L+lfkdEIeHW4IdWdsQO8zJ5mEqA=
 github.com/orestbida/cookieconsent v3.1.0+incompatible h1:L2uj16SEL1bICkn6pJde9uc1qAPmTcEiFZO93zZKdQI=

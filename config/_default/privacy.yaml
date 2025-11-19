@@ -1,1 +1,4 @@
 _merge: deep
+youTube:
+  disable: false
+  privacyEnhanced: true
