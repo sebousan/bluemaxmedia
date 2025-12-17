@@ -1,4 +1,6 @@
 ---
+isIndex: false
+draft: false
 title: "Faction  - Mt Hood"
 date: 2021-10-26T08:23:34.000Z
 projects_types: 

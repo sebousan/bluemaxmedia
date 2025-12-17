@@ -1,4 +1,6 @@
 ---
+isIndex: false
+draft: false
 title: "RED BULL  - Cruzando Bogotá"
 date: 2021-10-27T09:53:59.000Z
 projects_types: 

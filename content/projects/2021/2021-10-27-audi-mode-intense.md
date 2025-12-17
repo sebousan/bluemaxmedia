@@ -1,4 +1,6 @@
 ---
+isIndex: false
+draft: false
 title: "AUDI  - Mode Intense"
 date: 2021-10-27T10:46:26.000Z
 projects_types: 

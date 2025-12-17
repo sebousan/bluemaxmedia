@@ -1,4 +1,6 @@
 ---
+isIndex: false
+draft: false
 title: "Axians What We Do"
 date: 2021-10-19T10:59:49.000Z
 projects_types: 

@@ -1,4 +1,6 @@
 ---
+isIndex: false
+draft: false
 title: CWD Sellier - Enter the legend
 date: 2025-07-08T14:59:51.000Z
 projects_types: 
@@ -9,7 +11,10 @@ projects_tags:
   - F1 
   - Saddlery
 projects_clients:
-  - CWD
+  - CWD Sellier
+datas:
+  - title: Place
+    text: Spa-Francorchamps
 image:
   src: /images/uploads/cwd.jpg
 ---

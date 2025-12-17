@@ -1,4 +1,6 @@
 ---
+isIndex: false
+draft: false
 title: "Monster - Counting to three"
 date: 2024-10-15T10:52:54.000Z
 projects_types: 

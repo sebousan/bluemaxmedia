@@ -1,0 +1,17 @@
+/*! purgecss start ignore */
+[class*="block-"]
+    @include padding-bottom($global-spacing)
+    @include padding-top($global-spacing)
+    .heading,
+    .footing
+        align-items: flex-start
+        flex-direction: column
+        > .container
+            align-items: flex-start
+    .footing
+        @include margin-top($global-spacing)
+
+    @include media-breakpoint-up(lg)
+        .heading
+            margin-bottom: $global-spacing
+/*! purgecss end ignore */

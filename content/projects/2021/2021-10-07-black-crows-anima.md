@@ -1,4 +1,6 @@
 ---
+isIndex: false
+draft: false
 title: "Black Crows  - Anima"
 date: 2021-10-07T14:33:18.000Z
 projects_types: 

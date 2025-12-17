@@ -1,4 +1,6 @@
 ---
+isIndex: false
+draft: false
 title: "Serre Chevalier - Winter"
 date: 2021-10-17T11:20:06.000Z
 projects_types: 

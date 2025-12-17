@@ -1,1 +1,29 @@
 _merge: deep
+
+# JS
+carousel: true
+map: false
+bootstrap:
+  modal: false
+
+# Admin
+admin:
+  
+  # blocks
+  blocks:
+
+    enable:
+      - editorial
+      - datas 
+      - informations 
+      - figure
+      - logos
+      - paragraph
+      - selected
+      - video
+    
+    editorial:
+      notes: false
+    
+    paragraph:
+      notes: false

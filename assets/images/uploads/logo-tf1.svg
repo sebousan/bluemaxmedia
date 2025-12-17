@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="618.963" height="226">
+  <defs>
+    <clipPath id="b" clipPathUnits="userSpaceOnUse">
+      <path d="M0 0h1920v1080H0Z"/>
+    </clipPath>
+    <clipPath id="a" clipPathUnits="userSpaceOnUse">
+      <path d="M0 0h1920v1080H0Z"/>
+    </clipPath>
+    <clipPath id="e" clipPathUnits="userSpaceOnUse">
+      <path d="M1295 511v245H959.187V511z"/>
+    </clipPath>
+    <clipPath id="g" clipPathUnits="userSpaceOnUse">
+      <path d="M624 511h671v245H624Z"/>
+    </clipPath>
+    <clipPath id="c" clipPathUnits="userSpaceOnUse">
+      <path d="M959.813 511v245H624V511z"/>
+    </clipPath>
+    <radialGradient id="f" cx="0" cy="0" r="1" fx="0" fy="0" gradientTransform="matrix(329.5729 0 0 -329.8277 1003.984 652.12)" gradientUnits="userSpaceOnUse" spreadMethod="pad">
+      <stop offset="0" style="stop-opacity:1;stop-color:#970d0d"/>
+      <stop offset="1" style="stop-opacity:1;stop-color:#440c11"/>
+    </radialGradient>
+    <radialGradient id="d" cx="0" cy="0" r="1" fx="0" fy="0" gradientTransform="matrix(343.7857 0 0 -344.0515 656.775 757.298)" gradientUnits="userSpaceOnUse" spreadMethod="pad">
+      <stop offset="0" style="stop-opacity:1;stop-color:#2962f2"/>
+      <stop offset="1" style="stop-opacity:1;stop-color:#0d1950"/>
+    </radialGradient>
+  </defs>
+  <g clip-path="url(#c)" transform="matrix(.92245 0 0 -.92245 -575.608 697.372)">
+    <path d="M624 511h671v245H624Z" style="fill:url(#d);stroke:none"/>
+  </g>
+  <g clip-path="url(#e)" transform="matrix(.92245 0 0 -.92245 -575.608 697.372)">
+    <path d="M624 511h671v245H624Z" style="fill:url(#f);stroke:none"/>
+  </g>
+  <g clip-path="url(#g)" transform="matrix(.92245 0 0 -.92245 -575.608 697.372)">
+    <path d="M676.644 718.942v-59h39.098V548.058h74.838v111.884h39.1v59zM922.08 718.942V548.058h74.84v53.801h45.97v42.798h-45.97v31.488h64.299v42.797zM1227.39 719.822V548.058h-77.588V697.81z" style="fill:#fff;fill-opacity:1;fill-rule:nonzero;stroke:none"/>
+  </g>
+</svg>

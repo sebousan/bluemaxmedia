@@ -1,4 +1,6 @@
 ---
+isIndex: false
+draft: false
 title: "Frederique Constant - Manufacture"
 date: 2021-10-27T12:47:14.000Z
 projects_types: 

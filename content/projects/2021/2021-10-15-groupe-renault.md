@@ -1,4 +1,6 @@
 ---
+isIndex: false
+draft: false
 title: "Groupe Renault"
 date: 2021-10-15T11:35:31.000Z
 projects_types: 

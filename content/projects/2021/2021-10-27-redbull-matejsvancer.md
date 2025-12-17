@@ -1,4 +1,6 @@
 ---
+isIndex: false
+draft: false
 title: "REDBULL  - Skiing Through a School"
 date: 2021-10-27T10:59:54.000Z
 projects_types: 

@@ -1,6 +1,9 @@
 links:
-  - text: Portfolio
-    url: /portfolio/
+  - text: Works
+    url: /works/
+  - text: About
+    url: /about/
+  - text: Talents
+    url: /talents/
   - text: Contact
     url: /contact/
-    

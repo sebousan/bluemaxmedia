@@ -1,4 +1,6 @@
 ---
+draft: false
+isPage: true
 title: Contact
 ---
 

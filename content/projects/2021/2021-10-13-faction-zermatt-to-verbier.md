@@ -1,4 +1,6 @@
 ---
+isIndex: false
+draft: false
 title: "Faction  - Zermatt To Verbier"
 date: 2021-10-13T15:46:47.000Z
 projects_types: 

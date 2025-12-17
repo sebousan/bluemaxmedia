@@ -1,4 +1,6 @@
 ---
+isIndex: false
+draft: false
 title: Prada x Red Bull - Floating Shapes
 date: 2025-03-03T11:58:12.000Z
 projects_types: 

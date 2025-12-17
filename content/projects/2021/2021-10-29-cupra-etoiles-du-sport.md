@@ -1,4 +1,6 @@
 ---
+isIndex: false
+draft: false
 title: "Cupra  - Étoiles du Sport"
 date: 2021-10-29T10:53:17.000Z
 projects_types: 

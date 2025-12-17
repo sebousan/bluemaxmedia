@@ -1,4 +1,6 @@
 ---
+isIndex: false
+draft: false
 title: "Clare Maguire - All or nothing love"
 date: 2021-10-14T11:41:26.000Z
 projects_types: 

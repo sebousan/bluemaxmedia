@@ -1,4 +1,6 @@
 ---
+isIndex: false
+draft: false
 title: "Red Bull - Fairy Flight"
 date: 2022-10-27T09:41:53.000Z
 projects_types: 

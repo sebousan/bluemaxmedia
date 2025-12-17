@@ -1,4 +1,6 @@
 ---
+isIndex: false
+draft: false
 title: "The North Face  -  Versatile"
 date: 2021-10-24T09:01:45.000Z
 projects_types: 

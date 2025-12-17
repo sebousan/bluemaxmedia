@@ -1,4 +1,6 @@
 ---
+isIndex: false
+draft: false
 title: "Alpes D'Huez"
 date: 2020-10-16T11:28:30.000Z
 projects_types: 

@@ -1,4 +1,6 @@
 ---
+isIndex: false
+draft: false
 title: "Faction Skis X IWC"
 date: 2022-11-30T10:10:07.000Z
 projects_types: 

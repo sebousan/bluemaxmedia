@@ -1,4 +1,6 @@
 ---
+isIndex: false
+draft: false
 title: "Salomon  - Trail"
 date: 2021-10-08T15:41:06.000Z
 projects_types: 

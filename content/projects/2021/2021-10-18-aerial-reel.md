@@ -1,4 +1,6 @@
 ---
+isIndex: false
+draft: false
 title: "Aerial Reel"
 date: 2021-10-18T10:05:04.000Z
 projects_types: 

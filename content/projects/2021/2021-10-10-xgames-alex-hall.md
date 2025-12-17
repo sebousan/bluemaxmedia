@@ -1,4 +1,6 @@
 ---
+isIndex: false
+draft: false
 title: "Xgames  - Alex Hall"
 date: 2021-10-10T15:58:20.000Z
 projects_types: 

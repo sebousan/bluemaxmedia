@@ -1,4 +1,6 @@
 ---
+isIndex: false
+draft: false
 title: "Serre Chavelier Vallée Briançon - \"Au Coeur des Géants\""
 date: 2024-09-12T10:23:48.000Z
 projects_types: 

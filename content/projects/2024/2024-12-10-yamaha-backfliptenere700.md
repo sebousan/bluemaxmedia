@@ -1,4 +1,6 @@
 ---
+isIndex: false
+draft: false
 title: "Yamaha - Ténéré 700 Rally Edition"
 date: 2024-12-10T14:25:06.000Z
 projects_types: 
