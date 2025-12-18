@@ -1,15 +1,17 @@
 ---
 isIndex: false
 draft: false
-title: "Cupra  -  Making Of In Paris"
+title: "Cupra -  Making Of In Paris"
 date: 2021-10-20T17:50:00.000Z
 projects_types: 
-  - Brand content
+  - Commercial
 projects_tags:
+  - Car
   - Clip 
-  - "corporate"
   - "making-of-work"
   - Pub
+projects_clients:
+  - Cupra
 image:
   src: "/images/uploads/cupra-bts.jpg"
 ---

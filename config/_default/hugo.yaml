@@ -1,7 +1,4 @@
-## LANGUAGE
 defaultContentLanguage: en
-
-## ADVANCED
 build:
   buildStats:
     disableClasses: false
@@ -15,6 +12,6 @@ markup:
   tableOfContents:
     ordered: true
 pagination:
-  pagerSize: 9
+  pagerSize: 14
 removePathAccents: true
 timeout: 100000

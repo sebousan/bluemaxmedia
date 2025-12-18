@@ -1,0 +1,14 @@
+<header class="heading" {{- partial "func/SetAnim.html" (dict "element" "heading") }}>
+  {{- with .GetTerms "projects_clients" }}
+    <p class="surtitle">
+    {{- range . }}
+      {{- .Title }}
+    {{- end }}
+    </p>
+  {{- end }}
+  {{- with .Title }}
+    <h1 {{- if and site.Params.search.enable site.Params.search.sort }} data-pagefind-sort="heading"{{ end }}>
+      {{- partial "func/PrepareHTML.html" . -}}
+    </h1>
+  {{- end }}
+</header>

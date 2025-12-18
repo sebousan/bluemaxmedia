@@ -4,7 +4,7 @@ draft: false
 title: "Salomon - This is running"
 date: 2024-08-05T14:10:08.000Z
 projects_types: 
-  - Brand content
+  - Content
 projects_tags:
   - Clip 
   - Pub

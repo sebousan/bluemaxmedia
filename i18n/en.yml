@@ -1,0 +1,20 @@
+admin:
+  collections:
+    projects_clients:
+      label: 
+        one: Client
+        other: Clients
+    projects_talents:
+      label: 
+        one: Talent
+        other: Talents
+  fields:
+    projects_clients:
+      label: 
+        one: Client
+        other: Clients
+    projects_talents:
+      label: 
+        one: Talent
+        other: Talents
+      

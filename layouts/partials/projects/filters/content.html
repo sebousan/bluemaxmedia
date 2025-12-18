@@ -7,10 +7,7 @@
   {{ if templates.Exists ( printf "partials/%s" $projects_tags ) }}
     {{ partial $projects_tags . }}
   {{ end }}
-  Clients
   {{ partial "commons/filters/taxonomy.html" (dict "tax" "projects_clients" "current" .) }}
-  Places
   {{ partial "commons/filters/taxonomy.html" (dict "tax" "projects_places" "current" .) }}
-  Talents
   {{ partial "commons/filters/taxonomy.html" (dict "tax" "projects_talents" "current" .) }}
 </div>

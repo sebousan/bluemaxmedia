@@ -1,14 +1,18 @@
 ---
 isIndex: false
 draft: false
-title: "RED BULL  - Cruzando Bogotá"
+title: "Red Bull - Cruzando Bogotá"
 date: 2021-10-27T09:53:59.000Z
 projects_types: 
-  - Brand content
+  - Content
+projects_tags: 
+  - Clip 
+  - Sport
+  - Slackline
+projects_clients:
+  - Red Bull
 image:
   src: "/images/uploads/maxresdefault-2.jpg"
 ---
 
-## #RedBull #Slackline
-
-![](https://bluemaxmedia.com/wp-content/uploads/2023/08/thum3.jpg) {{< youtube A\_DxkPYF6q0 >}}
+{{< youtube A\_DxkPYF6q0 >}}

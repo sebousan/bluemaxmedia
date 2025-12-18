@@ -1,9 +1,9 @@
 links:
-  - text: Works
+  - title: Works
     url: /works/
-  - text: About
+  - title: About
     url: /about/
-  - text: Talents
+  - title: Talents
     url: /talents/
-  - text: Contact
+  - title: Contact
     url: /contact/

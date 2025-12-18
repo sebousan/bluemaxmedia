@@ -4,7 +4,7 @@ draft: false
 title: "Jesper Tjäder x Dope Snow 24/25"
 date: 2024-12-13T13:38:52.000Z
 projects_types: 
-  - Brand content
+  - Content
 projects_tags:
   - Clip 
   - Sport

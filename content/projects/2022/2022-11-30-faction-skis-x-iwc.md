@@ -1,16 +1,18 @@
 ---
 isIndex: false
 draft: false
-title: "Faction Skis X IWC"
+title: Faction Skis X IWC
 date: 2022-11-30T10:10:07.000Z
 projects_types: 
-  - Brand content
-  - "doc"
+  - Content
+projects_tags: 
   - Sport
+  - Watches
+projects_clients:
+  - Faction
+  - IWC
 image:
   src: "/images/uploads/Cover-IWC-FACTION-SKI.jpg"
 ---
 
-## #IWC #Watches #FactionSkis
-
-![](https://bluemaxmedia.com/wp-content/uploads/2022/11/Grid-IWC-FACTION-SKIS.jpg) {{< youtube f4Htd\_ZYYbs >}}
+{{< youtube f4Htd\_ZYYbs >}}

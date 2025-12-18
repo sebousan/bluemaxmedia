@@ -4,13 +4,14 @@ draft: false
 title: "Faction  - Roots"
 date: 2021-10-28T10:59:18.000Z
 projects_types: 
-  - Brand content
-  - "doc"
+  - Documentaries
+projects_tags: 
   - Sport
+  - Ski
+projects_clients:
+  - Faction
 image:
   src: "/images/uploads/maxresdefault.jpg"
 ---
 
-## #Faction #Ski #Trailer
-
-![](https://bluemaxmedia.com/wp-content/uploads/2021/10/Faction-1.jpg) {{< youtube U-8bMIVykO4 >}}
+{{< youtube U-8bMIVykO4 >}}

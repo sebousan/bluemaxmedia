@@ -1,16 +1,18 @@
 ---
 isIndex: false
 draft: false
-title: "Faction  - Mt Hood"
+title: "Faction - Mt Hood"
 date: 2021-10-26T08:23:34.000Z
 projects_types: 
-  - Brand content
-  - "doc"
+  - Documentaries
+projects_tags: 
+  - Freestyle
+  - Ski
   - Sport
+projects_clients:
+  - Faction
 image:
   src: "/images/uploads/mt-hood-thumbnail.jpg"
 ---
 
-## #Faction #Ski #Freestyle
-
-![](https://bluemaxmedia.com/wp-content/uploads/2023/01/GridMtHoodLQ.jpg) {{< youtube nqLbasvT-Zo >}}
+{{< youtube nqLbasvT-Zo >}}

@@ -1,10 +1,10 @@
 ---
 isIndex: false
 draft: false
-title: "Jaeger-LeCoultre - Watches and Wonders 2025"
+title: Watches and Wonders 2025
 date: 2024-10-15T13:30:31.000Z
 projects_types: 
-  - Brand content
+  - Content
 projects_tags:
   - Clip 
   - Sport

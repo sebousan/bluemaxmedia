@@ -1,12 +1,6 @@
 imports:
-  # Content
-  # -> Hugolify content types and taxonomies available https://www.hugolify.io/docs/sections/
-
-  # Core theme
   - path: github.com/hugolify/hugolify-theme-projects-tags
   - path: github.com/hugolify/hugolify-theme-projects-types
   - path: github.com/hugolify/hugolify-theme-projects
   - path: github.com/hugolify/hugolify-theme
-
-  # CMS
   - path: github.com/hugolify/hugolify-admin

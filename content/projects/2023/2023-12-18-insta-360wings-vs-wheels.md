@@ -4,7 +4,7 @@ draft: false
 title: "Insta 360° - Wings vs Wheels"
 date: 2023-12-18T10:19:12.000Z
 projects_types: 
-  - Brand content
+  - Content
 projects_tags:
   - Clip 
   - Pub

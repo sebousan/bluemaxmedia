@@ -1,17 +1,17 @@
 ---
 isIndex: false
 draft: false
-title: "Black Crows  - Anima"
+title: "Black Crows - Anima"
 date: 2021-10-07T14:33:18.000Z
 projects_types: 
-  - Brand content
+  - Content
+projects_tags: 
+  - Ski
   - Sport
+projects_clients:
+  - Black Crows
 image:
   src: "/images/uploads/Black-Crows-ANIMA.jpg"
 ---
-
-![](https://bluemaxmedia.com/wp-content/uploads/2021/11/Black-Crows-Anima-1.jpg)
-
-## #Black Crows #Ski
 
 https://vimeo.com/630851653

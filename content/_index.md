@@ -26,9 +26,6 @@ blocks:
     section: projects
     heading:
       title: Highlight projects
-    items:
-      - 2020/2020-10-16-alpes-dhuez
-      - 2021/2021-10-14-audi-x-emmanuel-renaut
     layout: grid
     show_more: true
   - type: datas
@@ -81,8 +78,10 @@ blocks:
       params:
         autoplay: true
         arrows: true
+        perPage: 5
         pagination: false
     background: false
+    layout: grid
     heading:
       title: They already trust us
     items:
@@ -94,4 +93,6 @@ blocks:
       - src: /images/uploads/logo-bfgoodrich.svg
       - src: /images/uploads/logo-redbull.svg
       - src: /images/uploads/logo-audi.svg
+      - src: /images/uploads/logo-michelin.svg
+      - src: /images/uploads/logo-faction.svg
 ---

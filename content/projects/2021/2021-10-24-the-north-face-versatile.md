@@ -4,9 +4,11 @@ draft: false
 title: "The North Face  -  Versatile"
 date: 2021-10-24T09:01:45.000Z
 projects_types: 
-  - Brand content
-  - "doc"
+  - Documentaries
+projects_tags: 
   - Sport
+projects_clients:
+  - The North Face
 image:
   src: "/images/uploads/image_2022-02-02_101557.png"
 ---

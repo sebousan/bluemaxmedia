@@ -4,11 +4,11 @@ draft: false
 title: "Jaeger-LeCoultre"
 date: 2021-10-24T08:18:50.000Z
 projects_types: 
-  - Brand content
+  - Content
 projects_tags:
   - Clip 
-  - "corporate"
-  - "photo"
+  - Corporate
+  - Photo
   - Pub
 image:
   src: "/images/uploads/reverso.jpg"

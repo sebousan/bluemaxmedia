@@ -9,6 +9,4 @@ image:
   src: "/images/uploads/Blue-Max-Media-Recent-works.jpg"
 ---
 
-## #RedBull #Audi #Insta360 #Jaeger-LeCoultre #FactionSkis #Ridestore #Prada #AlpinaWaches #Salomon #DDB #TF1#Aeon #Porsche #Kimko #IWC #WillieBeamen #CamdemFrance #Jourblancstudio
-
 {{< youtube 6mzTBLU2pVw >}}

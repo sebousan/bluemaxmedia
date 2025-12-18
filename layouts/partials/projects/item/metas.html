@@ -1,0 +1,9 @@
+{{- with .GetTerms "projects_clients" }}
+  {{- $titles := slice }}
+  {{- range . }}
+    {{- $titles = $titles | append .Title }}
+  {{- end }}
+  <div class="metas">
+    <p>{{ delimit $titles ", " }}</p>
+  </div>
+{{- end }}

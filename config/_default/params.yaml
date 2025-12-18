@@ -8,7 +8,42 @@ bootstrap:
 
 # Admin
 admin:
-  
+
+  i18n:
+    default_locale: fr
+
+  # Collections
+  collections:
+    
+    projects:
+      fields:
+        - draft
+        - date
+        - title_page
+        - description
+        - relation:
+            collection: projects_types
+            multiple: true
+        - relation:
+            collection: projects_tags
+            multiple: true
+        - relation:
+            collection: projects_clients
+            multiple: true
+        - relation:
+            collection: projects_talents
+            multiple: true
+        - featured_image
+        - datas
+        - images
+      summary: "{{year}} - {{projects_clients}} - {{title}}"
+      
+    projects_clients:
+      enable: true
+
+    projects_talents:
+      enable: true
+    
   # blocks
   blocks:
 
@@ -19,7 +54,7 @@ admin:
       - figure
       - logos
       - paragraph
-      - selected
+      # - selected
       - video
     
     editorial:
@@ -27,3 +62,13 @@ admin:
     
     paragraph:
       notes: false
+      fields:
+        - title
+        - text_markdown
+        - grid
+
+  
+
+  # Remove shortcodes
+  shortcodes:
+    enable: false

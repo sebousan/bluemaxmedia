@@ -1,11 +1,14 @@
 ---
 isIndex: false
 draft: false
-title: "Cupra  -  In Paris"
+title: In Paris
 date: 2021-10-23T13:03:56.000Z
 projects_types: 
-  - Brand content
+  - Commercial
+projects_tags: 
   - Pub
+projects_clients:
+  - Cupra
 image:
   src: "/images/uploads/cupra-tbnl.jpg"
 ---

@@ -4,12 +4,15 @@ draft: false
 title: "The North Face - Walk In The Park"
 date: 2021-10-26T09:01:53.000Z
 projects_types: 
-  - Event
+  - Content
+projects_tags: 
   - Sport
+  - Running
+  - Trail
+projects_clients:
+  - The North Face
 image:
   src: "/images/uploads/TNF_WITP_THEAU-21lq-scaled.jpg"
 ---  
-  
-#TheNorthFace #Trail #Running
 
-![](https://bluemaxmedia.com/wp-content/uploads/2022/05/thenorthface-scaled.jpg) {{< youtube 7kZUxvuU69c >}}
+{{< youtube 7kZUxvuU69c >}}

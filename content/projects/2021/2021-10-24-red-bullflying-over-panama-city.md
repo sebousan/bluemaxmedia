@@ -4,12 +4,12 @@ draft: false
 title: "Red Bull - Flying Over Panama City"
 date: 2021-10-24T10:02:13.000Z
 projects_types: 
-  - Brand content
+  - Content
 projects_tags:
   - Clip 
-  - "corporate"
+  - Corporate
   - Sport
-  - "tourism"
+  - Tourism
 image:
   src: "/images/uploads/panama-2.jpg"
 ---

@@ -4,7 +4,7 @@ draft: false
 title: Portraits - Faction
 date: 2025-02-18T09:35:48.000Z
 projects_types: 
-  - Brand content
+  - Content
 projects_tags:
   - Clip 
   - Sport
