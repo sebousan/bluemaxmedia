@@ -10,7 +10,7 @@ projects_types:
 projects_tags: 
   - Photo
   - Sport
-  - Speedriding
+  - Speed riding
   - Ski
 image:
   src: "/images/uploads/DSF8086.jpg"

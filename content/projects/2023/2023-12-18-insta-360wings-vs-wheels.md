@@ -6,13 +6,19 @@ date: 2023-12-18T10:19:12.000Z
 projects_types: 
   - Content
 projects_tags:
+  - Advertisement
+  - Bike 
   - Clip 
-  - Pub
+  - Speed flying
   - Sport
+projects_talents:
+  - Fabio Wibmer
+  - Valentin Delluc
+projects_clients:
+  - Insta 360
 image:
   src: "/images/uploads/INSTA360.png"
+video_embed:
+  id: "TgjMdIq_jc8"
+  platform: youtube
 ---
-
-## #Insta360 #FabioWibmer #ValentinDelluc #Outdoor
-
-![](https://bluemaxmedia.com/wp-content/uploads/2023/12/GRID_INSTA_360_FABVAL.jpg) {{< youtube TgjMdIq\_jc8 >}}

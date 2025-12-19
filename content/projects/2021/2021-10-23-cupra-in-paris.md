@@ -1,20 +1,21 @@
 ---
 isIndex: false
 draft: false
-title: In Paris
+title: Cupra - In Paris
 date: 2021-10-23T13:03:56.000Z
 projects_types: 
   - Commercial
 projects_tags: 
-  - Pub
+  - Advertisement
+  - Car
 projects_clients:
   - Cupra
+datas:
+  - title: Place
+    text: Paris, France
 image:
   src: "/images/uploads/cupra-tbnl.jpg"
+video_embed:
+  id: "368537015"
+  platform: vimeo
 ---
-
-![](https://bluemaxmedia.com/wp-content/uploads/2022/02/cupra-4-lq.jpg)
-
-## #Goodrich #Car #Bike #Ski #Wingsuit #Kayak
-
-https://vimeo.com/368537015

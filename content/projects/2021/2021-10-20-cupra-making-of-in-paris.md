@@ -9,15 +9,12 @@ projects_tags:
   - Car
   - Clip 
   - "making-of-work"
-  - Pub
+  - Advertisement
 projects_clients:
   - Cupra
+datas:
+  - title: Place
+    text: Paris, France
 image:
   src: "/images/uploads/cupra-bts.jpg"
 ---
-
-![](https://bluemaxmedia.com/wp-content/uploads/2021/10/cupra-4.jpg)
-
-## #Goodrich #Car #Bike #Ski #Wingsuit #Kayak
-
-https://vimeo.com/368537015

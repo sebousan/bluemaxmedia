@@ -14,6 +14,7 @@ projects_talents:
   - Jesper Tjäder
 image:
   src: "/images/uploads/THUMBNAIL_JESPER_COVER_STORY.jpg"
+video_embed:
+  id: "jUCOpaBvPU0"
+  platform: youtube
 ---
-
-{{< youtube jUCOpaBvPU0 >}}

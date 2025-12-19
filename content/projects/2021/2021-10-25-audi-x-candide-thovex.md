@@ -14,6 +14,7 @@ projects_talents:
   - Candide Thovex
 image:
   src: "/images/uploads/quattro-2-couv.jpg"
+video_embed:
+  id: "NHrwcQQ38bA"
+  platform: youtube
 ---
-
-{{< youtube NHrwcQQ38bA >}}

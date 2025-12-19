@@ -1,0 +1,54 @@
+
+{{- $datas := slice  -}}
+{{- $date := dict "title" (i18n "date" 1) "text" (.Date.Format "January 2006") }}
+{{- $datas = $datas | append $date }}
+{{- with .GetTerms "projects_types" }}
+  {{ range . }}
+    {{- $text := printf `<a href="%s">%s</a>` .Permalink .Title }}
+    {{- $types := dict "title" (i18n "projects_types.title" 1) "text" $text }}
+    {{- $datas = $datas | append $types }}
+  {{ end }}
+{{- end }}
+{{- with .GetTerms "projects_clients" }}
+  {{ range . }}
+    {{- $text := printf `<a href="%s">%s</a>` .Permalink .Title }}
+    {{- $clients := dict "title" (i18n "projects_clients.title" 1) "text" $text }}
+    {{- $datas = $datas | append $clients }}
+  {{ end }}
+{{- end }}
+{{- with .GetTerms "projects_talents" }}
+  {{ range . }}
+    {{- $text := printf `<a href="%s">%s</a>` .Permalink .Title }}
+    {{- $talents := dict "title" (i18n "projects_talents.title" 1) "text" $text }}
+    {{- $datas = $datas | append $talents }}
+  {{ end }}
+{{- end }}
+{{- with .Params.datas -}}
+  {{- $datas = $datas | append . }}
+{{- end }}
+
+
+{{- with $datas }}
+  <div class="datas">
+    <ul>
+      {{- range . }}
+        <li>
+          <dl>
+            <dt>{{ partial "func/PrepareHTML.html" .title }}</dt>
+            <dd>
+              {{- $text := partial "func/PrepareHTML.html" .text -}}
+              {{- $i18n_text := i18n "link.blank_aria" (dict "Title" $text) -}}
+              {{- if gt (len (findRE `^https?://` .text)) 0 -}}
+                <a href="{{ .text }}" title="{{ safeHTML $i18n_text }}" target="_blank">
+                  {{- $text -}}
+                </a>
+              {{- else -}}
+                {{- $text -}}
+              {{- end -}}
+            </dd>
+          </dl>
+        </li>
+      {{- end }}
+    </ul>
+  </div>
+{{ end -}}

@@ -14,5 +14,3 @@ projects_clients:
 image:
   src: "/images/uploads/Cupra_Padel.jpg"
 ---
-
-https://vimeo.com/632751172

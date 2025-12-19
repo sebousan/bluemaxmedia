@@ -8,10 +8,12 @@ projects_types:
 projects_tags:
   - Clip 
   - Sport
+  - Watches
 projects_clients:
-  Jaeger-Lecoultre
+  Jaeger Lecoultre
 image:
   src: "/images/uploads/Jaeger-LeCoultre-WatchesandWondersGeneva2024.png"
+video_embed:
+  id: "TTO_8Rjb3fY"
+  platform: youtube
 ---
-
-{{< youtube TTO\_8Rjb3fY >}}

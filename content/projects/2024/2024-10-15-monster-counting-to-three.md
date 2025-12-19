@@ -7,7 +7,7 @@ projects_types:
   - Content
 projects_tags:
   - Clip 
-  - Pub
+  - Advertisement
   - Sport
   - X Games
   - Triple cork
@@ -17,6 +17,7 @@ projects_talents:
   - Megan Oldham
 image:
   src: "/images/uploads/COUNTING-TO-THREE-WEB.png"
+video_embed:
+  id: "uZDWFKOu8W8"
+  platform: youtube
 ---
-
-{{< youtube uZDWFKOu8W8 >}}

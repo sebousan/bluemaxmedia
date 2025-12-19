@@ -7,7 +7,7 @@ projects_types:
   - Content
 projects_tags:
   - Clip 
-  - Pub
+  - Advertisement
   - Sport
   - Speed flying
 projects_talents:
@@ -16,9 +16,10 @@ projects_clients:
   - Red Bull
 datas:
   - title: Place
-    value: Cappadocia
+    text: Cappadocia, Turkey
 image:
   src: "/images/uploads/Cover-Fairy-Flight.jpg"
+video_embed: 
+  id: "_KjLscTn-yI"
+  platform: youtube
 ---
-
-{{< youtube \_KjLscTn-yI >}}

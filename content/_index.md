@@ -14,6 +14,9 @@ hero:
       url: /
     - text: Documentaries
       url: /
+  video_embed:
+    platform: youtube
+    id: 6mzTBLU2pVw
 blocks:
   - type: paragraph
     title: Crafted for action. Trusted by adventurous brands
@@ -28,6 +31,11 @@ blocks:
       title: Highlight projects
     layout: grid
     show_more: true
+    items:
+      - 2021/2021-10-25-audi-x-candide-thovex
+      - 2021/2021-10-08-salomon-trail
+      - 2021/2021-10-17-serre-chevalier-winter
+      - 2021/2021-10-24-red-bullflying-over-panama-city
   - type: datas
     items:
       - value: 10

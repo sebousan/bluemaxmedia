@@ -18,3 +18,12 @@ admin:
         one: Talent
         other: Talents
       
+
+projects_clients:
+  title: 
+    one: Client
+    other: Clients
+projects_talents:
+  title: 
+    one: Talent
+    other: Talents

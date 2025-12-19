@@ -9,6 +9,7 @@ projects_types:
   - Commercial
 image:
   src: "/images/uploads/Aerial-Miniature2-scaled.jpg"
+video_embed:
+  id: "299383158"
+  platform: vimeo
 ---
-
-{{< vimeo "299383158" >}}

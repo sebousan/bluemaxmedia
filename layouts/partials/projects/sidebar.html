@@ -1,0 +1,7 @@
+<div class="sidebar" {{- partial "func/SetAnim.html" (dict "element" "sidebar") }}>
+  {{ partial "projects/datas.html" . }}
+  {{ $projects_tags := "projects/projects_tags.html" }}
+  {{ if templates.Exists ( printf "partials/%s" $projects_tags ) }}
+    {{ partial $projects_tags . }}
+  {{ end }}
+</div>

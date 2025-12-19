@@ -7,13 +7,15 @@ projects_types:
   - Content
 projects_tags:
   - Clip 
-  - Corporate
-  - Pub
-  - Sport
+  - Watches
+projects_clients:
+  - Frederique Constant
 image:
   src: "/images/uploads/FC_WEB_V3.2-1.00_00_48_23.Still014.jpg"
+video_embed:
+  id: "4koMwdzRjDs"
+  platform: youtube
+datas:
+  - title: Place
+    text: Geneva, Switzerland
 ---
-
-## #ClassicTourbillon #Manufacture #FrederiqueConstant  
-
-![](https://bluemaxmedia.com/wp-content/uploads/2023/05/Grid_LQ.jpg) {{< youtube 4koMwdzRjDs >}}

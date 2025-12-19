@@ -33,7 +33,6 @@
       "section",
       "source",
       "span",
-      "strong",
       "time",
       "title",
       "ul"
@@ -51,6 +50,9 @@
       "block-informations",
       "block-logos",
       "block-paragraph",
+      "block-selected",
+      "block-selected-grid",
+      "block-selected-projects",
       "bottom",
       "breadcrumb-wrapper",
       "btn",
@@ -62,12 +64,11 @@
       "content-body",
       "cta",
       "datas",
-      "date",
       "disabled",
-      "dropdown-menu",
       "featured-image",
       "filters",
       "first",
+      "footing",
       "grid",
       "header",
       "heading",
@@ -127,7 +128,6 @@
       "section-privacy-policy",
       "section-projects",
       "section-sitemap",
-      "share",
       "sidebar",
       "sitemap-pages",
       "sitemap-projects",
@@ -147,8 +147,7 @@
       "top",
       "value",
       "vimeo",
-      "youtube",
-      "yt"
+      "youtube"
     ],
     "ids": null
   }

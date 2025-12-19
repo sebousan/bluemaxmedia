@@ -2,3 +2,7 @@ _merge: deep
 youTube:
   disable: false
   privacyEnhanced: true
+vimeo:
+  disable: false
+  enableDNT: true
+  simple: false

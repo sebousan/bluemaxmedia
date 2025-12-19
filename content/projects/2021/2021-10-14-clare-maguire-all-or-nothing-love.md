@@ -9,6 +9,7 @@ projects_tags:
   - Clip
 image:
   src: "/images/uploads/clare_maguire_-_all_or_nothing_love-Original.00_01_38_08.Still010.jpg"
+video_embed:
+  id: "264967762"
+  platform: vimeo
 ---
-
-{{< vimeo "264967762" >}}

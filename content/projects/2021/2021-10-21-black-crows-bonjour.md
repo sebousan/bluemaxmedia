@@ -12,6 +12,7 @@ projects_clients:
   - Black Crows
 image:
   src: "/images/uploads/bonjour-its-starting-blackcrows-skiing-winter-2021.jpg"
+video_embed:
+  id: "Y4ve3L-ZlyA"
+  platform: youtube
 ---
-
-{{< youtube Y4ve3L-ZlyA >}}

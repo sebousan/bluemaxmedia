@@ -1,19 +1,24 @@
 ---
 isIndex: false
 draft: false
-title: "Jaeger-LeCoultre"
+title: The Reverso Stories Exhibition in Paris
 date: 2021-10-24T08:18:50.000Z
 projects_types: 
   - Content
 projects_tags:
   - Clip 
-  - Corporate
   - Photo
-  - Pub
+  - Watches
+projects_clients:
+  - Jaeger LeCoultre
+datas:
+  - title: Place
+    text: Paris
+  - title: Actor
+    text: Nicholas Hoult
 image:
   src: "/images/uploads/reverso.jpg"
+video_embed:
+  id: "TGgyyUVqBQQ"
+  platform: youtube
 ---
-
-## #Jaeger-Lecoultre #Horlogerie #Reverso
-
-![](https://bluemaxmedia.com/wp-content/uploads/2021/10/jlc.jpg) {{< youtube TGgyyUVqBQQ >}}

@@ -7,7 +7,7 @@ projects_types:
   - Content
 projects_tags:
   - Clip 
-  - Pub
+  - Advertisement
   - Sport
 projects_clients:
   - Salomon

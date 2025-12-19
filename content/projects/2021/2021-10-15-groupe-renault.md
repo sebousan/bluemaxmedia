@@ -11,6 +11,7 @@ projects_tags:
   - Car
 image:
   src: "/images/uploads/groupe_renault_-_fossil_free_island_porto_santo_vf-Original.00_01_39_18.Still005.jpg"
+video_embed:
+  id: "344046376"
+  platform: vimeo
 ---
-
-{{< vimeo "344046376" >}}

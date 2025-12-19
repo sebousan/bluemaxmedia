@@ -8,14 +8,14 @@ projects_types:
 projects_tags:
   - Clip 
   - Sport
-  - Speed ring
+  - Speed flying
 projects_clients:
   - Red Bull
 projects_talents:
   - Valentin Delluc
 Datas:
   - title: Place
-    value: Red Bull ring
+    text: Red Bull ring
 image:
   src: "/images/uploads/RedbullRing-ValentinDellucBMM-1.jpg"
 ---

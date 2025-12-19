@@ -8,11 +8,13 @@ projects_types:
 projects_tags:
   - Clip 
   - Sport
+  - Snowboard
 projects_clients:
   - Prada
   - Red Bull
 image:
   src: /images/uploads/prada-redbull-floattingshape.jpg
+video_embed:
+  id: "4ncw-uvR7wA"
+  platform: youtube
 ---
-
-{{< youtube 4ncw-uvR7wA >}}

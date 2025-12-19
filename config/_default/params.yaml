@@ -34,15 +34,21 @@ admin:
             collection: projects_talents
             multiple: true
         - featured_image
+        - video_embed
         - datas
         - images
-      summary: "{{year}} - {{projects_clients}} - {{title}}"
+      summary: "{{year}} - {{title | upper}} - {{projects_clients.0}} {{projects_clients.1}}"
       
     projects_clients:
       enable: true
 
     projects_talents:
       enable: true
+      fields:
+        - draft
+        - title_page
+        - description
+        - featured_image
     
   # blocks
   blocks:
@@ -54,11 +60,17 @@ admin:
       - figure
       - logos
       - paragraph
-      # - selected
+      - selected
       - video
     
     editorial:
       notes: false
+      fields:
+        - direction
+        - title
+        - text_markdown
+        - ctas
+        - image
     
     paragraph:
       notes: false
@@ -66,9 +78,26 @@ admin:
         - title
         - text_markdown
         - grid
+    
+    video:
+      fields:
+        - heading
+        - video_embed
+        - grid
 
-  
-
+  # fields
+  fields:
+    hero:
+      fields:
+        - title
+        - ctas
+        - image
+        - video_embed
+    video_platform:
+      options:
+        - vimeo
+        - youtube
+    
   # Remove shortcodes
   shortcodes:
     enable: false

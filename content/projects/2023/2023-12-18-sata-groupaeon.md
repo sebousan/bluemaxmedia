@@ -7,12 +7,13 @@ projects_types:
   - Content
 projects_tags:
   - Clip 
-  - Pub
+  - Advertisement
   - Sport
+projects_clients:
+  - SATA Group
 image:
   src: "/images/uploads/AEON-SATAGROUP-1-1.png"
+video_embed:
+  id: "865898389"
+  platform: vimeo
 ---
-
-## #Aeon #Satagroup #Alpes #Outdoor
-
-![](https://bluemaxmedia.com/wp-content/uploads/2023/12/GRID_AEON.jpg) https://vimeo.com/865898389/035fe11669

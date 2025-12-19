@@ -13,6 +13,7 @@ projects_clients:
   - Red Bull
 image:
   src: "/images/uploads/maxresdefault-2.jpg"
+video_embed:
+  id: "A_DxkPYF6q0"
+  platform: youtube
 ---
-
-{{< youtube A\_DxkPYF6q0 >}}

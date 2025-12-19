@@ -8,7 +8,7 @@ projects_types:
 projects_tags:
   - Clip 
   - Photo
-  - Pub
+  - Advertisement
   - Running
   - Sport
 image:

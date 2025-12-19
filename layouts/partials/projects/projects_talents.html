@@ -1,0 +1,5 @@
+{{ with .GetTerms "projects_talents" }}
+  {{ range . }}
+    <p><a href="{{ .Permalink }}">{{ .Title }}</a></p>
+  {{ end }}
+{{ end }}

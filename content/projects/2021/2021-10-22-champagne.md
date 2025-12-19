@@ -7,8 +7,7 @@ projects_types:
   - Content
 projects_tags:
   - Clip 
-  - Corporate
-  - Pub
+  - Advertisement
   - Tourism
 image:
   src: "/images/uploads/champ-Tbn.jpg"

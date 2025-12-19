@@ -7,12 +7,16 @@ projects_types:
   - Content
 projects_tags:
   - Clip 
-  - Pub
+  - Advertisement
+  - Skateboard
   - Sport
+projects_talents:
+  - Greg Ruhoff
+projects_clients:
+  - Alpina
 image:
   src: "/images/uploads/Alpiner.png"
+video_embed:
+  id: "PzyVEViQh_0"
+  platform: "youtube"
 ---
-
-## #Alpina #Skateboard #AlpinerExtreme #Sportwatch #GregRuhoff
-
-![Alpina, ALPINER EXTREME AUTOMATIC](https://bluemaxmedia.com/wp-content/uploads/2024/08/GRID_SKATE.jpg) {{< youtube PzyVEViQh\_0 >}}

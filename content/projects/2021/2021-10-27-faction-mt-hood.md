@@ -13,6 +13,7 @@ projects_clients:
   - Faction
 image:
   src: "/images/uploads/altathumbnail.jpg"
+video_embed:
+  id: "JQ7z6m-L9WQ"
+  platform: youtube
 ---
-
-{{< youtube JQ7z6m-L9WQ >}}

@@ -1,0 +1,13 @@
+<div class="datas">
+  <dl>
+    <dt>{{ i18n "date" }}</dt>
+    <dd>{{ partial "projects/date.html" . }}</dd>
+    <dt>{{ i18n "projects_types.title" 1 }}</dt>
+    <dd>
+      {{ $projects_types := "projects/projects_types.html" }}
+      {{ if templates.Exists ( printf "partials/%s" $projects_types ) }}
+        {{ partial $projects_types . }}
+      {{ end }}
+    </dd>
+  </dl>
+</div>

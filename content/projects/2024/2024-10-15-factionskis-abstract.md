@@ -7,11 +7,14 @@ projects_types:
   - Content
 projects_tags:
   - Clip 
+  - Freestyle
   - Sport
+  - Ski
+projects_clients:
+  - Faction
 image:
   src: "/images/uploads/faction-abstract.png"
+video_embed:
+  id: "xi9katdH2ZM"
+  platform: youtube
 ---
-
-## #Afreeskiexhibition #factionskis
-
-![](https://bluemaxmedia.com/wp-content/uploads/2024/10/FactionSkisAbstract-.jpg) {{< youtube xi9katdH2ZM >}}

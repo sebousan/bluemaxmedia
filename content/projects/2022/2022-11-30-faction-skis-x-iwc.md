@@ -13,6 +13,7 @@ projects_clients:
   - IWC
 image:
   src: "/images/uploads/Cover-IWC-FACTION-SKI.jpg"
+video_embed:
+  id: "f4Htd_ZYYbs"
+  platform: youtube
 ---
-
-{{< youtube f4Htd\_ZYYbs >}}

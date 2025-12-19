@@ -1,16 +1,18 @@
 ---
 isIndex: false
 draft: false
-title: "Recipe  -  Monster Energy"
+title: "Recipe -  Monster Energy"
 date: 2021-10-24T12:53:07.000Z
 projects_types: 
   - Documentaries
 projects_tags: 
+  - Ski
   - Sport
+projects_clients:
+  - Monster
 image:
   src: "/images/uploads/recipe-miniature.jpg"
+video_embed:
+  id: "O6XkOpm6rnk"
+  platform: youtube
 ---
-
-## #MonsterEnergy #Ski #Recipe
-
-![](https://bluemaxmedia.com/wp-content/uploads/2023/01/grid-recipe-1.png) {{< youtube O6XkOpm6rnk >}}

@@ -12,6 +12,7 @@ projects_clients:
   - Alpina
 image:
   src: "/images/uploads/miniature.jpg"
+video_embed:
+  id: "DCCJ84l7_60"
+  platform: youtube
 ---
-
-{{< youtube DCCJ84l7\_60 >}}

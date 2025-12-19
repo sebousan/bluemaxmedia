@@ -13,6 +13,7 @@ projects_clients:
   - Faction
 image:
   src: "/images/uploads/mt-hood-thumbnail.jpg"
+video_embed:
+  id: "nqLbasvT-Zo"
+  platform: youtube
 ---
-
-{{< youtube nqLbasvT-Zo >}}

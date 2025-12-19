@@ -13,6 +13,7 @@ projects_clients:
   - The North Face
 image:
   src: "/images/uploads/TNF_WITP_THEAU-21lq-scaled.jpg"
+video_embed:
+  id: "7kZUxvuU69c"
+  platform: youtube
 ---  
-
-{{< youtube 7kZUxvuU69c >}}

@@ -11,6 +11,7 @@ projects_tags:
   - Car
 image:
   src: "/images/uploads/AUDI-A1_EPIC_MASTER.jpg"
+video_embed:
+  id: "405380901"
+  platform: vimeo
 ---
-
-{{< vimeo "405380901" >}}

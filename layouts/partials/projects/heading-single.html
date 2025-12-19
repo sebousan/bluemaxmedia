@@ -2,7 +2,9 @@
   {{- with .GetTerms "projects_clients" }}
     <p class="surtitle">
     {{- range . }}
-      {{- .Title }}
+      <a href="{{ .Permalink }}">
+        {{- partial "func/PrepareHTML.html" .Title }}
+      </a>
     {{- end }}
     </p>
   {{- end }}

@@ -7,13 +7,19 @@ projects_types:
   - Content
 projects_tags:
   - Clip 
-  - Corporate
+  - Speed flying
   - Sport
   - Tourism
+projects_clients:
+  - Red Bull
+projects_talents:
+  - Raphael Goberna
+datas:
+  - title: Place
+    text: Panama City, Panama
 image:
   src: "/images/uploads/panama-2.jpg"
+video_embed:
+  id: "WlfXMOB8MKc"
+  platform: youtube
 ---
-
-## #Redbull #Speedriding
-
-![](https://bluemaxmedia.com/wp-content/uploads/2022/02/panama.jpg) {{< youtube WlfXMOB8MKc >}}

@@ -8,8 +8,11 @@ projects_types:
 projects_tags:
   - Clip 
   - Sport
+projects_clients:
+  - Faction
 image:
   src: "/images/uploads/Portraits-Faction-scaled.jpg"
+video_embed:
+  id: "Ts1AZ6XHHoc"
+  platform: youtube
 ---
-
-{{< youtube Ts1AZ6XHHoc >}}
