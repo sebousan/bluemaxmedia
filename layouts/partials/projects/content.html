@@ -1,6 +1,8 @@
 <div class="content" {{- partial "func/SetAnim.html" (dict "element" "content") }}>
   {{ with .Params.video_embed }}
-    {{ partial "commons/video-embed.html" . }}
+    <div class="featured-video">
+      {{ partial "commons/video-embed.html" . }}
+    </div>
   {{ else }}
     {{ partial "projects/featured-image.html" . }}
   {{ end }}
