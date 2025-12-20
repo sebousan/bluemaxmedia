@@ -1,4 +1,8 @@
 .featured-image,
 .featured-video
-    border-radius: $border-radius
-    overflow: hidden
+    @include media-breakpoint-down(md)
+        margin-left: - $gutter-mobile
+        margin-right: - $gutter-mobile
+    @include media-breakpoint-up(md)
+        border-radius: $border-radius
+        overflow: hidden

@@ -3,9 +3,12 @@
     figure
         margin-bottom: 0
     img
-        aspect-ratio: 16 / 6
+        aspect-ratio: 16 / 12
         object-fit: cover
         width: 100%
+        @include media-breakpoint-up(md)
+            aspect-ratio: 16 / 6
+
     .screenshot
         margin-bottom: 0
         margin-top: 0
