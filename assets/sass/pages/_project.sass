@@ -28,6 +28,20 @@
     p
         margin-bottom: 0
 
+    .content-body
+        max-width: 55rem
+    
+    .carousel
+        margin-top: $grid-gutter-width
+        .splide__track
+            overflow: visible
+        img
+            height: auto
+            display: block
+            width: 100%
+            @include media-breakpoint-up(md)
+                border-radius: $border-radius
+                overflow: hidden
 
     .grid 
         .sidebar,

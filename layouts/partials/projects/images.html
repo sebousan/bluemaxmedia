@@ -1,0 +1,16 @@
+{{- with .Params.images }}
+  {{- $items := . }}
+  {{- $carouselParams := dict
+    "perPage" 2 
+    "perMove" 1 
+    "pagination" false 
+    "gap" 24 
+    "breakpoints" (dict 
+      "640" (dict "perPage" 1)
+    ) }}
+  {{- $args := (dict
+          "context" (dict "items" $items "carouselParams" $carouselParams) 
+          "partial" "commons/image.html" 
+    ) }}
+  {{ partial "commons/carousel.html" $args }}
+{{- end }}
