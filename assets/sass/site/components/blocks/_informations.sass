@@ -4,3 +4,11 @@
     .item
         --bs-card-bg: transparent
         --bs-card-spacer-x: 0
+        .media
+            --bs-aspect-ratio: 75%
+            border-radius: $border-radius
+            padding: 0
+        .name
+            @include surtitle
+    .name + p
+        @include title

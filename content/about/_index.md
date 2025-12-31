@@ -15,20 +15,20 @@ blocks:
     heading:
       title: The core team
     items:
-      - title: Nicolas Roubin
-        text: Producteur exécutif - Réalisateur
+      - title: Executive Producer - Director
+        text: Nicolas Roubin
         image:
           src: /images/uploads/Montec-Daydreams.png
-      - title: Jean-Clément Lelard
-        text: Producteur exécutif - Réalisateur
+      - title: Executive Producer - Director
+        text: Jean-Clément Lelard
         image:
           src: /images/uploads/Montec-Daydreams.png
-      - title: Julien Eustache
-        text: Producteur exécutif - Réalisateur
+      - title: Executive Producer - Director
+        text: Julien Eustache
         image:
           src: /images/uploads/Montec-Daydreams.png
-      - title: Etienne Mérel
-        text: Producteur exécutif - Réalisateur
+      - title: Executive Producer - Director
+        text: Etienne Mérel
         image:
           src: /images/uploads/Montec-Daydreams.png
 ---

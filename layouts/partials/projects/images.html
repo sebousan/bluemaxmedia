@@ -1,5 +1,11 @@
 {{- with .Params.images }}
-  {{- $items := . }}
+
+  {{- $items := slice }}
+  {{- range . }}
+    {{- $item := . | merge (dict "desktop" site.Params.projects.images.desktop "mobile" site.Params.projects.images.mobile) }}
+    {{- $items = $items | append $item }}
+  {{- end }}
+
   {{- $carouselParams := dict
     "perPage" 2 
     "perMove" 1 

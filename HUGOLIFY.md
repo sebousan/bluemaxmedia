@@ -17,6 +17,7 @@
 
 * Hugolify variables: https://github.com/Hugolify/hugolify-theme/blob/main/assets/sass/abstracts/_variables.default.sass
 * Bootstrap variables: https://github.com/twbs/bootstrap/blob/main/scss/_variables.scss
+* Sites variables: /assets/sass/abstracts/_variables-site.sass
 
 ## CMS
 

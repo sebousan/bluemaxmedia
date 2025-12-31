@@ -1,0 +1,22 @@
+{{- $grid := .grid | default false }}
+{{- $offset := .offset | default false }}
+{{- $class := partial "func/GetColOffsetClass" (dict "grid" $grid "offset" $offset) }}
+{{- $columnWanted := partial "func/GetWantedColumn" $grid }}
+{{- $desktop := site.Params.container.desktop | default false }}
+{{- $mobile := site.Params.image.mobile_full | default false }}
+{{- if $desktop }}
+  {{- $height := "" }}
+  {{- $width := partial "func/GetColumnWidth.html" (dict "column" $columnWanted) }}
+  {{- with (index site.Params.blocks.figure $grid).ratio }}
+    {{- $height = int (mul $width .) }}
+  {{- end }}
+  {{- $desktop = printf "%sx%s" (string $width) (string $height) }}
+{{- end }}
+{{- $lazy := partial "func/isLazyImage" (dict "first" .first) }}
+{{- $figure := merge .figure (dict "desktop" $desktop "mobile" $mobile "lazy" $lazy "parallax" true) }}
+
+{{- partial "func/SetContainerRowColStart.html" (dict "grid" $grid "class" $class) }}
+{{- with $figure }}
+  {{- partial "commons/figure.html" . }}
+{{- end }}
+{{- partial "func/SetContainerRowColEnd.html" (dict "grid" $grid "class" $class) }}

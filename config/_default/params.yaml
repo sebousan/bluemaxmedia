@@ -1,5 +1,23 @@
 _merge: deep
 
+# Image
+image:
+  desktop: "1296x"
+projects:
+  thumbnail:
+    desktop: "306x230"
+    mobile: "315x236"
+  images:
+    desktop: "x402"
+    mobile: "x402"
+blocks:
+  informations:
+    image:
+      ratio: .75
+  figure:
+    full:
+      ratio: .375
+
 # JS
 carousel: true
 map: false
