@@ -1563,7 +1563,7 @@ content:
   view:
     node:
       filename: _index.md
-      hideDirs: all
+      hideDirs: nodes
 - description: All projects tags
   fields:
   - default: false
