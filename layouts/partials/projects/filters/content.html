@@ -3,11 +3,10 @@
   {{ if templates.Exists ( printf "partials/%s" $projects_types ) }}
     {{ partial $projects_types . }}
   {{ end }}
+  {{ partial "commons/filters/taxonomy.html" (dict "tax" "projects_clients" "current" .) }}
+  {{ partial "commons/filters/taxonomy.html" (dict "tax" "projects_talents" "current" .) }}
   {{ $projects_tags := "projects/filters/projects_tags.html" }}
   {{ if templates.Exists ( printf "partials/%s" $projects_tags ) }}
     {{ partial $projects_tags . }}
   {{ end }}
-  {{ partial "commons/filters/taxonomy.html" (dict "tax" "projects_clients" "current" .) }}
-  {{ partial "commons/filters/taxonomy.html" (dict "tax" "projects_places" "current" .) }}
-  {{ partial "commons/filters/taxonomy.html" (dict "tax" "projects_talents" "current" .) }}
 </div>
