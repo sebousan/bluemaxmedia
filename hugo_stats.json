@@ -80,7 +80,7 @@
       "hero-cover",
       "hero-media",
       "hero-with-cover",
-      "hero-with-cover-image",
+      "hero-with-cover-video",
       "home-page",
       "hugolify",
       "instagram",
@@ -90,6 +90,7 @@
       "items-3",
       "items-4",
       "js-carousel",
+      "js-youtube-cover",
       "last",
       "linkedin",
       "list",
@@ -156,7 +157,8 @@
       "top",
       "value",
       "vimeo",
-      "youtube"
+      "youtube",
+      "yt"
     ],
     "ids": null
   }

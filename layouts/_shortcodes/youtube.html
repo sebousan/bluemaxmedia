@@ -97,12 +97,6 @@ Renders an embedded YouTube video.
       {{- $src = printf "%s?%s" $src . }}
     {{- end }}
 
-    {{- /* Set div attributes. */}}
-    {{- $divStyle := "position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;" }}
-    {{- if $class }}
-      {{- $divStyle = "" }}
-    {{- end }}
-
     {{- /* Set iframe attributes. */}}
     {{- $iframeStyle := "position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" }}
     {{- if $class }}
@@ -111,10 +105,7 @@ Renders an embedded YouTube video.
     {{- $referrerpolicy := "strict-origin-when-cross-origin" }}
 
     {{- /* Render. */ -}}
-    <div
-      {{- with $class }} class="{{ . }}" {{- end }}
-      {{- with $divStyle }} style="{{ . | safeCSS }}" {{- end -}}
-    >
+    <div class="yt">
       <iframe
         {{- with $iframeAllowList }} allow="{{ . }}" {{- end }}
         {{- with $loading }} loading="{{ . }}" {{- end }}

@@ -1,8 +1,8 @@
 {{- with .Params.hero -}}
     {{- $cover := false -}}
     {{- $class := slice "hero hero-with-cover" -}}
-    {{- if .video -}}
-      {{- $cover = "video" -}}
+    {{- if .video_embed -}}
+      {{- $cover = "video_embed" -}}
       {{- $class = $class | append "hero-with-cover-video" -}}
     {{- else if .image -}}
       {{- $cover = "image" -}}
