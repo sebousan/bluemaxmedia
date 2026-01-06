@@ -1560,10 +1560,6 @@ content:
   name: projects_clients
   path: content/projects_clients
   type: collection
-  view:
-    node:
-      filename: _index.md
-      hideDirs: nodes
 - description: All projects tags
   fields:
   - default: false
