@@ -14,9 +14,12 @@
             background-color: transparent
             .logo
                 filter: invert(1)
+            .btn-menu > span
+                --bs-navbar-toggler-icon-bg: #{$navbar-dark-toggler-icon-bg}
             .main-menu .nav a
-                --bs-nav-link-color: white
-                --bs-nav-link-hover-color: white
+                @include media-breakpoint-up(lg)
+                    --bs-nav-link-color: white
+                    --bs-nav-link-hover-color: white
     .hero
         &-content
             margin-left: auto
@@ -32,17 +35,22 @@
             --bs-btn-border-width: 0
             --bs-btn-line-height: 1
             --bs-btn-padding-y: 0
+            --bs-btn-padding-x: 0
             @include button-variant(transparent,transparent, white)
-            @include font-size(4.6875rem)
             background: transparent
         
         .btn
+            @include font-size(4.6875rem)
             text-decoration-color: transparent
             text-decoration-line: underline
             text-decoration-thickness: .025em
             text-underline-offset: .1em
             text-transform: uppercase
             transition: all .3s ease
+            @include media-breakpoint-down(lg)
+                font-size: 3rem
+            @include media-breakpoint-down(md)
+                font-size: 1.5625rem
             &::after
                 content: none
             &:hover
