@@ -1,4 +1,8 @@
 header[role="banner"]
+    nav
+        --bs-navbar-padding-y: 1rem
+        @include media-breakpoint-up(xxl)
+            --bs-navbar-padding-y: 2rem
     .logo img
         @include media-breakpoint-down(md)
             --logo-height: 25px
