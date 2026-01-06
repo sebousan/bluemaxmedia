@@ -23,6 +23,7 @@ window.onYouTubeIframeAPIReady = function() {
 
     player = new YT.Player('youtube-player', {
         videoId: videoId, // Insert the extracted ID here
+        host: 'https://www.youtube-nocookie.com',
         playerVars: {
             'autoplay': videoAutoplay,   // Auto-play the video
             'controls': videoControls,   // Hide player controls
