@@ -1,0 +1,19 @@
+{{- with .Params.hero -}}
+    {{- $cover := false -}}
+    {{- $class := slice "hero hero-with-cover" -}}
+    {{- if .video -}}
+      {{- $cover = "video" -}}
+      {{- $class = $class | append "hero-with-cover-video" -}}
+    {{- else if .image -}}
+      {{- $cover = "image" -}}
+      {{- $class = $class | append "hero-with-cover-image" -}}
+    {{- end -}}
+    <header class="{{ delimit $class ` ` }}" {{- if site.Params.search.enable }} data-pagefind-body{{ end }} {{- partial "func/SetAnim.html" (dict "element" "hero") }}>
+      {{ partial (print "commons/hero/cover/" $cover ".html") . }}
+      <div class="container">
+        <div class="row">
+          {{ partial "commons/hero/content.html" . }}
+        </div>
+      </div>
+    </header>
+{{- end -}}

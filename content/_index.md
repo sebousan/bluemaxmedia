@@ -4,16 +4,16 @@ draft: false
 title: Home
 hero:
   image:
-    src: /images/uploads/DOPEXJT.png
+    src: /images/uploads/Blue-Max-Media-Recent-works.jpg
   ctas:
     - text: Commercial
-      url: /
+      url: /works/types/commercial/
     - text: Films
-      url: /
+      url: /works/types/films/
     - text: Content
-      url: /
+      url: /works/types/content/
     - text: Documentaries
-      url: /
+      url: /works/types/documentaries/
   video_embed:
     platform: youtube
     id: 6mzTBLU2pVw

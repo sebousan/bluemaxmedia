@@ -1,6 +1,8 @@
 _merge: deep
 
 # Image
+hero:
+  cover: '1600x750'
 image:
   desktop: "1296x"
 projects:

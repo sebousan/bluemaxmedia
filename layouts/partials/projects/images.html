@@ -1,5 +1,6 @@
 {{- with .Params.images }}
-
+<section>
+  <h2>{{ i18n "gallery.label" }}</h2>
   {{- $items := slice }}
   {{- range . }}
     {{- $item := . | merge (dict "desktop" site.Params.projects.images.desktop "mobile" site.Params.projects.images.mobile) }}
@@ -7,6 +8,7 @@
   {{- end }}
 
   {{- $carouselParams := dict
+    "autoWidth" true
     "perPage" 2 
     "perMove" 1 
     "pagination" false 
@@ -19,4 +21,5 @@
           "partial" "commons/image.html" 
     ) }}
   {{ partial "commons/carousel.html" $args }}
+</section>
 {{- end }}

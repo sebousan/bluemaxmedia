@@ -6,7 +6,7 @@ title: Alpe D'Huez Winter
 projects_types:
   - Commercial
 projects_clients:
-  - Alpe D’Huez
+  - Alpe D'Huez
 projects_tags:
   - Alpes
   - Resort

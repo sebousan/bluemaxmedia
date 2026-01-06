@@ -17,7 +17,7 @@ image:
   src: /images/uploads/cwd.jpg
 images:
   - src: /images/uploads/cwd.jpg
-  - src: /images/uploads/cwd.jpg
+  - src: /images/uploads/cameramanbike1.jpg
   - src: /images/uploads/cwd.jpg
   - src: /images/uploads/cwd.jpg
 video_embed:

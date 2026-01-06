@@ -33,6 +33,23 @@
     
     .carousel
         margin-top: $grid-gutter-width
+        .splide__arrow
+            background: transparent
+            border-radius: 0
+            top: -3em
+            svg
+                display: none
+            &--prev
+                left: calc(100% - 80px)
+                &::after
+                    @include icon("arrow-left")
+                    font-size: 1.4rem
+            &--next
+                @include media-breakpoint-up(md)
+                    right: 0
+                &::after
+                    @include icon("arrow-right")
+                    font-size: 1.4rem
         .splide__track
             overflow: visible
         img
