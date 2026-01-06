@@ -1,5 +1,7 @@
 {{ with .video_embed }}
-<div class="hero-cover">
-  <div id="youtube-player" data-video-id="{{ .id }}"></div>
-</div>
-{{ end }}
+  {{- if and .id .platform }}
+    <div class="hero-cover">
+      <div id="{{ .platform }}-player" data-video-id="{{ .id }}"></div>
+    </div>
+  {{- end }}
+{{- end }}

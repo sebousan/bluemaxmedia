@@ -18,21 +18,22 @@ window.onYouTubeIframeAPIReady = function() {
       
     // Extract the video ID from the "data-video-id" attribute
     var videoId = playerElement.dataset.videoId;
+    var videoAutoplay = playerElement.dataset.videoAutoplay || 1;
     var videoControls = playerElement.dataset.videoControls || 0;
 
     player = new YT.Player('youtube-player', {
         videoId: videoId, // Insert the extracted ID here
         playerVars: {
-            'autoplay': 1,       // Auto-play the video
-            'controls': videoControls,       // Hide player controls
-            'showinfo': 0,       // Hide video title and info
-            'modestbranding': 1, // Minimize YouTube logo
-            'loop': 1,           // Loop the video
-            'fs': 0,             // Hide fullscreen button
-            'cc_load_policy': 0, // Hide closed captions
-            'iv_load_policy': 3, // Hide annotations
-            'autohide': 0,       // Auto-hide controls
-            'playlist': videoId  // REQUIRED: The video ID is needed here again to loop a single video
+            'autoplay': videoAutoplay,   // Auto-play the video
+            'controls': videoControls,   // Hide player controls
+            'showinfo': 0,               // Hide video title and info
+            'modestbranding': 1,         // Minimize YouTube logo
+            'loop': 1,                   // Loop the video
+            'fs': 0,                     // Hide fullscreen button
+            'cc_load_policy': 0,         // Hide closed captions
+            'iv_load_policy': 3,         // Hide annotations
+            'autohide': 0,               // Auto-hide controls
+            'playlist': videoId          // REQUIRED: The video ID is needed here again to loop a single video
         },
         events: {
             'onReady': onPlayerReady
