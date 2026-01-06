@@ -36,6 +36,14 @@ admin:
 
   # Collections
   collections:
+
+    config:
+      files:
+        - nav-primary
+        - nav-social
+        - nav-legal
+        - seo
+
     indexes:
       enable: false
     

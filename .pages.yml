@@ -63,114 +63,6 @@ content:
   path: data/menu/primary.yml
   type: file
 - fields:
-  - label: Title
-    name: title
-    required: false
-    type: string
-  - fields:
-    - label: Title
-      name: title
-      required: false
-      type: string
-    - description: Absolute URL (e.g https://www.example.com)
-      label: URL
-      name: url
-      required: false
-      type: string
-    - label: Is blank?
-      name: blank
-      required: false
-      type: boolean
-    - label: Is highlighted?
-      name: is_highlighted
-      required: false
-      type: boolean
-    - fields:
-      - label: Title
-        name: title
-        required: false
-        type: string
-      - description: Absolute URL (e.g https://www.example.com)
-        label: URL
-        name: url
-        required: false
-        type: string
-      - label: Is blank?
-        name: blank
-        required: false
-        type: boolean
-      label: Links
-      list:
-        collapsible:
-          collapsed: true
-      name: links
-      required: false
-      type: object
-    label: Links
-    list:
-      collapsible:
-        collapsed: false
-    name: links
-    required: false
-    type: object
-  i18n: true
-  label: Secondary navigation
-  name: secondary
-  path: data/menu/secondary.yml
-  type: file
-- fields:
-  - fields:
-    - label: Title
-      name: title
-      required: false
-      type: string
-    - description: Absolute URL (e.g https://www.example.com)
-      label: URL
-      name: url
-      required: false
-      type: string
-    - label: Is blank?
-      name: blank
-      required: false
-      type: boolean
-    - label: Is highlighted?
-      name: is_highlighted
-      required: false
-      type: boolean
-    - fields:
-      - label: Title
-        name: title
-        required: false
-        type: string
-      - description: Absolute URL (e.g https://www.example.com)
-        label: URL
-        name: url
-        required: false
-        type: string
-      - label: Is blank?
-        name: blank
-        required: false
-        type: boolean
-      label: Links
-      list:
-        collapsible:
-          collapsed: true
-      name: links
-      required: false
-      type: object
-    label: Links
-    list:
-      collapsible:
-        collapsed: false
-    name: links
-    required: false
-    type: object
-  i18n: true
-  label: Legals navigation (mentions, policy…)
-  name: legal
-  path: data/menu/legal.yml
-  type: file
-- fields:
   - fields:
     - label: Title
       name: title
@@ -223,52 +115,9 @@ content:
   path: data/menu/social.yml
   type: file
 - fields:
-  - label: Text
-    name: text
-    options:
-      media: false
-    required: false
-    type: rich-text
-  - default: light
-    label: State
-    name: state
-    options:
-      values:
-      - label: Danger
-        value: danger
-      - label: Dark
-        value: dark
-      - label: Info
-        value: info
-      - label: Light
-        value: light
-      - label: Primary
-        value: primary
-      - label: Secondary
-        value: secondary
-      - label: Success
-        value: success
-      - label: Warning
-        value: warning
-    required: true
-    type: select
-  i18n: true
-  label: Information banner at the top of the site
-  name: banner
-  path: data/banner.yml
-  type: file
-- fields:
-  - label: Title
-    name: title
-    required: false
-    type: string
-  - label: Text
-    name: text
-    required: false
-    type: text
   - fields:
-    - label: Text
-      name: text
+    - label: Title
+      name: title
       required: false
       type: string
     - description: Absolute URL (e.g https://www.example.com)
@@ -276,23 +125,46 @@ content:
       name: url
       required: false
       type: string
-    - description: Enter code lang (e.g. fr) if different of the current page language
-      label: Language
-      name: lang
-      required: false
-      type: string
     - label: Is blank?
       name: blank
       required: false
       type: boolean
-    label: CTA
-    name: cta
+    - label: Is highlighted?
+      name: is_highlighted
+      required: false
+      type: boolean
+    - fields:
+      - label: Title
+        name: title
+        required: false
+        type: string
+      - description: Absolute URL (e.g https://www.example.com)
+        label: URL
+        name: url
+        required: false
+        type: string
+      - label: Is blank?
+        name: blank
+        required: false
+        type: boolean
+      label: Links
+      list:
+        collapsible:
+          collapsed: true
+      name: links
+      required: false
+      type: object
+    label: Links
+    list:
+      collapsible:
+        collapsed: false
+    name: links
     required: false
     type: object
   i18n: true
-  label: Information text at the bottom of the site
-  name: footer
-  path: data/footer.yml
+  label: Legals navigation (mentions, policy…)
+  name: legal
+  path: data/menu/legal.yml
   type: file
 - fields:
   - label: Title
