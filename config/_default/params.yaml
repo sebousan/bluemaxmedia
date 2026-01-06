@@ -38,6 +38,12 @@ admin:
   collections:
     indexes:
       enable: false
+    
+    pages:
+      view:
+        node:
+          filename: _index.md
+          hideDirs: all
 
     projects:
       fields:

@@ -1,5 +1,5 @@
 ---
 isIndex: false
-draft: true
+draft: false
 title: SATA Group
 ---

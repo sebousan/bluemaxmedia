@@ -1481,6 +1481,10 @@ content:
   name: pages
   path: content
   type: collection
+  view:
+    node:
+      filename: _index.md
+      hideDirs: all
 - description: All projects
   fields:
   - default: true
