@@ -36,7 +36,9 @@ admin:
 
   # Collections
   collections:
-    
+    indexes:
+      enable: false
+
     projects:
       fields:
         - draft
@@ -71,6 +73,10 @@ admin:
         - title_page
         - description
         - featured_image
+      view:
+        node:
+          filename: _index.md
+          hideDirs: all
     
   # blocks
   blocks:
