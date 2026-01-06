@@ -29,6 +29,8 @@ bootstrap:
 # Admin
 admin:
 
+  cms: pagescms
+
   i18n:
     default_locale: fr
 
