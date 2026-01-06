@@ -65,6 +65,22 @@ admin:
       
     projects_clients:
       enable: true
+      view:
+        node:
+          filename: _index.md
+          hideDirs: all
+
+    projects_tags:
+      view:
+        node:
+          filename: _index.md
+          hideDirs: all
+
+    projects_types:
+      view:
+        node:
+          filename: _index.md
+          hideDirs: all
 
     projects_talents:
       enable: true

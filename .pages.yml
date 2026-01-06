@@ -1684,6 +1684,10 @@ content:
   name: projects_clients
   path: content/projects_clients
   type: collection
+  view:
+    node:
+      filename: _index.md
+      hideDirs: all
 - description: All projects tags
   fields:
   - default: false
@@ -1722,6 +1726,10 @@ content:
   name: projects_tags
   path: content/projects_tags
   type: collection
+  view:
+    node:
+      filename: _index.md
+      hideDirs: all
 - create: true
   editor:
     preview: false
@@ -1808,5 +1816,9 @@ content:
   name: projects_types
   path: content/projects_types
   type: collection
+  view:
+    node:
+      filename: _index.md
+      hideDirs: all
 
 
