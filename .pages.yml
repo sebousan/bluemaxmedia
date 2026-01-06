@@ -1,0 +1,3781 @@
+backend:
+  branch: main
+  name: git-gateway
+
+display_url: "https://bluemaxmedia.netlify.app/"
+
+local_backend: true
+locale: en
+logo: 
+  src: "./assets/logo.svg"
+  show_in_header: true
+media_folder: /assets/images/uploads
+
+public_folder: /images/uploads
+publish_mode: simple
+slug:
+  encoding: "unicode"
+  clean_accents: false
+  sanitize_replacement: "-"
+
+collections:
+- description: All config
+  editor:
+    preview: false
+  files:
+  - fields:
+    - collapsed: false
+      fields:
+      - i18n: true
+        label: Title
+        name: title
+        required: false
+        widget: string
+      - hint: Absolute URL (e.g https://www.example.com)
+        i18n: true
+        label: URL
+        name: url
+        required: false
+        widget: string
+      - i18n: true
+        label: Is blank?
+        name: blank
+        required: false
+        widget: boolean
+      - i18n: true
+        label: Is highlighted?
+        name: is_highlighted
+        required: false
+        widget: boolean
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Title
+          name: title
+          required: false
+          widget: string
+        - hint: Absolute URL (e.g https://www.example.com)
+          i18n: true
+          label: URL
+          name: url
+          required: false
+          widget: string
+        - i18n: true
+          label: Is blank?
+          name: blank
+          required: false
+          widget: boolean
+        i18n: true
+        label: Links
+        label_singular: Link
+        minimize_collapsed: true
+        name: links
+        required: false
+        widget: list
+      i18n: true
+      label: Links
+      label_singular: Link
+      minimize_collapsed: true
+      name: links
+      required: false
+      widget: list
+    file: data/menu/primary.yml
+    i18n: true
+    label: Primary navigation
+    name: primary
+  - fields:
+    - i18n: true
+      label: Title
+      name: title
+      required: false
+      widget: string
+    - collapsed: false
+      fields:
+      - i18n: true
+        label: Title
+        name: title
+        required: false
+        widget: string
+      - hint: Absolute URL (e.g https://www.example.com)
+        i18n: true
+        label: URL
+        name: url
+        required: false
+        widget: string
+      - i18n: true
+        label: Is blank?
+        name: blank
+        required: false
+        widget: boolean
+      - i18n: true
+        label: Is highlighted?
+        name: is_highlighted
+        required: false
+        widget: boolean
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Title
+          name: title
+          required: false
+          widget: string
+        - hint: Absolute URL (e.g https://www.example.com)
+          i18n: true
+          label: URL
+          name: url
+          required: false
+          widget: string
+        - i18n: true
+          label: Is blank?
+          name: blank
+          required: false
+          widget: boolean
+        i18n: true
+        label: Links
+        label_singular: Link
+        minimize_collapsed: true
+        name: links
+        required: false
+        widget: list
+      i18n: true
+      label: Links
+      label_singular: Link
+      minimize_collapsed: true
+      name: links
+      required: false
+      widget: list
+    file: data/menu/secondary.yml
+    i18n: true
+    label: Secondary navigation
+    name: secondary
+  - fields:
+    - collapsed: false
+      fields:
+      - i18n: true
+        label: Title
+        name: title
+        required: false
+        widget: string
+      - hint: Absolute URL (e.g https://www.example.com)
+        i18n: true
+        label: URL
+        name: url
+        required: false
+        widget: string
+      - i18n: true
+        label: Is blank?
+        name: blank
+        required: false
+        widget: boolean
+      - i18n: true
+        label: Is highlighted?
+        name: is_highlighted
+        required: false
+        widget: boolean
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Title
+          name: title
+          required: false
+          widget: string
+        - hint: Absolute URL (e.g https://www.example.com)
+          i18n: true
+          label: URL
+          name: url
+          required: false
+          widget: string
+        - i18n: true
+          label: Is blank?
+          name: blank
+          required: false
+          widget: boolean
+        i18n: true
+        label: Links
+        label_singular: Link
+        minimize_collapsed: true
+        name: links
+        required: false
+        widget: list
+      i18n: true
+      label: Links
+      label_singular: Link
+      minimize_collapsed: true
+      name: links
+      required: false
+      widget: list
+    file: data/menu/legal.yml
+    i18n: true
+    label: Legals navigation (mentions, policy…)
+    name: legal
+  - fields:
+    - collapsed: false
+      fields:
+      - i18n: true
+        label: Title
+        name: title
+        required: false
+        widget: string
+      - hint: Absolute URL (e.g https://www.example.com)
+        i18n: true
+        label: URL
+        name: url
+        required: false
+        widget: string
+      - i18n: true
+        label: Is blank?
+        name: blank
+        required: false
+        widget: boolean
+      - i18n: true
+        label: Is highlighted?
+        name: is_highlighted
+        required: false
+        widget: boolean
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Title
+          name: title
+          required: false
+          widget: string
+        - hint: Absolute URL (e.g https://www.example.com)
+          i18n: true
+          label: URL
+          name: url
+          required: false
+          widget: string
+        - i18n: true
+          label: Is blank?
+          name: blank
+          required: false
+          widget: boolean
+        i18n: true
+        label: Links
+        label_singular: Link
+        minimize_collapsed: true
+        name: links
+        required: false
+        widget: list
+      i18n: true
+      label: Links
+      label_singular: Link
+      minimize_collapsed: true
+      name: links
+      required: false
+      widget: list
+    file: data/menu/social.yml
+    i18n: true
+    label: Socials navigation
+    name: social
+  - fields:
+    - buttons:
+      - bold
+      - italic
+      - link
+      - bulleted-list
+      i18n: true
+      label: Text
+      minimal: true
+      modes:
+      - rich_text
+      name: text
+      required: false
+      widget: markdown
+    - default: light
+      i18n: true
+      label: State
+      name: state
+      options:
+      - label: Danger
+        value: danger
+      - label: Dark
+        value: dark
+      - label: Info
+        value: info
+      - label: Light
+        value: light
+      - label: Primary
+        value: primary
+      - label: Secondary
+        value: secondary
+      - label: Success
+        value: success
+      - label: Warning
+        value: warning
+      required: true
+      widget: select
+    file: data/banner.yml
+    i18n: true
+    label: Information banner at the top of the site
+    name: banner
+  - fields:
+    - i18n: true
+      label: Title
+      name: title
+      required: false
+      widget: string
+    - i18n: true
+      label: Text
+      name: text
+      required: false
+      widget: text
+    - collapsed: true
+      fields:
+      - i18n: true
+        label: Text
+        name: text
+        required: false
+        widget: string
+      - hint: Absolute URL (e.g https://www.example.com)
+        i18n: true
+        label: URL
+        name: url
+        required: false
+        widget: string
+      - hint: Enter code lang (e.g. fr) if different of the current page language
+        i18n: true
+        label: Language
+        name: lang
+        required: false
+        widget: string
+      - i18n: true
+        label: Is blank?
+        name: blank
+        required: false
+        widget: boolean
+      i18n: true
+      label: CTA
+      name: cta
+      required: false
+      widget: object
+    file: data/footer.yml
+    i18n: true
+    label: Information text at the bottom of the site
+    name: footer
+  - fields:
+    - i18n: true
+      label: Title
+      name: title
+      required: false
+      widget: string
+    - hint: Displayed in tabs, search results, and in SMS/Messages/Social networks preview
+      i18n: true
+      label: Description
+      name: description
+      required: false
+      widget: text
+    - choose_url: false
+      hint: 'Resize and compress image before sending : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+      i18n: true
+      label: Image
+      media_folder: /assets/images/uploads
+      media_library:
+        config:
+          max_file_size: '700000'
+      name: src
+      public_folder: /images/uploads
+      required: false
+      widget: image
+    - hint: Username
+      i18n: true
+      label: Twitter/X
+      name: twitter
+      required: false
+      widget: string
+    file: data/seo.yml
+    i18n: true
+    label: Global SEO
+    name: seo
+  i18n:
+    structure: single_file
+  label: Config
+  name: config
+- create: false
+  description: All index pages
+  editor:
+    preview: false
+  fields:
+  - default: true
+    i18n: true
+    label: is index
+    name: noname
+    required: false
+    widget: hidden
+  - default: true
+    i18n: true
+    label: Draft
+    name: draft
+    required: false
+    widget: boolean
+  - hint: Displayed in tabs, search results, and in SMS/Messages/Social networks preview
+    i18n: true
+    label: Page title
+    name: title
+    required: true
+    widget: string
+  - hint: Displayed in tabs, search results, and in SMS/Messages/Social networks preview
+    i18n: true
+    label: Description
+    name: description
+    required: false
+    widget: text
+  - collapsed: true
+    fields:
+    - choose_url: false
+      hint: 'Resize and compress image before sending : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+      i18n: true
+      label: Image
+      media_folder: /assets/images/uploads
+      media_library:
+        config:
+          max_file_size: '700000'
+      name: src
+      public_folder: /images/uploads
+      required: false
+      widget: image
+    - hint: For an image that conveys information (leave blank if decorative image)
+      i18n: true
+      label: Text alternative
+      name: alt
+      required: false
+      widget: string
+    hint: Displayed in search results, and in SMS/Messages/Social networks preview
+    i18n: true
+    label: Image principale
+    name: image
+    required: false
+    widget: object
+  - collapsed: true
+    fields:
+    - i18n: true
+      label: Title
+      name: title
+      required: false
+      widget: string
+    - collapsed: true
+      fields:
+      - i18n: true
+        label: Text
+        name: text
+        required: false
+        widget: string
+      - hint: Absolute URL (e.g https://www.example.com)
+        i18n: true
+        label: URL
+        name: url
+        required: false
+        widget: string
+      - hint: Enter code lang (e.g. fr) if different of the current page language
+        i18n: true
+        label: Language
+        name: lang
+        required: false
+        widget: string
+      - i18n: true
+        label: Is blank?
+        name: blank
+        required: false
+        widget: boolean
+      i18n: true
+      label: CTAs
+      label_singular: CTA
+      minimize_collapsed: true
+      name: ctas
+      required: false
+      widget: list
+    - collapsed: true
+      fields:
+      - choose_url: false
+        hint: 'Resize and compress image before sending : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+        i18n: true
+        label: Image
+        media_folder: /assets/images/uploads
+        media_library:
+          config:
+            max_file_size: '700000'
+        name: src
+        public_folder: /images/uploads
+        required: false
+        widget: image
+      - hint: For an image that conveys information (leave blank if decorative image)
+        i18n: true
+        label: Text alternative
+        name: alt
+        required: false
+        widget: string
+      - buttons:
+        - link
+        i18n: true
+        label: Credit
+        minimal: true
+        modes:
+        - rich_text
+        name: credit
+        required: false
+        widget: markdown
+      i18n: true
+      label: Image
+      name: image
+      required: false
+      widget: object
+    - collapsed: true
+      fields:
+      - hint: The platform where the video is located
+        i18n: true
+        label: Platform
+        name: platform
+        options:
+        - label: Vimeo
+          value: vimeo
+        - label: Youtube
+          value: youtube
+        required: false
+        widget: select
+      - i18n: true
+        label: Video ID
+        name: id
+        required: false
+        widget: string
+      i18n: true
+      label: Video embed
+      name: video_embed
+      required: false
+      widget: object
+    i18n: true
+    label: Hero
+    name: hero
+    required: false
+    widget: object
+  - collapsed: false
+    i18n: true
+    label: Blocs
+    label_singular: Bloc
+    minimize_collapsed: true
+    name: blocks
+    required: false
+    types:
+    - collapsed: false
+      fields:
+      - i18n: true
+        label: Direction
+        name: direction
+        options:
+        - label: Text on the left / image on the right
+          value: ltr
+        - label: Image on the left / text on the right
+          value: rtl
+        required: false
+        widget: select
+      - i18n: true
+        label: Title
+        name: title
+        required: false
+        widget: string
+      - buttons:
+        - bold
+        - italic
+        - link
+        - bulleted-list
+        i18n: true
+        label: Text
+        minimal: true
+        modes:
+        - rich_text
+        name: text
+        required: false
+        widget: markdown
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Text
+          name: text
+          required: false
+          widget: string
+        - hint: Absolute URL (e.g https://www.example.com)
+          i18n: true
+          label: URL
+          name: url
+          required: false
+          widget: string
+        - hint: Enter code lang (e.g. fr) if different of the current page language
+          i18n: true
+          label: Language
+          name: lang
+          required: false
+          widget: string
+        - i18n: true
+          label: Is blank?
+          name: blank
+          required: false
+          widget: boolean
+        i18n: true
+        label: CTAs
+        label_singular: CTA
+        minimize_collapsed: true
+        name: ctas
+        required: false
+        widget: list
+      - collapsed: true
+        fields:
+        - choose_url: false
+          hint: 'Resize and compress image before sending : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+          i18n: true
+          label: Image
+          media_folder: /assets/images/uploads
+          media_library:
+            config:
+              max_file_size: '700000'
+          name: src
+          public_folder: /images/uploads
+          required: false
+          widget: image
+        - hint: For an image that conveys information (leave blank if decorative image)
+          i18n: true
+          label: Text alternative
+          name: alt
+          required: false
+          widget: string
+        - buttons:
+          - link
+          i18n: true
+          label: Credit
+          minimal: true
+          modes:
+          - rich_text
+          name: credit
+          required: false
+          widget: markdown
+        i18n: true
+        label: Image
+        name: image
+        required: false
+        widget: object
+      i18n: true
+      label: Editorial
+      name: editorial
+      required: false
+      widget: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Surtitle
+          name: surtitle
+          required: false
+          widget: string
+        - i18n: true
+          label: Title
+          name: title
+          required: false
+          widget: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          i18n: true
+          label: Text
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          widget: markdown
+        i18n: true
+        label: Heading
+        name: heading
+        required: false
+        summary: '{{ title }}'
+        widget: object
+      - default: 3
+        i18n: duplicate
+        label: Column
+        max: 6
+        min: 1
+        name: column
+        required: false
+        step: 1
+        value_type: int
+        widget: number
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Prefix
+          name: prefix
+          required: false
+          widget: string
+        - i18n: true
+          label: Value
+          name: value
+          required: false
+          value_type: float
+          widget: number
+        - hint: 'e.g: %'
+          i18n: true
+          label: Suffix
+          name: suffix
+          required: false
+          widget: string
+        - default: 100
+          i18n: duplicate
+          label: Limit
+          name: limit
+          required: false
+          value_type: int
+          widget: number
+        - i18n: true
+          label: Title
+          name: title
+          required: false
+          widget: string
+        - i18n: true
+          label: Text
+          name: text
+          required: false
+          widget: string
+        i18n: true
+        label: Items
+        label_singular: Item
+        minimize_collapsed: true
+        name: items
+        required: false
+        widget: list
+      - default: false
+        i18n: duplicate
+        label: With a background?
+        name: background
+        required: false
+        widget: boolean
+      i18n: true
+      label: Datas
+      name: datas
+      required: false
+      widget: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Surtitle
+          name: surtitle
+          required: false
+          widget: string
+        - i18n: true
+          label: Title
+          name: title
+          required: false
+          widget: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          i18n: true
+          label: Text
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          widget: markdown
+        i18n: true
+        label: Heading
+        name: heading
+        required: false
+        summary: '{{ title }}'
+        widget: object
+      - default: 3
+        i18n: duplicate
+        label: Column
+        max: 6
+        min: 1
+        name: column
+        required: false
+        step: 1
+        value_type: int
+        widget: number
+      - collapsed: true
+        fields:
+        - hint: Icon name from https://icons.getbootstrap.com/
+          i18n: duplicate
+          label: Icon
+          name: icon
+          required: false
+          widget: string
+        - collapsed: true
+          fields:
+          - choose_url: false
+            hint: 'Resize and compress image before sending : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+            i18n: true
+            label: Image
+            media_folder: /assets/images/uploads
+            media_library:
+              config:
+                max_file_size: '700000'
+            name: src
+            public_folder: /images/uploads
+            required: false
+            widget: image
+          - hint: For an image that conveys information (leave blank if decorative image)
+            i18n: true
+            label: Text alternative
+            name: alt
+            required: false
+            widget: string
+          - hint: Positioned in the center and not cropped
+            i18n: true
+            label: Is logo?
+            name: isLogo
+            required: false
+            widget: boolean
+          i18n: true
+          label: Image
+          name: image
+          required: false
+          widget: object
+        - i18n: true
+          label: Title
+          name: title
+          required: false
+          widget: string
+        - i18n: true
+          label: Text
+          name: text
+          required: false
+          widget: string
+        - collapsed: true
+          fields:
+          - i18n: true
+            label: Text
+            name: text
+            required: false
+            widget: string
+          - hint: Absolute URL (e.g https://www.example.com)
+            i18n: true
+            label: URL
+            name: url
+            required: false
+            widget: string
+          - hint: Enter code lang (e.g. fr) if different of the current page language
+            i18n: true
+            label: Language
+            name: lang
+            required: false
+            widget: string
+          - i18n: true
+            label: Is blank?
+            name: blank
+            required: false
+            widget: boolean
+          i18n: true
+          label: CTA
+          name: cta
+          required: false
+          widget: object
+        i18n: true
+        label: Items
+        label_singular: Item
+        minimize_collapsed: true
+        name: items
+        required: false
+        widget: list
+      - default: false
+        i18n: duplicate
+        label: With a background?
+        name: background
+        required: false
+        widget: boolean
+      i18n: true
+      label: Informations
+      name: informations
+      required: false
+      widget: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Surtitle
+          name: surtitle
+          required: false
+          widget: string
+        - i18n: true
+          label: Title
+          name: title
+          required: false
+          widget: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          i18n: true
+          label: Text
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          widget: markdown
+        i18n: true
+        label: Heading
+        name: heading
+        required: false
+        summary: '{{ title }}'
+        widget: object
+      - collapsed: true
+        fields:
+        - choose_url: false
+          hint: 'Resize and compress image before sending : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+          i18n: true
+          label: Image
+          media_folder: /assets/images/uploads
+          media_library:
+            config:
+              max_file_size: '700000'
+          name: src
+          public_folder: /images/uploads
+          required: false
+          widget: image
+        - hint: For an image that conveys information (leave blank if decorative image)
+          i18n: true
+          label: Text alternative
+          name: alt
+          required: false
+          widget: string
+        - i18n: true
+          label: Legend
+          name: legend
+          required: false
+          widget: string
+        - buttons:
+          - link
+          i18n: true
+          label: Credit
+          minimal: true
+          modes:
+          - rich_text
+          name: credit
+          required: false
+          widget: markdown
+        - hint: Add fake browser
+          i18n: true
+          label: Is screenshot?
+          name: screenshot
+          required: false
+          widget: boolean
+        i18n: true
+        label: Figure
+        name: figure
+        required: false
+        widget: object
+      - default: large
+        i18n: true
+        label: Grid
+        name: grid
+        options:
+        - label: Small
+          value: small
+        - label: Medium
+          value: medium
+        - label: Large
+          value: large
+        - label: Container
+          value: container
+        - label: Full
+          value: full
+        required: true
+        widget: select
+      - i18n: true
+        label: Offset
+        name: offset
+        options:
+        - label: Start
+          value: start
+        - label: Center
+          value: center
+        - label: End
+          value: end
+        required: false
+        widget: select
+      - default: false
+        i18n: duplicate
+        label: With a background?
+        name: background
+        required: false
+        widget: boolean
+      i18n: true
+      label: Figure
+      name: figure
+      required: false
+      widget: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Surtitle
+          name: surtitle
+          required: false
+          widget: string
+        - i18n: true
+          label: Title
+          name: title
+          required: false
+          widget: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          i18n: true
+          label: Text
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          widget: markdown
+        i18n: true
+        label: Heading
+        name: heading
+        required: false
+        summary: '{{ title }}'
+        widget: object
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Title
+          name: title
+          required: false
+          widget: string
+        - hint: Absolute URL (e.g https://www.example.com)
+          i18n: true
+          label: URL
+          name: url
+          required: false
+          widget: string
+        - choose_url: false
+          hint: 'Resize and compress image before sending : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+          i18n: true
+          label: Image
+          media_folder: /assets/images/uploads
+          media_library:
+            config:
+              max_file_size: '700000'
+          name: src
+          public_folder: /images/uploads
+          required: false
+          widget: image
+        i18n: true
+        label: Items
+        label_singular: Item
+        minimize_collapsed: true
+        name: items
+        required: false
+        widget: list
+      - i18n: true
+        label: Layout
+        name: layout
+        options:
+        - label: Grid
+          value: grid
+        - label: Carousel
+          value: carousel
+        required: false
+        widget: select
+      - collapsed: true
+        fields:
+        - collapsed: true
+          fields:
+          - default: true
+            i18n: true
+            label: Focus
+            name: focus
+            required: false
+            widget: boolean
+          - default: true
+            i18n: true
+            label: Autoplay
+            name: autoplay
+            required: false
+            widget: boolean
+          - default: true
+            i18n: true
+            label: Arrows
+            name: arrows
+            required: false
+            widget: boolean
+          - default: false
+            i18n: true
+            label: Pagination
+            name: pagination
+            required: false
+            widget: boolean
+          - i18n: true
+            label: Carousel type
+            name: type
+            options:
+            - label: Slide
+              value: slide
+            - label: Loop
+              value: loop
+            - label: Fade
+              value: fade
+            required: false
+            widget: select
+          - hint: Number of slides to display
+            i18n: true
+            label: Per page
+            min: 1
+            name: perPage
+            required: false
+            value_type: int
+            widget: number
+          - hint: Padding left/right of the carousel. In rem value
+            i18n: true
+            label: Padding
+            name: padding
+            required: false
+            value_type: int
+            widget: number
+          - hint: The gap between slides. Expressed in rem.
+            i18n: true
+            label: Gap
+            name: gap
+            required: false
+            value_type: int
+            widget: number
+          i18n: true
+          label: Params
+          name: params
+          required: false
+          widget: object
+        - collapsed: true
+          fields:
+          - default: '640'
+            i18n: true
+            label: Breakpoints
+            name: breakpoints
+            options:
+            - label: Desktop
+              value: '1440'
+            - label: Laptop
+              value: '1280'
+            - label: Mobile
+              value: '640'
+            - label: Tablet
+              value: '768'
+            - label: Wide tablet
+              value: '1024'
+            required: false
+            widget: select
+          - collapsed: true
+            fields:
+            - default: true
+              i18n: true
+              label: Focus
+              name: focus
+              required: false
+              widget: boolean
+            - default: true
+              i18n: true
+              label: Autoplay
+              name: autoplay
+              required: false
+              widget: boolean
+            - default: true
+              i18n: true
+              label: Arrows
+              name: arrows
+              required: false
+              widget: boolean
+            - default: false
+              i18n: true
+              label: Pagination
+              name: pagination
+              required: false
+              widget: boolean
+            - i18n: true
+              label: Carousel type
+              name: type
+              options:
+              - label: Slide
+                value: slide
+              - label: Loop
+                value: loop
+              - label: Fade
+                value: fade
+              required: false
+              widget: select
+            - hint: Number of slides to display
+              i18n: true
+              label: Per page
+              min: 1
+              name: perPage
+              required: false
+              value_type: int
+              widget: number
+            - hint: Padding left/right of the carousel. In rem value
+              i18n: true
+              label: Padding
+              name: padding
+              required: false
+              value_type: int
+              widget: number
+            - hint: The gap between slides. Expressed in rem.
+              i18n: true
+              label: Gap
+              name: gap
+              required: false
+              value_type: int
+              widget: number
+            i18n: true
+            label: Params
+            name: params
+            required: false
+            widget: object
+          i18n: true
+          label: Responsive
+          minimize_collapsed: true
+          name: responsive
+          required: false
+          widget: list
+        hint: Only for carousel display
+        i18n: true
+        label: Carousel configuration
+        name: carousel
+        required: false
+        widget: object
+      - default: false
+        i18n: duplicate
+        label: With a background?
+        name: background
+        required: false
+        widget: boolean
+      i18n: true
+      label: Logos
+      name: logos
+      required: false
+      widget: object
+    - collapsed: false
+      fields:
+      - i18n: true
+        label: Title
+        name: title
+        required: false
+        widget: string
+      - buttons:
+        - bold
+        - italic
+        - link
+        - bulleted-list
+        i18n: true
+        label: Text
+        minimal: true
+        modes:
+        - rich_text
+        name: text
+        required: false
+        widget: markdown
+      - default: large
+        i18n: true
+        label: Grid
+        name: grid
+        options:
+        - label: Small
+          value: small
+        - label: Medium
+          value: medium
+        - label: Large
+          value: large
+        - label: Container
+          value: container
+        - label: Full
+          value: full
+        required: true
+        widget: select
+      i18n: true
+      label: Paragraph
+      name: paragraph
+      required: false
+      widget: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Surtitle
+          name: surtitle
+          required: false
+          widget: string
+        - i18n: true
+          label: Title
+          name: title
+          required: false
+          widget: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          i18n: true
+          label: Text
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          widget: markdown
+        i18n: true
+        label: Heading
+        name: heading
+        required: false
+        summary: '{{ title }}'
+        widget: object
+      - default: pages
+        i18n: true
+        label: section
+        name: section
+        required: false
+        widget: hidden
+      - collection: pages
+        display_fields:
+        - title
+        i18n: true
+        label: Pages
+        label_singular: Page
+        multiple: true
+        name: items
+        required: true
+        search_fields:
+        - title
+        value_field: '{{slug}}'
+        widget: relation
+      - i18n: true
+        label: Layout
+        name: layout
+        options:
+        - label: Grid
+          value: grid
+        - label: List
+          value: list
+        required: false
+        widget: select
+      - default: true
+        hint: Shows a button to see more items
+        i18n: true
+        label: Show more?
+        name: show_more
+        required: false
+        widget: boolean
+      - default: false
+        i18n: duplicate
+        label: With a background?
+        name: background
+        required: false
+        widget: boolean
+      i18n: true
+      label: Selection Pages
+      name: selected-pages
+      required: false
+      widget: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Surtitle
+          name: surtitle
+          required: false
+          widget: string
+        - i18n: true
+          label: Title
+          name: title
+          required: false
+          widget: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          i18n: true
+          label: Text
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          widget: markdown
+        i18n: true
+        label: Heading
+        name: heading
+        required: false
+        summary: '{{ title }}'
+        widget: object
+      - default: projects
+        i18n: true
+        label: section
+        name: section
+        required: false
+        widget: hidden
+      - collection: projects
+        display_fields:
+        - title
+        i18n: true
+        label: Projects
+        label_singular: Project
+        multiple: true
+        name: items
+        required: true
+        search_fields:
+        - title
+        value_field: '{{slug}}'
+        widget: relation
+      - i18n: true
+        label: Layout
+        name: layout
+        options:
+        - label: Grid
+          value: grid
+        - label: List
+          value: list
+        required: false
+        widget: select
+      - default: true
+        hint: Shows a button to see more items
+        i18n: true
+        label: Show more?
+        name: show_more
+        required: false
+        widget: boolean
+      - default: false
+        i18n: duplicate
+        label: With a background?
+        name: background
+        required: false
+        widget: boolean
+      i18n: true
+      label: Selection Projects
+      name: selected-projects
+      required: false
+      widget: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Surtitle
+          name: surtitle
+          required: false
+          widget: string
+        - i18n: true
+          label: Title
+          name: title
+          required: false
+          widget: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          i18n: true
+          label: Text
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          widget: markdown
+        i18n: true
+        label: Heading
+        name: heading
+        required: false
+        summary: '{{ title }}'
+        widget: object
+      - default: projects_clients
+        i18n: true
+        label: section
+        name: section
+        required: false
+        widget: hidden
+      - collection: projects_clients
+        display_fields:
+        - title
+        i18n: true
+        label: Clients
+        label_singular: Client
+        multiple: true
+        name: items
+        required: true
+        search_fields:
+        - title
+        value_field: '{{title}}'
+        widget: relation
+      - i18n: true
+        label: Layout
+        name: layout
+        options:
+        - label: Grid
+          value: grid
+        - label: List
+          value: list
+        required: false
+        widget: select
+      - default: true
+        hint: Shows a button to see more items
+        i18n: true
+        label: Show more?
+        name: show_more
+        required: false
+        widget: boolean
+      - default: false
+        i18n: duplicate
+        label: With a background?
+        name: background
+        required: false
+        widget: boolean
+      i18n: true
+      label: Selection Clients
+      name: selected-projects_clients
+      required: false
+      widget: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Surtitle
+          name: surtitle
+          required: false
+          widget: string
+        - i18n: true
+          label: Title
+          name: title
+          required: false
+          widget: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          i18n: true
+          label: Text
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          widget: markdown
+        i18n: true
+        label: Heading
+        name: heading
+        required: false
+        summary: '{{ title }}'
+        widget: object
+      - default: projects_tags
+        i18n: true
+        label: section
+        name: section
+        required: false
+        widget: hidden
+      - collection: projects_tags
+        display_fields:
+        - title
+        i18n: true
+        label: Tags
+        label_singular: Tag
+        multiple: true
+        name: items
+        required: true
+        search_fields:
+        - title
+        value_field: '{{title}}'
+        widget: relation
+      - i18n: true
+        label: Layout
+        name: layout
+        options:
+        - label: Grid
+          value: grid
+        - label: List
+          value: list
+        required: false
+        widget: select
+      - default: true
+        hint: Shows a button to see more items
+        i18n: true
+        label: Show more?
+        name: show_more
+        required: false
+        widget: boolean
+      - default: false
+        i18n: duplicate
+        label: With a background?
+        name: background
+        required: false
+        widget: boolean
+      i18n: true
+      label: Selection Tags
+      name: selected-projects_tags
+      required: false
+      widget: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Surtitle
+          name: surtitle
+          required: false
+          widget: string
+        - i18n: true
+          label: Title
+          name: title
+          required: false
+          widget: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          i18n: true
+          label: Text
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          widget: markdown
+        i18n: true
+        label: Heading
+        name: heading
+        required: false
+        summary: '{{ title }}'
+        widget: object
+      - default: projects_talents
+        i18n: true
+        label: section
+        name: section
+        required: false
+        widget: hidden
+      - collection: projects_talents
+        display_fields:
+        - title
+        i18n: true
+        label: Talents
+        label_singular: Talent
+        multiple: true
+        name: items
+        required: true
+        search_fields:
+        - title
+        value_field: '{{title}}'
+        widget: relation
+      - i18n: true
+        label: Layout
+        name: layout
+        options:
+        - label: Grid
+          value: grid
+        - label: List
+          value: list
+        required: false
+        widget: select
+      - default: true
+        hint: Shows a button to see more items
+        i18n: true
+        label: Show more?
+        name: show_more
+        required: false
+        widget: boolean
+      - default: false
+        i18n: duplicate
+        label: With a background?
+        name: background
+        required: false
+        widget: boolean
+      i18n: true
+      label: Selection Talents
+      name: selected-projects_talents
+      required: false
+      widget: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Surtitle
+          name: surtitle
+          required: false
+          widget: string
+        - i18n: true
+          label: Title
+          name: title
+          required: false
+          widget: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          i18n: true
+          label: Text
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          widget: markdown
+        i18n: true
+        label: Heading
+        name: heading
+        required: false
+        summary: '{{ title }}'
+        widget: object
+      - default: projects_types
+        i18n: true
+        label: section
+        name: section
+        required: false
+        widget: hidden
+      - collection: projects_types
+        display_fields:
+        - title
+        i18n: true
+        label: Types
+        label_singular: Type
+        multiple: true
+        name: items
+        required: true
+        search_fields:
+        - title
+        value_field: '{{title}}'
+        widget: relation
+      - i18n: true
+        label: Layout
+        name: layout
+        options:
+        - label: Grid
+          value: grid
+        - label: List
+          value: list
+        required: false
+        widget: select
+      - default: true
+        hint: Shows a button to see more items
+        i18n: true
+        label: Show more?
+        name: show_more
+        required: false
+        widget: boolean
+      - default: false
+        i18n: duplicate
+        label: With a background?
+        name: background
+        required: false
+        widget: boolean
+      i18n: true
+      label: Selection Types
+      name: selected-projects_types
+      required: false
+      widget: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Surtitle
+          name: surtitle
+          required: false
+          widget: string
+        - i18n: true
+          label: Title
+          name: title
+          required: false
+          widget: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          i18n: true
+          label: Text
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          widget: markdown
+        i18n: true
+        label: Heading
+        name: heading
+        required: false
+        summary: '{{ title }}'
+        widget: object
+      - collapsed: true
+        fields:
+        - hint: The platform where the video is located
+          i18n: true
+          label: Platform
+          name: platform
+          options:
+          - label: Vimeo
+            value: vimeo
+          - label: Youtube
+            value: youtube
+          required: false
+          widget: select
+        - i18n: true
+          label: Video ID
+          name: id
+          required: false
+          widget: string
+        i18n: true
+        label: Video embed
+        name: video_embed
+        required: false
+        widget: object
+      - default: large
+        i18n: true
+        label: Grid
+        name: grid
+        options:
+        - label: Small
+          value: small
+        - label: Medium
+          value: medium
+        - label: Large
+          value: large
+        - label: Container
+          value: container
+        - label: Full
+          value: full
+        required: true
+        widget: select
+      i18n: true
+      label: Video
+      name: video
+      required: false
+      widget: object
+    widget: list
+  filter:
+    field: isIndex
+    value: true
+  folder: content
+  i18n: true
+  label: Index
+  label_singular: Index
+  name: indexes
+  nested:
+    depth: 2
+- create: true
+  description: All pages
+  editor:
+    preview: false
+  fields:
+  - default: true
+    i18n: true
+    label: is page
+    name: isPage
+    required: false
+    widget: hidden
+  - default: true
+    i18n: true
+    label: Draft
+    name: draft
+    required: false
+    widget: boolean
+  - hint: Displayed in tabs, search results, and in SMS/Messages/Social networks preview
+    i18n: true
+    label: Page title
+    name: title
+    required: true
+    widget: string
+  - hint: Displayed in tabs, search results, and in SMS/Messages/Social networks preview
+    i18n: true
+    label: Description
+    name: description
+    required: false
+    widget: text
+  - collapsed: true
+    fields:
+    - choose_url: false
+      hint: 'Resize and compress image before sending : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+      i18n: true
+      label: Image
+      media_folder: /assets/images/uploads
+      media_library:
+        config:
+          max_file_size: '700000'
+      name: src
+      public_folder: /images/uploads
+      required: false
+      widget: image
+    - hint: For an image that conveys information (leave blank if decorative image)
+      i18n: true
+      label: Text alternative
+      name: alt
+      required: false
+      widget: string
+    hint: Displayed in search results, and in SMS/Messages/Social networks preview
+    i18n: true
+    label: Image principale
+    name: image
+    required: false
+    widget: object
+  - collapsed: true
+    fields:
+    - i18n: true
+      label: Title
+      name: title
+      required: false
+      widget: string
+    - collapsed: true
+      fields:
+      - i18n: true
+        label: Text
+        name: text
+        required: false
+        widget: string
+      - hint: Absolute URL (e.g https://www.example.com)
+        i18n: true
+        label: URL
+        name: url
+        required: false
+        widget: string
+      - hint: Enter code lang (e.g. fr) if different of the current page language
+        i18n: true
+        label: Language
+        name: lang
+        required: false
+        widget: string
+      - i18n: true
+        label: Is blank?
+        name: blank
+        required: false
+        widget: boolean
+      i18n: true
+      label: CTAs
+      label_singular: CTA
+      minimize_collapsed: true
+      name: ctas
+      required: false
+      widget: list
+    - collapsed: true
+      fields:
+      - choose_url: false
+        hint: 'Resize and compress image before sending : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+        i18n: true
+        label: Image
+        media_folder: /assets/images/uploads
+        media_library:
+          config:
+            max_file_size: '700000'
+        name: src
+        public_folder: /images/uploads
+        required: false
+        widget: image
+      - hint: For an image that conveys information (leave blank if decorative image)
+        i18n: true
+        label: Text alternative
+        name: alt
+        required: false
+        widget: string
+      - buttons:
+        - link
+        i18n: true
+        label: Credit
+        minimal: true
+        modes:
+        - rich_text
+        name: credit
+        required: false
+        widget: markdown
+      i18n: true
+      label: Image
+      name: image
+      required: false
+      widget: object
+    - collapsed: true
+      fields:
+      - hint: The platform where the video is located
+        i18n: true
+        label: Platform
+        name: platform
+        options:
+        - label: Vimeo
+          value: vimeo
+        - label: Youtube
+          value: youtube
+        required: false
+        widget: select
+      - i18n: true
+        label: Video ID
+        name: id
+        required: false
+        widget: string
+      i18n: true
+      label: Video embed
+      name: video_embed
+      required: false
+      widget: object
+    i18n: true
+    label: Hero
+    name: hero
+    required: false
+    widget: object
+  - i18n: true
+    label: Body
+    modes:
+    - rich_text
+    name: body
+    required: false
+    widget: markdown
+  - collapsed: false
+    i18n: true
+    label: Blocs
+    label_singular: Bloc
+    minimize_collapsed: true
+    name: blocks
+    required: false
+    types:
+    - collapsed: false
+      fields:
+      - i18n: true
+        label: Direction
+        name: direction
+        options:
+        - label: Text on the left / image on the right
+          value: ltr
+        - label: Image on the left / text on the right
+          value: rtl
+        required: false
+        widget: select
+      - i18n: true
+        label: Title
+        name: title
+        required: false
+        widget: string
+      - buttons:
+        - bold
+        - italic
+        - link
+        - bulleted-list
+        i18n: true
+        label: Text
+        minimal: true
+        modes:
+        - rich_text
+        name: text
+        required: false
+        widget: markdown
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Text
+          name: text
+          required: false
+          widget: string
+        - hint: Absolute URL (e.g https://www.example.com)
+          i18n: true
+          label: URL
+          name: url
+          required: false
+          widget: string
+        - hint: Enter code lang (e.g. fr) if different of the current page language
+          i18n: true
+          label: Language
+          name: lang
+          required: false
+          widget: string
+        - i18n: true
+          label: Is blank?
+          name: blank
+          required: false
+          widget: boolean
+        i18n: true
+        label: CTAs
+        label_singular: CTA
+        minimize_collapsed: true
+        name: ctas
+        required: false
+        widget: list
+      - collapsed: true
+        fields:
+        - choose_url: false
+          hint: 'Resize and compress image before sending : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+          i18n: true
+          label: Image
+          media_folder: /assets/images/uploads
+          media_library:
+            config:
+              max_file_size: '700000'
+          name: src
+          public_folder: /images/uploads
+          required: false
+          widget: image
+        - hint: For an image that conveys information (leave blank if decorative image)
+          i18n: true
+          label: Text alternative
+          name: alt
+          required: false
+          widget: string
+        - buttons:
+          - link
+          i18n: true
+          label: Credit
+          minimal: true
+          modes:
+          - rich_text
+          name: credit
+          required: false
+          widget: markdown
+        i18n: true
+        label: Image
+        name: image
+        required: false
+        widget: object
+      i18n: true
+      label: Editorial
+      name: editorial
+      required: false
+      widget: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Surtitle
+          name: surtitle
+          required: false
+          widget: string
+        - i18n: true
+          label: Title
+          name: title
+          required: false
+          widget: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          i18n: true
+          label: Text
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          widget: markdown
+        i18n: true
+        label: Heading
+        name: heading
+        required: false
+        summary: '{{ title }}'
+        widget: object
+      - default: 3
+        i18n: duplicate
+        label: Column
+        max: 6
+        min: 1
+        name: column
+        required: false
+        step: 1
+        value_type: int
+        widget: number
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Prefix
+          name: prefix
+          required: false
+          widget: string
+        - i18n: true
+          label: Value
+          name: value
+          required: false
+          value_type: float
+          widget: number
+        - hint: 'e.g: %'
+          i18n: true
+          label: Suffix
+          name: suffix
+          required: false
+          widget: string
+        - default: 100
+          i18n: duplicate
+          label: Limit
+          name: limit
+          required: false
+          value_type: int
+          widget: number
+        - i18n: true
+          label: Title
+          name: title
+          required: false
+          widget: string
+        - i18n: true
+          label: Text
+          name: text
+          required: false
+          widget: string
+        i18n: true
+        label: Items
+        label_singular: Item
+        minimize_collapsed: true
+        name: items
+        required: false
+        widget: list
+      - default: false
+        i18n: duplicate
+        label: With a background?
+        name: background
+        required: false
+        widget: boolean
+      i18n: true
+      label: Datas
+      name: datas
+      required: false
+      widget: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Surtitle
+          name: surtitle
+          required: false
+          widget: string
+        - i18n: true
+          label: Title
+          name: title
+          required: false
+          widget: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          i18n: true
+          label: Text
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          widget: markdown
+        i18n: true
+        label: Heading
+        name: heading
+        required: false
+        summary: '{{ title }}'
+        widget: object
+      - default: 3
+        i18n: duplicate
+        label: Column
+        max: 6
+        min: 1
+        name: column
+        required: false
+        step: 1
+        value_type: int
+        widget: number
+      - collapsed: true
+        fields:
+        - hint: Icon name from https://icons.getbootstrap.com/
+          i18n: duplicate
+          label: Icon
+          name: icon
+          required: false
+          widget: string
+        - collapsed: true
+          fields:
+          - choose_url: false
+            hint: 'Resize and compress image before sending : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+            i18n: true
+            label: Image
+            media_folder: /assets/images/uploads
+            media_library:
+              config:
+                max_file_size: '700000'
+            name: src
+            public_folder: /images/uploads
+            required: false
+            widget: image
+          - hint: For an image that conveys information (leave blank if decorative image)
+            i18n: true
+            label: Text alternative
+            name: alt
+            required: false
+            widget: string
+          - hint: Positioned in the center and not cropped
+            i18n: true
+            label: Is logo?
+            name: isLogo
+            required: false
+            widget: boolean
+          i18n: true
+          label: Image
+          name: image
+          required: false
+          widget: object
+        - i18n: true
+          label: Title
+          name: title
+          required: false
+          widget: string
+        - i18n: true
+          label: Text
+          name: text
+          required: false
+          widget: string
+        - collapsed: true
+          fields:
+          - i18n: true
+            label: Text
+            name: text
+            required: false
+            widget: string
+          - hint: Absolute URL (e.g https://www.example.com)
+            i18n: true
+            label: URL
+            name: url
+            required: false
+            widget: string
+          - hint: Enter code lang (e.g. fr) if different of the current page language
+            i18n: true
+            label: Language
+            name: lang
+            required: false
+            widget: string
+          - i18n: true
+            label: Is blank?
+            name: blank
+            required: false
+            widget: boolean
+          i18n: true
+          label: CTA
+          name: cta
+          required: false
+          widget: object
+        i18n: true
+        label: Items
+        label_singular: Item
+        minimize_collapsed: true
+        name: items
+        required: false
+        widget: list
+      - default: false
+        i18n: duplicate
+        label: With a background?
+        name: background
+        required: false
+        widget: boolean
+      i18n: true
+      label: Informations
+      name: informations
+      required: false
+      widget: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Surtitle
+          name: surtitle
+          required: false
+          widget: string
+        - i18n: true
+          label: Title
+          name: title
+          required: false
+          widget: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          i18n: true
+          label: Text
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          widget: markdown
+        i18n: true
+        label: Heading
+        name: heading
+        required: false
+        summary: '{{ title }}'
+        widget: object
+      - collapsed: true
+        fields:
+        - choose_url: false
+          hint: 'Resize and compress image before sending : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+          i18n: true
+          label: Image
+          media_folder: /assets/images/uploads
+          media_library:
+            config:
+              max_file_size: '700000'
+          name: src
+          public_folder: /images/uploads
+          required: false
+          widget: image
+        - hint: For an image that conveys information (leave blank if decorative image)
+          i18n: true
+          label: Text alternative
+          name: alt
+          required: false
+          widget: string
+        - i18n: true
+          label: Legend
+          name: legend
+          required: false
+          widget: string
+        - buttons:
+          - link
+          i18n: true
+          label: Credit
+          minimal: true
+          modes:
+          - rich_text
+          name: credit
+          required: false
+          widget: markdown
+        - hint: Add fake browser
+          i18n: true
+          label: Is screenshot?
+          name: screenshot
+          required: false
+          widget: boolean
+        i18n: true
+        label: Figure
+        name: figure
+        required: false
+        widget: object
+      - default: large
+        i18n: true
+        label: Grid
+        name: grid
+        options:
+        - label: Small
+          value: small
+        - label: Medium
+          value: medium
+        - label: Large
+          value: large
+        - label: Container
+          value: container
+        - label: Full
+          value: full
+        required: true
+        widget: select
+      - i18n: true
+        label: Offset
+        name: offset
+        options:
+        - label: Start
+          value: start
+        - label: Center
+          value: center
+        - label: End
+          value: end
+        required: false
+        widget: select
+      - default: false
+        i18n: duplicate
+        label: With a background?
+        name: background
+        required: false
+        widget: boolean
+      i18n: true
+      label: Figure
+      name: figure
+      required: false
+      widget: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Surtitle
+          name: surtitle
+          required: false
+          widget: string
+        - i18n: true
+          label: Title
+          name: title
+          required: false
+          widget: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          i18n: true
+          label: Text
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          widget: markdown
+        i18n: true
+        label: Heading
+        name: heading
+        required: false
+        summary: '{{ title }}'
+        widget: object
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Title
+          name: title
+          required: false
+          widget: string
+        - hint: Absolute URL (e.g https://www.example.com)
+          i18n: true
+          label: URL
+          name: url
+          required: false
+          widget: string
+        - choose_url: false
+          hint: 'Resize and compress image before sending : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+          i18n: true
+          label: Image
+          media_folder: /assets/images/uploads
+          media_library:
+            config:
+              max_file_size: '700000'
+          name: src
+          public_folder: /images/uploads
+          required: false
+          widget: image
+        i18n: true
+        label: Items
+        label_singular: Item
+        minimize_collapsed: true
+        name: items
+        required: false
+        widget: list
+      - i18n: true
+        label: Layout
+        name: layout
+        options:
+        - label: Grid
+          value: grid
+        - label: Carousel
+          value: carousel
+        required: false
+        widget: select
+      - collapsed: true
+        fields:
+        - collapsed: true
+          fields:
+          - default: true
+            i18n: true
+            label: Focus
+            name: focus
+            required: false
+            widget: boolean
+          - default: true
+            i18n: true
+            label: Autoplay
+            name: autoplay
+            required: false
+            widget: boolean
+          - default: true
+            i18n: true
+            label: Arrows
+            name: arrows
+            required: false
+            widget: boolean
+          - default: false
+            i18n: true
+            label: Pagination
+            name: pagination
+            required: false
+            widget: boolean
+          - i18n: true
+            label: Carousel type
+            name: type
+            options:
+            - label: Slide
+              value: slide
+            - label: Loop
+              value: loop
+            - label: Fade
+              value: fade
+            required: false
+            widget: select
+          - hint: Number of slides to display
+            i18n: true
+            label: Per page
+            min: 1
+            name: perPage
+            required: false
+            value_type: int
+            widget: number
+          - hint: Padding left/right of the carousel. In rem value
+            i18n: true
+            label: Padding
+            name: padding
+            required: false
+            value_type: int
+            widget: number
+          - hint: The gap between slides. Expressed in rem.
+            i18n: true
+            label: Gap
+            name: gap
+            required: false
+            value_type: int
+            widget: number
+          i18n: true
+          label: Params
+          name: params
+          required: false
+          widget: object
+        - collapsed: true
+          fields:
+          - default: '640'
+            i18n: true
+            label: Breakpoints
+            name: breakpoints
+            options:
+            - label: Desktop
+              value: '1440'
+            - label: Laptop
+              value: '1280'
+            - label: Mobile
+              value: '640'
+            - label: Tablet
+              value: '768'
+            - label: Wide tablet
+              value: '1024'
+            required: false
+            widget: select
+          - collapsed: true
+            fields:
+            - default: true
+              i18n: true
+              label: Focus
+              name: focus
+              required: false
+              widget: boolean
+            - default: true
+              i18n: true
+              label: Autoplay
+              name: autoplay
+              required: false
+              widget: boolean
+            - default: true
+              i18n: true
+              label: Arrows
+              name: arrows
+              required: false
+              widget: boolean
+            - default: false
+              i18n: true
+              label: Pagination
+              name: pagination
+              required: false
+              widget: boolean
+            - i18n: true
+              label: Carousel type
+              name: type
+              options:
+              - label: Slide
+                value: slide
+              - label: Loop
+                value: loop
+              - label: Fade
+                value: fade
+              required: false
+              widget: select
+            - hint: Number of slides to display
+              i18n: true
+              label: Per page
+              min: 1
+              name: perPage
+              required: false
+              value_type: int
+              widget: number
+            - hint: Padding left/right of the carousel. In rem value
+              i18n: true
+              label: Padding
+              name: padding
+              required: false
+              value_type: int
+              widget: number
+            - hint: The gap between slides. Expressed in rem.
+              i18n: true
+              label: Gap
+              name: gap
+              required: false
+              value_type: int
+              widget: number
+            i18n: true
+            label: Params
+            name: params
+            required: false
+            widget: object
+          i18n: true
+          label: Responsive
+          minimize_collapsed: true
+          name: responsive
+          required: false
+          widget: list
+        hint: Only for carousel display
+        i18n: true
+        label: Carousel configuration
+        name: carousel
+        required: false
+        widget: object
+      - default: false
+        i18n: duplicate
+        label: With a background?
+        name: background
+        required: false
+        widget: boolean
+      i18n: true
+      label: Logos
+      name: logos
+      required: false
+      widget: object
+    - collapsed: false
+      fields:
+      - i18n: true
+        label: Title
+        name: title
+        required: false
+        widget: string
+      - buttons:
+        - bold
+        - italic
+        - link
+        - bulleted-list
+        i18n: true
+        label: Text
+        minimal: true
+        modes:
+        - rich_text
+        name: text
+        required: false
+        widget: markdown
+      - default: large
+        i18n: true
+        label: Grid
+        name: grid
+        options:
+        - label: Small
+          value: small
+        - label: Medium
+          value: medium
+        - label: Large
+          value: large
+        - label: Container
+          value: container
+        - label: Full
+          value: full
+        required: true
+        widget: select
+      i18n: true
+      label: Paragraph
+      name: paragraph
+      required: false
+      widget: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Surtitle
+          name: surtitle
+          required: false
+          widget: string
+        - i18n: true
+          label: Title
+          name: title
+          required: false
+          widget: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          i18n: true
+          label: Text
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          widget: markdown
+        i18n: true
+        label: Heading
+        name: heading
+        required: false
+        summary: '{{ title }}'
+        widget: object
+      - default: pages
+        i18n: true
+        label: section
+        name: section
+        required: false
+        widget: hidden
+      - collection: pages
+        display_fields:
+        - title
+        i18n: true
+        label: Pages
+        label_singular: Page
+        multiple: true
+        name: items
+        required: true
+        search_fields:
+        - title
+        value_field: '{{slug}}'
+        widget: relation
+      - i18n: true
+        label: Layout
+        name: layout
+        options:
+        - label: Grid
+          value: grid
+        - label: List
+          value: list
+        required: false
+        widget: select
+      - default: true
+        hint: Shows a button to see more items
+        i18n: true
+        label: Show more?
+        name: show_more
+        required: false
+        widget: boolean
+      - default: false
+        i18n: duplicate
+        label: With a background?
+        name: background
+        required: false
+        widget: boolean
+      i18n: true
+      label: Selection Pages
+      name: selected-pages
+      required: false
+      widget: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Surtitle
+          name: surtitle
+          required: false
+          widget: string
+        - i18n: true
+          label: Title
+          name: title
+          required: false
+          widget: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          i18n: true
+          label: Text
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          widget: markdown
+        i18n: true
+        label: Heading
+        name: heading
+        required: false
+        summary: '{{ title }}'
+        widget: object
+      - default: projects
+        i18n: true
+        label: section
+        name: section
+        required: false
+        widget: hidden
+      - collection: projects
+        display_fields:
+        - title
+        i18n: true
+        label: Projects
+        label_singular: Project
+        multiple: true
+        name: items
+        required: true
+        search_fields:
+        - title
+        value_field: '{{slug}}'
+        widget: relation
+      - i18n: true
+        label: Layout
+        name: layout
+        options:
+        - label: Grid
+          value: grid
+        - label: List
+          value: list
+        required: false
+        widget: select
+      - default: true
+        hint: Shows a button to see more items
+        i18n: true
+        label: Show more?
+        name: show_more
+        required: false
+        widget: boolean
+      - default: false
+        i18n: duplicate
+        label: With a background?
+        name: background
+        required: false
+        widget: boolean
+      i18n: true
+      label: Selection Projects
+      name: selected-projects
+      required: false
+      widget: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Surtitle
+          name: surtitle
+          required: false
+          widget: string
+        - i18n: true
+          label: Title
+          name: title
+          required: false
+          widget: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          i18n: true
+          label: Text
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          widget: markdown
+        i18n: true
+        label: Heading
+        name: heading
+        required: false
+        summary: '{{ title }}'
+        widget: object
+      - default: projects_clients
+        i18n: true
+        label: section
+        name: section
+        required: false
+        widget: hidden
+      - collection: projects_clients
+        display_fields:
+        - title
+        i18n: true
+        label: Clients
+        label_singular: Client
+        multiple: true
+        name: items
+        required: true
+        search_fields:
+        - title
+        value_field: '{{title}}'
+        widget: relation
+      - i18n: true
+        label: Layout
+        name: layout
+        options:
+        - label: Grid
+          value: grid
+        - label: List
+          value: list
+        required: false
+        widget: select
+      - default: true
+        hint: Shows a button to see more items
+        i18n: true
+        label: Show more?
+        name: show_more
+        required: false
+        widget: boolean
+      - default: false
+        i18n: duplicate
+        label: With a background?
+        name: background
+        required: false
+        widget: boolean
+      i18n: true
+      label: Selection Clients
+      name: selected-projects_clients
+      required: false
+      widget: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Surtitle
+          name: surtitle
+          required: false
+          widget: string
+        - i18n: true
+          label: Title
+          name: title
+          required: false
+          widget: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          i18n: true
+          label: Text
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          widget: markdown
+        i18n: true
+        label: Heading
+        name: heading
+        required: false
+        summary: '{{ title }}'
+        widget: object
+      - default: projects_tags
+        i18n: true
+        label: section
+        name: section
+        required: false
+        widget: hidden
+      - collection: projects_tags
+        display_fields:
+        - title
+        i18n: true
+        label: Tags
+        label_singular: Tag
+        multiple: true
+        name: items
+        required: true
+        search_fields:
+        - title
+        value_field: '{{title}}'
+        widget: relation
+      - i18n: true
+        label: Layout
+        name: layout
+        options:
+        - label: Grid
+          value: grid
+        - label: List
+          value: list
+        required: false
+        widget: select
+      - default: true
+        hint: Shows a button to see more items
+        i18n: true
+        label: Show more?
+        name: show_more
+        required: false
+        widget: boolean
+      - default: false
+        i18n: duplicate
+        label: With a background?
+        name: background
+        required: false
+        widget: boolean
+      i18n: true
+      label: Selection Tags
+      name: selected-projects_tags
+      required: false
+      widget: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Surtitle
+          name: surtitle
+          required: false
+          widget: string
+        - i18n: true
+          label: Title
+          name: title
+          required: false
+          widget: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          i18n: true
+          label: Text
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          widget: markdown
+        i18n: true
+        label: Heading
+        name: heading
+        required: false
+        summary: '{{ title }}'
+        widget: object
+      - default: projects_talents
+        i18n: true
+        label: section
+        name: section
+        required: false
+        widget: hidden
+      - collection: projects_talents
+        display_fields:
+        - title
+        i18n: true
+        label: Talents
+        label_singular: Talent
+        multiple: true
+        name: items
+        required: true
+        search_fields:
+        - title
+        value_field: '{{title}}'
+        widget: relation
+      - i18n: true
+        label: Layout
+        name: layout
+        options:
+        - label: Grid
+          value: grid
+        - label: List
+          value: list
+        required: false
+        widget: select
+      - default: true
+        hint: Shows a button to see more items
+        i18n: true
+        label: Show more?
+        name: show_more
+        required: false
+        widget: boolean
+      - default: false
+        i18n: duplicate
+        label: With a background?
+        name: background
+        required: false
+        widget: boolean
+      i18n: true
+      label: Selection Talents
+      name: selected-projects_talents
+      required: false
+      widget: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Surtitle
+          name: surtitle
+          required: false
+          widget: string
+        - i18n: true
+          label: Title
+          name: title
+          required: false
+          widget: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          i18n: true
+          label: Text
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          widget: markdown
+        i18n: true
+        label: Heading
+        name: heading
+        required: false
+        summary: '{{ title }}'
+        widget: object
+      - default: projects_types
+        i18n: true
+        label: section
+        name: section
+        required: false
+        widget: hidden
+      - collection: projects_types
+        display_fields:
+        - title
+        i18n: true
+        label: Types
+        label_singular: Type
+        multiple: true
+        name: items
+        required: true
+        search_fields:
+        - title
+        value_field: '{{title}}'
+        widget: relation
+      - i18n: true
+        label: Layout
+        name: layout
+        options:
+        - label: Grid
+          value: grid
+        - label: List
+          value: list
+        required: false
+        widget: select
+      - default: true
+        hint: Shows a button to see more items
+        i18n: true
+        label: Show more?
+        name: show_more
+        required: false
+        widget: boolean
+      - default: false
+        i18n: duplicate
+        label: With a background?
+        name: background
+        required: false
+        widget: boolean
+      i18n: true
+      label: Selection Types
+      name: selected-projects_types
+      required: false
+      widget: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Surtitle
+          name: surtitle
+          required: false
+          widget: string
+        - i18n: true
+          label: Title
+          name: title
+          required: false
+          widget: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          i18n: true
+          label: Text
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          widget: markdown
+        i18n: true
+        label: Heading
+        name: heading
+        required: false
+        summary: '{{ title }}'
+        widget: object
+      - collapsed: true
+        fields:
+        - hint: The platform where the video is located
+          i18n: true
+          label: Platform
+          name: platform
+          options:
+          - label: Vimeo
+            value: vimeo
+          - label: Youtube
+            value: youtube
+          required: false
+          widget: select
+        - i18n: true
+          label: Video ID
+          name: id
+          required: false
+          widget: string
+        i18n: true
+        label: Video embed
+        name: video_embed
+        required: false
+        widget: object
+      - default: large
+        i18n: true
+        label: Grid
+        name: grid
+        options:
+        - label: Small
+          value: small
+        - label: Medium
+          value: medium
+        - label: Large
+          value: large
+        - label: Container
+          value: container
+        - label: Full
+          value: full
+        required: true
+        widget: select
+      i18n: true
+      label: Video
+      name: video
+      required: false
+      widget: object
+    widget: list
+  - hint: Leave empty to automate with the title. **Be careful to SEO impact.**
+    i18n: true
+    label: Slug
+    name: slug
+    pattern:
+    - ^(|[a-z0-9-]+)$
+    - Contain only lowercase letters, numbers, and hyphens, with no spaces, accents, or special characters
+    required: false
+    widget: string
+  filter:
+    field: isPage
+    value: true
+  folder: content
+  i18n: true
+  label: Pages
+  label_singular: Page
+  media_folder: /assets/images/uploads
+  name: pages
+  nested:
+    depth: 5
+  path: '{{slug}}/_index'
+  slug: '{{slug}}'
+- create: true
+  description: All projects
+  editor:
+    preview: false
+  fields:
+  - default: true
+    i18n: true
+    label: Draft
+    name: draft
+    required: false
+    widget: boolean
+  - default: '{{now}}'
+    i18n: duplicate
+    label: Date
+    name: date
+    required: true
+    widget: datetime
+  - hint: Displayed in tabs, search results, and in SMS/Messages/Social networks preview
+    i18n: true
+    label: Page title
+    name: title
+    required: true
+    widget: string
+  - hint: Displayed in tabs, search results, and in SMS/Messages/Social networks preview
+    i18n: true
+    label: Description
+    name: description
+    required: false
+    widget: text
+  - collection: projects_types
+    display_fields:
+    - title
+    i18n: true
+    label: Types
+    label_singular: Type
+    multiple: true
+    name: projects_types
+    required: false
+    search_fields:
+    - title
+    value_field: '{{title}}'
+    widget: relation
+  - collection: projects_tags
+    display_fields:
+    - title
+    i18n: true
+    label: Tags
+    label_singular: Tag
+    multiple: true
+    name: projects_tags
+    required: false
+    search_fields:
+    - title
+    value_field: '{{title}}'
+    widget: relation
+  - collection: projects_clients
+    display_fields:
+    - title
+    i18n: true
+    label: Clients
+    label_singular: Client
+    multiple: true
+    name: projects_clients
+    required: false
+    search_fields:
+    - title
+    value_field: '{{title}}'
+    widget: relation
+  - collection: projects_talents
+    display_fields:
+    - title
+    i18n: true
+    label: Talents
+    label_singular: Talent
+    multiple: true
+    name: projects_talents
+    required: false
+    search_fields:
+    - title
+    value_field: '{{title}}'
+    widget: relation
+  - collapsed: true
+    fields:
+    - choose_url: false
+      hint: 'Resize and compress image before sending : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+      i18n: true
+      label: Image
+      media_folder: /assets/images/uploads
+      media_library:
+        config:
+          max_file_size: '700000'
+      name: src
+      public_folder: /images/uploads
+      required: false
+      widget: image
+    - hint: For an image that conveys information (leave blank if decorative image)
+      i18n: true
+      label: Text alternative
+      name: alt
+      required: false
+      widget: string
+    hint: Displayed in search results, and in SMS/Messages/Social networks preview
+    i18n: true
+    label: Image principale
+    name: image
+    required: false
+    widget: object
+  - collapsed: true
+    fields:
+    - hint: The platform where the video is located
+      i18n: true
+      label: Platform
+      name: platform
+      options:
+      - label: Vimeo
+        value: vimeo
+      - label: Youtube
+        value: youtube
+      required: false
+      widget: select
+    - i18n: true
+      label: Video ID
+      name: id
+      required: false
+      widget: string
+    i18n: true
+    label: Video embed
+    name: video_embed
+    required: false
+    widget: object
+  - collapsed: true
+    fields:
+    - i18n: true
+      label: Title
+      name: title
+      required: false
+      widget: string
+    - i18n: true
+      label: Text
+      name: text
+      required: false
+      widget: string
+    i18n: true
+    label: Datas
+    label_singular: Data
+    minimize_collapsed: true
+    name: datas
+    required: false
+    widget: list
+  - collapsed: true
+    fields:
+    - choose_url: false
+      hint: 'Resize and compress image before sending : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+      i18n: true
+      label: Image
+      media_folder: /assets/images/uploads
+      media_library:
+        config:
+          max_file_size: '700000'
+      name: src
+      public_folder: /images/uploads
+      required: false
+      widget: image
+    - hint: For an image that conveys information (leave blank if decorative image)
+      i18n: true
+      label: Text alternative
+      name: alt
+      required: false
+      widget: string
+    - buttons:
+      - link
+      i18n: true
+      label: Credit
+      minimal: true
+      modes:
+      - rich_text
+      name: credit
+      required: false
+      widget: markdown
+    - i18n: true
+      label: Legend
+      name: legend
+      required: false
+      widget: string
+    - i18n: true
+      label: Half size?
+      name: half
+      required: false
+      widget: boolean
+    i18n: true
+    label: Images
+    label_singular: Image
+    minimize_collapsed: true
+    name: images
+    required: false
+    widget: list
+  filter:
+    field: isIndex
+    value: false
+  folder: content/projects
+  i18n: true
+  label: Projects
+  label_singular: Project
+  media_folder: /assets/images/uploads
+  name: projects
+  path: '{{year}}/{{slug}}'
+  slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+  summary: '{{year}} - {{title | upper}} - {{projects_clients.0}} {{projects_clients.1}}'
+- create: true
+  editor:
+    preview: false
+  fields:
+  - default: false
+    i18n: true
+    label: is not index
+    name: isIndex
+    required: false
+    widget: hidden
+  - default: true
+    i18n: true
+    label: Draft
+    name: draft
+    required: false
+    widget: boolean
+  - hint: Displayed in tabs, search results, and in SMS/Messages/Social networks preview
+    i18n: true
+    label: Page title
+    name: title
+    required: true
+    widget: string
+  - hint: Displayed in tabs, search results, and in SMS/Messages/Social networks preview
+    i18n: true
+    label: Description
+    name: description
+    required: false
+    widget: text
+  - hint: Leave empty to automate with the title. **Be careful to SEO impact.**
+    i18n: true
+    label: Slug
+    name: slug
+    pattern:
+    - ^(|[a-z0-9-]+)$
+    - Contain only lowercase letters, numbers, and hyphens, with no spaces, accents, or special characters
+    required: false
+    widget: string
+  folder: content/projects_clients
+  i18n: true
+  label: Clients
+  label_singular: Client
+  media_folder: /assets/images/uploads
+  name: projects_clients
+  path: '{{slug}}/_index'
+  slug: '{{slug}}'
+- create: true
+  description: All projects tags
+  editor:
+    preview: false
+  fields:
+  - default: false
+    i18n: true
+    label: is not index
+    name: isIndex
+    required: false
+    widget: hidden
+  - default: true
+    i18n: true
+    label: Draft
+    name: draft
+    required: false
+    widget: boolean
+  - hint: Displayed in tabs, search results, and in SMS/Messages/Social networks preview
+    i18n: true
+    label: Page title
+    name: title
+    required: true
+    widget: string
+  - hint: Displayed in tabs, search results, and in SMS/Messages/Social networks preview
+    i18n: true
+    label: Description
+    name: description
+    required: false
+    widget: text
+  - hint: Leave empty to automate with the title. **Be careful to SEO impact.**
+    i18n: true
+    label: Slug
+    name: slug
+    pattern:
+    - ^(|[a-z0-9-]+)$
+    - Contain only lowercase letters, numbers, and hyphens, with no spaces, accents, or special characters
+    required: false
+    widget: string
+  filter:
+    field: isIndex
+    value: false
+  folder: content/projects_tags
+  i18n: true
+  label: Tags
+  label_singular: Tag
+  media_folder: /assets/images/uploads
+  name: projects_tags
+  path: '{{slug}}/_index'
+  slug: '{{slug}}'
+- create: true
+  editor:
+    preview: false
+  fields:
+  - default: true
+    i18n: true
+    label: Draft
+    name: draft
+    required: false
+    widget: boolean
+  - hint: Displayed in tabs, search results, and in SMS/Messages/Social networks preview
+    i18n: true
+    label: Page title
+    name: title
+    required: true
+    widget: string
+  - hint: Displayed in tabs, search results, and in SMS/Messages/Social networks preview
+    i18n: true
+    label: Description
+    name: description
+    required: false
+    widget: text
+  - collapsed: true
+    fields:
+    - choose_url: false
+      hint: 'Resize and compress image before sending : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+      i18n: true
+      label: Image
+      media_folder: /assets/images/uploads
+      media_library:
+        config:
+          max_file_size: '700000'
+      name: src
+      public_folder: /images/uploads
+      required: false
+      widget: image
+    - hint: For an image that conveys information (leave blank if decorative image)
+      i18n: true
+      label: Text alternative
+      name: alt
+      required: false
+      widget: string
+    hint: Displayed in search results, and in SMS/Messages/Social networks preview
+    i18n: true
+    label: Image principale
+    name: image
+    required: false
+    widget: object
+  folder: content/projects_talents
+  i18n: true
+  label: Talents
+  label_singular: Talent
+  media_folder: /assets/images/uploads
+  name: projects_talents
+  path: '{{slug}}/_index'
+  slug: '{{slug}}'
+- create: true
+  description: All projects types
+  editor:
+    preview: false
+  fields:
+  - default: false
+    i18n: true
+    label: is not index
+    name: isIndex
+    required: false
+    widget: hidden
+  - default: true
+    i18n: true
+    label: Draft
+    name: draft
+    required: false
+    widget: boolean
+  - hint: Displayed in tabs, search results, and in SMS/Messages/Social networks preview
+    i18n: true
+    label: Page title
+    name: title
+    required: true
+    widget: string
+  - hint: Displayed in tabs, search results, and in SMS/Messages/Social networks preview
+    i18n: true
+    label: Description
+    name: description
+    required: false
+    widget: text
+  - hint: Leave empty to automate with the title. **Be careful to SEO impact.**
+    i18n: true
+    label: Slug
+    name: slug
+    pattern:
+    - ^(|[a-z0-9-]+)$
+    - Contain only lowercase letters, numbers, and hyphens, with no spaces, accents, or special characters
+    required: false
+    widget: string
+  filter:
+    field: isIndex
+    value: false
+  folder: content/projects_types
+  i18n: true
+  label: Types
+  label_singular: Type
+  media_folder: /assets/images/uploads
+  name: projects_types
+  path: '{{slug}}/_index'
+  slug: '{{slug}}'
+
+
