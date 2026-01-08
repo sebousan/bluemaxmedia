@@ -1,7 +1,0 @@
-{{ with .video_embed }}
-  {{- if and .id .platform }}
-    <div class="hero-cover">
-      <div id="{{ .platform }}-player" data-video-id="{{ .id }}"></div>
-    </div>
-  {{- end }}
-{{- end }}
