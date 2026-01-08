@@ -20,6 +20,16 @@ images:
   - src: /images/uploads/cameramanbike1.jpg
   - src: /images/uploads/cwd.jpg
   - src: /images/uploads/cwd.jpg
+photos:
+  - src: /images/uploads/cwd.jpg
+  - src: /images/uploads/cwd.jpg
+  - src: /images/uploads/cwd.jpg
+  - src: /images/uploads/cwd.jpg
+  - src: /images/uploads/cwd.jpg
+  - src: /images/uploads/cwd.jpg
+  - src: /images/uploads/cwd.jpg
+  - src: /images/uploads/cwd.jpg
+  - src: /images/uploads/cwd.jpg
 video_embed:
   id: 5CK4pQRNXL4
   platform: youtube

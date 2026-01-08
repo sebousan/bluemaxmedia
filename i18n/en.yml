@@ -9,6 +9,10 @@ admin:
         one: Talent
         other: Talents
   fields:
+    photos:
+      label: 
+        one: Photo
+        other: Photos
     projects_clients:
       label: 
         one: Client
@@ -18,7 +22,8 @@ admin:
         one: Talent
         other: Talents
       
-
+projects:
+  behind_scene: Behind the scene
 projects_clients:
   title: 
     one: Client

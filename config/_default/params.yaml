@@ -12,6 +12,9 @@ projects:
   images:
     desktop: "x402"
     mobile: "x402"
+  photos:
+    desktop: "1296x730"
+    mobile: "x402"
 blocks:
   informations:
     image:
@@ -25,11 +28,13 @@ carousel: true
 map: false
 bootstrap:
   modal: false
+# vimeo: true
+youtube: true
 
 # Admin
 admin:
 
-  cms: pagescms
+  # cms: pagescms
 
   i18n:
     default_locale: fr
@@ -73,6 +78,7 @@ admin:
             multiple: true
         - featured_image
         - video_embed
+        - photos
         - datas
         - images
       summary: "{{year}} - {{title | upper}} - {{projects_clients.0}} {{projects_clients.1}}"
