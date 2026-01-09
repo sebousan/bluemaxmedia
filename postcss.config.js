@@ -25,6 +25,9 @@ module.exports = {
             /-backdrop$/,
             /^is-/,
             /^splide_/
+          ],
+          greedy: [
+            /^data-anim/
           ]
         },
         defaultExtractor: (content) => {
