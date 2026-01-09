@@ -54,6 +54,8 @@ admin:
       enable: false
     
     pages:
+      nested:
+        depth: 1
       view:
         node:
           filename: _index.md

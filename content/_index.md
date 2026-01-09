@@ -1,5 +1,5 @@
 ---
-isIndex: true
+isPage: true
 draft: false
 title: Home
 hero:
@@ -7,13 +7,13 @@ hero:
     src: /images/uploads/Blue-Max-Media-Recent-works.jpg
   ctas:
     - text: Commercial
-      url: /works/types/commercial/
+      url: /works/commercial/
     - text: Films
-      url: /works/types/films/
+      url: /works/films/
     - text: Content
-      url: /works/types/content/
+      url: /works/content/
     - text: Documentaries
-      url: /works/types/documentaries/
+      url: /works/documentaries/
   video_embed:
     platform: youtube
     id: 6mzTBLU2pVw

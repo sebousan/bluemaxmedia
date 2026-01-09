@@ -1,5 +1,5 @@
 ---
 isIndex: true
 draft: true
-title: Clients
+title: Types
 ---

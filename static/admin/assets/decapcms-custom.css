@@ -1,0 +1,6 @@
+aside [href='#/collections/projects_clients'] span::before {
+  content: '\F1CC';
+}
+aside [href='#/collections/projects_talents'] span::before {
+  content: '\F4D0';
+}

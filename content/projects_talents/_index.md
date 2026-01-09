@@ -1,5 +1,5 @@
 ---
 isIndex: true
-draft: false
+draft: true
 title: Talents
 ---
