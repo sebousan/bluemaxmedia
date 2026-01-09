@@ -1,0 +1,178 @@
+@media (prefers-reduced-motion: no-preference)
+   
+    [data-anim="hero"]
+        .surtitle,
+        h1,
+        .description,
+        .cta div,
+        .hero-with-cover
+            opacity: 0
+            transform: translateY($transition-translate)
+            transition-property: opacity, transform
+            transition-duration: $transition-duration
+            transition-timing-function: $transition-effect
+        &[data-anim-show]
+            .surtitle,
+            h1,
+            .description,
+            .cta div,
+            .hero-with-cover
+                opacity: 1
+                transform: translateY(0)
+            h1
+                transition-delay: calc(#{$transition-delay} * 0.2)
+            .cta div
+                &:first-child
+                    transition-delay: calc(#{$transition-delay} * 0.4)
+                &:nth-child(2)
+                    transition-delay: calc(#{$transition-delay} * 0.6)
+                &:nth-child(3)
+                    transition-delay: calc(#{$transition-delay} * 0.8)
+                &:nth-child(4)
+                    transition-delay: calc(#{$transition-delay} * 1)
+                &:nth-child(5)
+                    transition-delay: calc(#{$transition-delay} * 1.2)
+
+    [data-anim="heading"],
+    [data-anim="content"],
+    [data-anim="sidebar"],
+    [data-anim="pagination"]
+        opacity: 0
+        transform: translateY($transition-translate)
+        transition-duration: $transition-duration
+        transition-property: opacity, transform
+        transition-timing-function: $transition-effect
+        &[data-anim-show]
+            opacity: 1
+            transform: translateY(0)
+
+    [data-anim="content"]
+        transition-delay: calc(#{$transition-delay} * 0.25)
+
+    [data-anim="sidebar"]
+        transition-delay: calc(#{$transition-delay} * 0.5)
+
+    [data-anim="pagination"]
+        transition-delay: $transition-delay
+
+    [data-anim="item"]
+        opacity: 0
+        transform: translateY($transition-translate)
+        transition-delay: calc(#{$transition-delay} * 0.5)
+        transition-duration: $transition-duration
+        transition-timing-function: $transition-effect
+        transition-property: opacity, transform
+        .block-latest &,
+        .block-selected &
+            @include media-breakpoint-down(lg)
+                transform: none
+        &[data-anim-show]
+            opacity: 1
+            transform: translateY(0)
+
+    [data-anim="figure"]
+        opacity: 0
+        transition-delay: calc(#{$transition-delay} * 0.5)
+        transition-duration: $transition-duration
+        transition-property: opacity
+        transition-timing-function: $transition-effect
+        &[data-anim-show]
+            opacity: 1
+
+    // [data-anim="details"]
+    //     opacity: 0
+    //     transform: translateY($transition-translate)
+    //     transition-delay: calc(#{$transition-delay} * 0.5)
+    //     transition-duration: $transition-duration
+    //     transition-property: opacity, transform
+    //     transition-timing-function: $transition-effect
+    //     &[data-anim-show]
+    //         opacity: 1
+    //         transform: translateY(0)
+
+    [data-anim="block"]
+        h2
+            opacity: 0
+            transform: translateY($transition-translate)
+            transition-delay: calc(#{$transition-delay} * 0.3)
+            transition-duration: $transition-duration
+            transition-property: opacity, transform
+            transition-timing-function: $transition-effect
+        &[data-anim-show]
+            h2
+                opacity: 1
+                transform: translateY(0)
+
+        &.block-editorial
+            .cta,
+            .text
+                opacity: 0
+                transform: translateY($transition-translate)
+                transition-duration: $transition-duration
+                transition-property: opacity, transform
+                transition-timing-function: $transition-effect
+            h2 + *,
+            .text + .cta
+                transition-delay: calc(#{$transition-delay} * 0.6)
+            h2 + .text + .cta,
+                transition-delay: calc(#{$transition-delay} * 0.9)
+            &[data-anim-show]
+                .surtitle,
+                .cta,
+                .text
+                    opacity: 1
+                    transform: translateY(0)
+        
+        &.block-figure
+            h2
+                transition-delay: calc(#{$transition-delay} * 1)
+
+        &.block-logos
+            .logos
+                opacity: 0
+                transform: translateY($transition-translate)
+                transition-delay: calc(#{$transition-delay} * 1)
+                transition-duration: $transition-duration
+                transition-property: opacity, transform
+                transition-timing-function: $transition-effect
+            &[data-anim-show]
+                .logos
+                    opacity: 1
+                    transform: translateY(0)
+
+        &.block-paragraph
+            .text,
+            .cta
+                opacity: 0
+                transform: translateY($transition-translate)
+                transition-delay: calc(#{$transition-delay} * 1)
+                transition-duration: $transition-duration
+                transition-property: opacity, transform
+                transition-timing-function: $transition-effect
+            &[data-anim-show]
+                .text,
+                .cta
+                    opacity: 1
+                    transform: translateY(0)
+        
+        &.block-datas,
+        &.block-informations
+            .items > *
+                opacity: 0
+                transform: translateY($transition-translate)
+                transition-delay: calc(#{$transition-delay} * 0.2)
+                transition-duration: $transition-duration
+                transition-property: opacity, transform
+                transition-timing-function: $transition-effect
+                &:nth-child(2)
+                    transition-delay: calc(#{$transition-delay} * .4)
+                &:nth-child(3)
+                    transition-delay: calc(#{$transition-delay} * .6)
+                &:nth-child(4)
+                    transition-delay: calc(#{$transition-delay} * .8)
+                &:nth-child(5)
+                    transition-delay: calc(#{$transition-delay} * 1)
+            &[data-anim-show]
+                .items > *
+                    opacity: 1
+                    transform: translateY(0)

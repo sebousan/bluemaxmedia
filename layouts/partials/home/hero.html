@@ -12,7 +12,14 @@
       {{ partial (print "commons/hero/cover/" $cover ".html") . }}
       <div class="container">
         <div class="row">
-          {{ partial "commons/hero/content.html" . }}
+          <div class="hero-content">
+            {{- with .ctas }}
+            <div class="cta" role="group">
+              {{- range . -}}
+                <div>{{ partial "commons/cta.html" . }}</div>
+              {{- end -}}
+            </div>
+            {{- end }}
         </div>
       </div>
     </header>

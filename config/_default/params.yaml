@@ -24,6 +24,7 @@ blocks:
       ratio: .375
 
 # JS
+animation: true
 carousel: true
 map: false
 bootstrap:
