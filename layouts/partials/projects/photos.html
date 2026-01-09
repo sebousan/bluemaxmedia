@@ -1,5 +1,5 @@
 {{- with .Params.photos }}
-<section>
+<section class="photos">
   {{- $items := slice }}
   {{- range . }}
     {{- $item := . | merge (dict 

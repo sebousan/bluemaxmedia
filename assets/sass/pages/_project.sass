@@ -30,13 +30,17 @@
 
     .content-body
         max-width: 55rem
+
+    .featured-video + .photos
+        margin-top: $grid-gutter-width
+        .splide__arrow
+            top: calc(100% + 1.5rem)
     
     .carousel
-        margin-top: $grid-gutter-width
         .splide__arrow
             background: transparent
             border-radius: 0
-            top: -3em
+            top: -2em
             svg
                 display: none
             &--prev

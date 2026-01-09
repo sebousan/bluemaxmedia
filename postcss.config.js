@@ -25,8 +25,7 @@ module.exports = {
             /-backdrop$/,
             /^is-/,
             /^splide_/
-          ],
-          deep: [/^tobii/]
+          ]
         },
         defaultExtractor: (content) => {
           let els = JSON.parse(content).htmlElements;
