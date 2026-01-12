@@ -1,0 +1,30 @@
+{{- /*
+Renders a platform video via API.
+
+@param {string} [id] The video id.
+@param {string} [platform] The platform to use for embedding the video (vimeo and youtube).
+
+@returns {template.HTML}
+*/}}
+{{- $id := .id | default false -}}
+{{- $platform := .platform | default "youtube" -}}
+{{- $poster := .poster | default false -}}
+{{- $desktop := .desktop | default false -}}
+{{- $mobile := .mobile | default false -}}
+
+{{- if and $platform $id }}
+  {{- with $poster }}
+    {{ partial "commons/image" (dict
+      "src" . 
+      "picture_class" "poster js-video-play-pause"
+      "desktop" "1296x729"
+      "mobile" "640x360"
+    ) }}
+  {{- end }}
+  <div class="js-{{ $platform }}-player" 
+      id="{{ $id }}"
+      data-video-id="{{ $id }}" 
+      {{- if or .autoplay (eq .autoplay 0) }} data-video-autoplay="{{ .autoplay }}"{{ end }} 
+      {{- if or .controls (eq .controls 0) }} data-video-controls="{{ .controls }}"{{ end -}}
+      ></div>
+{{- end }}

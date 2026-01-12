@@ -8,7 +8,36 @@
         overflow: hidden
 
 .featured-video
+    position: relative
+    .poster
+        background-color: black
+        cursor: pointer
+        inset: 0
+        position: absolute
+        transition: opacity $global-transition
+        img
+            height: 100%
+            object-fit: cover
+            transition: opacity $global-transition
+            width: 100%
+        &::after
+            @include icon("play-circle-fill")
+            color: white
+            font-size: 3rem
+            left: 50%
+            position: absolute
+            top: 50%
+            transform: translate(-50%, -50%)
+        &:hover
+            img
+                opacity: .7
     iframe
         aspect-ratio: 16/9
         height: auto
+        display: block
         width: 100%
+
+    &.is-playing
+        .poster
+            opacity: 0
+            pointer-events: none

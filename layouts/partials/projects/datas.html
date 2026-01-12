@@ -4,11 +4,11 @@
   {{- $datas = $datas | append . }}
 {{- end }}
 {{- with .GetTerms "projects_athletes" }}
-  {{ range . }}
+  {{- range . }}
     {{- $text := printf `<a href="%s">%s</a>` .Permalink .Title }}
     {{- $talents := dict "title" (i18n "projects_athletes.title" 1) "text" $text }}
     {{- $datas = $datas | append $talents }}
-  {{ end }}
+  {{- end }}
 {{- end }}
 
 {{- with $datas }}

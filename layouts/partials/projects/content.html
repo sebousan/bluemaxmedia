@@ -1,7 +1,11 @@
 <div class="content" {{- partial "func/SetAnim.html" (dict "element" "content") }}>
-  {{ with .Params.video_embed }}
+  {{- $poster := .Params.image.src }}
+  {{- with .Params.video_embed }}
+    {{- $video := . | merge (dict "poster" $poster) }}
+    {{- $video = $video | merge (dict "autoplay" 0) }}
+    {{- $video = $video | merge (dict "controls" 1) }}
     <div class="featured-video">
-      {{- partial "commons/video-embed.html" . }}
+      {{- partial "commons/video-embed-api.html" $video }}
     </div>
   {{ end }}
   {{ partial "projects/photos.html" . }}

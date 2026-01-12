@@ -25,14 +25,17 @@
             content: ": "
         li
             margin-bottom: .25rem
+    figure,
     p
         margin-bottom: 0
+    .content
+        display: grid
+        gap: $grid-gutter-width
 
     .content-body
         max-width: 55rem
 
     .featured-video + .photos
-        margin-top: $grid-gutter-width
         .splide__arrow
             top: calc(100% + 1.5rem)
     
@@ -66,10 +69,12 @@
 
     .grid 
         gap: $grid-gutter-width
+        .heading,
         .sidebar,
         .content,
         nav
-            grid-column: 1 / 13
-        .content,
-        nav
             grid-row: auto
+            margin: 0
+            order: initial
+            @include media-breakpoint-up(md)
+                grid-column: 1 / 13
