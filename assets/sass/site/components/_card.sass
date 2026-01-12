@@ -1,0 +1,13 @@
+.card
+    .media
+        background-color: black
+
+    @media (prefers-reduced-motion: no-preference)
+        a ~.media
+            img
+                transition: opacity $global-transition
+        a:hover 
+            & ~ .media
+                img
+                    opacity: .7
+                    transform: none
