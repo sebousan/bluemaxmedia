@@ -11,7 +11,7 @@ projects_tags:
   - Ski
 projects_clients:
   - Red Bull
-projects_talents:
+projects_athletes:
   - Valentin Delluc
 image:
   src: "/images/uploads/val-delluc-vignette.jpg"

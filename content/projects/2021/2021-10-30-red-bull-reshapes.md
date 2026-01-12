@@ -11,7 +11,7 @@ projects_types:
 projects_tags: 
   - Sport
   - Snowboard
-projects_talents:
+projects_athletes:
   - Pierre Vaultier
 image:
   src: "/images/uploads/miniaturelq-scaled.jpg"

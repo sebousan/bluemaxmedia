@@ -12,7 +12,7 @@ projects_tags:
   - Sport
 projects_clients:
   - Audi
-projects_talents:
+projects_athletes:
   - Candide Thovex
 image:
   src: "/images/uploads/quattro-2-couv.jpg"

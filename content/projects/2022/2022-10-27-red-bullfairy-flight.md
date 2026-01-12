@@ -10,7 +10,7 @@ projects_tags:
   - Advertisement
   - Sport
   - Speed flying
-projects_talents:
+projects_athletes:
   - Valentin Delluc
 projects_clients:
   - Red Bull

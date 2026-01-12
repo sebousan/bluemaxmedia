@@ -11,7 +11,7 @@ projects_tags:
   - Clip 
   - Speed flying
   - Sport
-projects_talents:
+projects_athletes:
   - Fabio Wibmer
   - Valentin Delluc
 projects_clients:

@@ -12,7 +12,7 @@ projects_tags:
   - Tourism
 projects_clients:
   - Red Bull
-projects_talents:
+projects_athletes:
   - Raphael Goberna
 datas:
   - title: Place

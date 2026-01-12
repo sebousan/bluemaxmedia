@@ -13,7 +13,7 @@ projects_tags:
   - Triple cork
 projects_clients:
   - Monster
-projects_talents:
+projects_athletes:
   - Megan Oldham
 image:
   src: "/images/uploads/COUNTING-TO-THREE-WEB.png"

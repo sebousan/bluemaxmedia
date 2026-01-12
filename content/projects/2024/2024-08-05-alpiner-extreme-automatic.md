@@ -10,7 +10,7 @@ projects_tags:
   - Advertisement
   - Skateboard
   - Sport
-projects_talents:
+projects_athletes:
   - Greg Ruhoff
 projects_clients:
   - Alpina

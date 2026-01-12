@@ -4,7 +4,7 @@ admin:
       label: 
         one: Client
         other: Clients
-    projects_talents:
+    projects_athletes:
       label: 
         one: Athlete
         other: Athletes
@@ -17,7 +17,7 @@ admin:
       label: 
         one: Client
         other: Clients
-    projects_talents:
+    projects_athletes:
       label: 
         one: Athlete
         other: Athletes
@@ -28,7 +28,7 @@ projects_clients:
   title: 
     one: Client
     other: Clients
-projects_talents:
+projects_athletes:
   title: 
     one: Athlete
     other: Athletes

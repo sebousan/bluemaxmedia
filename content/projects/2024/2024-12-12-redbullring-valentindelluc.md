@@ -11,7 +11,7 @@ projects_tags:
   - Speed flying
 projects_clients:
   - Red Bull
-projects_talents:
+projects_athletes:
   - Valentin Delluc
 Datas:
   - title: Place

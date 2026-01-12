@@ -77,7 +77,7 @@ admin:
             collection: projects_clients
             multiple: true
         - relation:
-            collection: projects_talents
+            collection: projects_athletes
             multiple: true
         - featured_image
         - video_embed
@@ -105,7 +105,7 @@ admin:
           filename: _index.md
           hideDirs: all
 
-    projects_talents:
+    projects_athletes:
       enable: true
       fields:
         - draft

@@ -12,7 +12,7 @@ projects_tags:
   - X Games
 projects_clients:
   - Faction
-projects_talents:
+projects_athletes:
   - Alex Hall
 image:
   src: "/images/uploads/ALEXHALL_REALSKI2021.jpg"

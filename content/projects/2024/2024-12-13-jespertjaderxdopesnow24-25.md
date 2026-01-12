@@ -10,7 +10,7 @@ projects_tags:
   - Sport
 projects_clients:
   - Dope Snow
-projects_talents:
+projects_athletes:
   - Jesper Tjäder
 image:
   src: "/images/uploads/THUMBNAIL_JESPER_COVER_STORY.jpg"
