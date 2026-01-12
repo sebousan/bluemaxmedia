@@ -23,11 +23,11 @@ module.exports = {
             'hide',
             'fade',
             /-backdrop$/,
-            /^is-/,
-            /^splide_/
+            /^is-/
           ],
           greedy: [
-            /^data-anim/
+            /^data-anim/,
+            /^splide_/
           ]
         },
         defaultExtractor: (content) => {
