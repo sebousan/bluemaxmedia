@@ -34,7 +34,11 @@ video_embed:
   id: 5CK4pQRNXL4
   platform: youtube
 datas:
-  - title: Place
-    text: Spa-Francorchamps, Belgium
+  - title: Producer
+    text: John Doe
+  - title: Director
+    text: John Doe
+  - title: Agency
+    text: John Doe
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec est urna, pellentesque a pretium sit amet, consequat a purus. Pellentesque sed ante ac risus tincidunt fringilla non sed purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec est urna, pellentesque a pretium sit amet, consequat a purus. Pellentesque sed ante ac risus tincidunt fringilla non sed purus. 

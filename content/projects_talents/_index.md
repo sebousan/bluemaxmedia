@@ -1,5 +1,5 @@
 ---
 isIndex: true
 draft: true
-title: Talents
+title: Athletes
 ---

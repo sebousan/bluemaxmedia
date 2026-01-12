@@ -1,7 +1,9 @@
 ---
 isIndex: false
 draft: false
-title: "Ski the world - Audi Quattro x Candide Thovex"
+title: "Ski the world"
+seo: 
+  title: "Ski the world - Audi Quattro x Candide Thovex"
 date: 2021-10-25T14:56:12.000Z
 projects_types: 
   - Content
@@ -17,4 +19,11 @@ image:
 video_embed:
   id: "NHrwcQQ38bA"
   platform: youtube
+datas:
+  - title: Producer
+    text: John Doe
+  - title: Director
+    text: John Doe
+  - title: Agency
+    text: John Doe
 ---

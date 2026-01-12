@@ -1,12 +1,12 @@
 .page-projects
     .heading
+        margin-bottom: 0
         h1
             min-width: 100%
     .sidebar
         display: flex
         flex-wrap: wrap
         gap: $grid-gutter-width
-        margin-top: $grid-gutter-width
         @include media-breakpoint-down(md)
             flex-direction: column
 
@@ -65,9 +65,10 @@
                 overflow: hidden
 
     .grid 
+        gap: $grid-gutter-width
         .sidebar,
         .content,
         nav
             grid-column: 1 / 13
-        .sidebar
-            grid-row: 3
+        .content
+            grid-row: auto

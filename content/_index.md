@@ -30,11 +30,11 @@ blocks:
     heading:
       title: Highlight projects
     layout: grid
+    column: 3
     show_more: true
     items:
       - 2021/2021-10-25-audi-x-candide-thovex
       - 2021/2021-10-08-salomon-trail
-      - 2021/2021-10-17-serre-chevalier-winter
       - 2021/2021-10-24-red-bullflying-over-panama-city
   - type: datas
     items:
@@ -44,11 +44,11 @@ blocks:
         suffix: years
         limit: 1000
       - value: 100
-        title: talents
+        title: athletes
         prefix: +
         limit: 98
-      - value: 50
-        title: athletes
+      - value: 500
+        title: videos
         prefix: +
         limit: 100
     column: 3
@@ -60,7 +60,7 @@ blocks:
     image:
       src: /images/uploads/RedbullRing-ValentinDellucBMM-1.jpg
     ctas:
-      - text: Lear more about us
+      - text: Learn more about us
         url: /about/
   - type: editorial
     direction: ltr
@@ -68,10 +68,10 @@ blocks:
     text: We are athletes filming athletes. Riders, Mountaineers, explorers,
       runners… people who move with purpose and create with instinct.
     image:
-      src: /images/uploads/RedbullRing-ValentinDellucBMM-1.jpg
+      src: /images/uploads/Aerial-Miniature2-scaled.jpg
     ctas:
-      - text: Lear more about us
-        url: /about/
+      - text: Learn more works
+        url: /works/
   - type: figure
     figure:
       screenshot: false

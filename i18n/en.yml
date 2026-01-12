@@ -6,8 +6,8 @@ admin:
         other: Clients
     projects_talents:
       label: 
-        one: Talent
-        other: Talents
+        one: Athlete
+        other: Athletes
   fields:
     photos:
       label: 
@@ -19,8 +19,8 @@ admin:
         other: Clients
     projects_talents:
       label: 
-        one: Talent
-        other: Talents
+        one: Athlete
+        other: Athletes
       
 projects:
   behind_scene: Behind the scene
@@ -30,5 +30,5 @@ projects_clients:
     other: Clients
 projects_talents:
   title: 
-    one: Talent
-    other: Talents
+    one: Athlete
+    other: Athletes
