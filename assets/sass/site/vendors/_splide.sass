@@ -1,0 +1,14 @@
+.splide
+    .splide__arrow
+        background: transparent
+        border-radius: 0
+        svg
+            display: none
+        &--prev
+            &::after
+                @include icon("arrow-left")
+                font-size: 1.4rem
+        &--next
+            &::after
+                @include icon("arrow-right")
+                font-size: 1.4rem
