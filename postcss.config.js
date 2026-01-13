@@ -23,7 +23,8 @@ module.exports = {
             'hide',
             'fade',
             /-backdrop$/,
-            /^is-/
+            /^is-/,
+            /^splide_/
           ],
           greedy: [
             /^data-anim/,
