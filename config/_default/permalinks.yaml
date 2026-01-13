@@ -5,7 +5,7 @@ section:
   projects: /works/
 term:
   projects_athletes: /works/athletes/:slug
-  projects_clients: /works/:slug
+  projects_clients: /works/clients/:slug
   projects_tags: /works/tags/:slug
   projects_types: /works/:slug
 taxonomy:

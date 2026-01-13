@@ -1,5 +1,15 @@
 .list
+    p
+        font-size: .75rem
+    &-tags 
+        li a
+            @include badge
+            --bs-badge-font-size: .625rem
     &-projects_clients,
-    &-projects_athletes,
-    &-projects_types
+    &-projects_athletes
         @extend .list-tags
+    &-projects_types
+        ol
+            flex-direction: column
+        p
+            display: none

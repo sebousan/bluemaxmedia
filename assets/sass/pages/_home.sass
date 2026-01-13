@@ -36,13 +36,12 @@
             --bs-btn-padding-x: 0
             @include button-variant(transparent,transparent, white)
             background: transparent
+
+        &:has(.btn:hover) .btn
+            opacity: .5
         
         .btn
             @include font-size(4.6875rem)
-            text-decoration-color: transparent
-            text-decoration-line: underline
-            text-decoration-thickness: .025em
-            text-underline-offset: .1em
             text-transform: uppercase
             transition: all .3s ease
             @include media-breakpoint-down(lg)
@@ -52,4 +51,4 @@
             &::after
                 content: none
             &:hover
-                text-decoration-color: white
+                opacity: 1 !important
