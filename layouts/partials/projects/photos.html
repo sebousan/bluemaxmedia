@@ -14,8 +14,10 @@
     "perPage" 1 
     "perMove" 1 
     "pagination" false 
-    "gap" 24 
-    }}
+    "gap" 24
+    "breakpoints" (dict 
+      "640" (dict "gap" 0)
+    ) }}
   {{- $args := (dict
           "context" (dict "items" $items "carouselParams" $carouselParams) 
           "partial" "commons/figure.html" 
