@@ -1,5 +1,5 @@
 [build]
-  command = "yarn build:netlify"
+  command = "yarn build"
   publish = "public"
 
 [build.environment]

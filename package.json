@@ -26,7 +26,6 @@
   "scripts": {
     "watch": "hugo server",
     "build": "hugo --noChmod --gc --minify",
-    "build:netlify": "chmod +x ./build.sh && ./build.sh",
     "build:config:pagescms": "node scripts/build-config-pagescms.js",
     "build:icons": "yarn build:icons:bootstrap && yarn build",
     "build:icons:bootstrap": "node scripts/build-icons-bootstrap.js",
