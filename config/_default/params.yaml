@@ -38,7 +38,6 @@ admin:
   # CMS
   cms: sveltiacms
   repo: sebousan/bluemaxmedia
-  branch: __BRANCH__
 
   # CDN
   media:

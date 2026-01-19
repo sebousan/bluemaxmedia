@@ -35,7 +35,7 @@ blocks:
     text: We are athletes filming athletes. Riders, Mountaineers, explorers,
       runners… people who move with purpose and create with instinct.
     image:
-      src: /images/uploads/RedbullRing-ValentinDellucBMM-1.jpg
+      src: https://ucarecdn.com/afd7d55c-98ce-48c1-a907-f54749879e7a/fairyflight.jpg
     ctas:
       - text: Learn more about us
         url: /about/
@@ -46,7 +46,7 @@ blocks:
     text: We are athletes filming athletes. Riders, Mountaineers, explorers,
       runners… people who move with purpose and create with instinct.
     image:
-      src: /images/uploads/Aerial-Miniature2-scaled.jpg
+      src: https://ucarecdn.com/afd7d55c-98ce-48c1-a907-f54749879e7a/fairyflight.jpg
     ctas:
       - text: Learn more works
         url: /works/

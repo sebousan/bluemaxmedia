@@ -1,12 +1,12 @@
 .block-editorial
-    .row
-        align-items: center
-        .content
-            @extend .col-md-6
-        .media
-            @extend .col-md-6
+    .container
+        display: flex
+        flex-direction: column-reverse
+        gap: $gutter-mobile
         @include media-breakpoint-up(md)
-            --bs-gutter-x: 3rem
+            align-items: center
+            flex-direction: row
+            gap: 0
     h2, p
         text-wrap: balance
     .text:not(:last-child)
@@ -23,17 +23,28 @@
         height: auto
         width: 100%
     &-rtl
-        .row
-            flex-direction: row-reverse
+        .container
+            @include media-breakpoint-up(md)
+                flex-direction: row-reverse
     
-    @include media-breakpoint-down(md)
+    .media
+        margin-left: - $gutter-mobile
+        margin-right: - $gutter-mobile
+
+    @include media-breakpoint-up(md)
         .media
-            --bs-gutter-x: calc(#{$gutter-mobile} - (#{$grid-gutter-width} * .5) )
-            margin-bottom: $spacer
-            margin-left: calc(-1 * var(--bs-gutter-x))
-            margin-right: calc(-1 * var(--bs-gutter-x))
-            max-width: none
-            padding-left: 0
-            padding-right: 0
-            order: -1
-            width: calc(2 * var(--bs-gutter-x) + 100%)
+            margin-left: -6rem
+            margin-right: -6rem
+            width: calc(60% + 12rem)
+        .content
+            position: relative
+            width: 40%
+        & + &
+            padding-top: 0
+            @include margin-top(- $global-spacing)
+
+    @include media-breakpoint-up(xxl)
+        .media
+            margin-left: -9rem
+            margin-right: -9rem
+            width: calc(60% + 18rem)
