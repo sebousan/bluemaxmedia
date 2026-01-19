@@ -36,13 +36,17 @@ youtube: true
 admin:
 
   # CMS
-  # cms: pagescms
+  cms: sveltiacms
+  repo: sebousan/bluemaxmedia
 
   # CDN
   media:
+    media_folder: false
+    public_folder: false
     cloud:
-      name: uploadcare
-      public_key: 0a94e9f2f59315581638
+      - name: uploadcare
+        public_key: 0a94e9f2f59315581638
+        tabs: "['file', 'url', 'gdrive']"
   
   # Lang
   i18n:

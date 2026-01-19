@@ -1,10 +1,41 @@
 footer[role="contentinfo"]
-    .logo img
-        filter: invert(1)
+    --bs-body-font-size: .625rem
+    p
+        font-size: var(--bs-body-font-size)
+    .footer-title
+        font-weight: 400
+        margin: 0
+        padding: 0
+        text-transform: uppercase
     .nav-legal
-        --bs-nav-link-font-size: .75rem
+        --bs-nav-link-font-size: .625rem
     .nav-social
-        --bs-nav-link-font-size: 1.125rem
+        --bs-nav-link-font-size: 1rem
     .hugolify
         display: none
         font-size: .75rem
+
+
+    @include media-breakpoint-up(md)
+        .container,
+        .top,
+        .bottom
+            align-items: center
+        .container
+            display: flex
+            gap: 4rem
+        .top
+            display: flex
+            gap: 4rem
+        .information
+            display: flex
+            gap: 2rem
+            p + p
+                margin-top: 0
+        .nav
+            margin: 0
+        .bottom
+            flex: 1
+            flex-direction: row-reverse
+            justify-content: space-between
+            padding-top: 0

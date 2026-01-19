@@ -1,4 +1,5 @@
 .home-page
+    
     header[role="banner"]
         transition: all .3s ease
         left: 0
@@ -17,38 +18,16 @@
                     --bs-nav-link-color: white
                     --bs-nav-link-hover-color: white
     .hero
-        &-content
-            margin-left: auto
-            margin-right: auto
         .container
             min-height: 90vh
             min-height: 90svh
             @media (orientation: landscape)
                 aspect-ratio: 16 / 9
-        .cta
-            align-items: center
-            flex-direction: column
-        .btn:first-child,
-        .btn + .btn
-            --bs-btn-border-width: 0
-            --bs-btn-line-height: 1
-            --bs-btn-padding-y: 0
-            --bs-btn-padding-x: 0
-            @include button-variant(transparent,transparent, white)
-            background: transparent
 
         &:has(.btn:hover) .btn
             opacity: .5
         
         .btn
-            @include font-size(4.6875rem)
-            text-transform: uppercase
             transition: all .3s ease
-            @include media-breakpoint-down(lg)
-                font-size: 3rem
-            @include media-breakpoint-down(md)
-                font-size: 1.5625rem
-            &::after
-                content: none
             &:hover
                 opacity: 1 !important
