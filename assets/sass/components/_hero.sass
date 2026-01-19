@@ -16,7 +16,7 @@
     &-content
         display: flex
         flex-direction: column
-        gap: $spacer
+        gap: $grid-gutter-width
     h1
         @include font-size($hero-h1-font-size)
         color: var(--hero-title-color, $hero-color)
@@ -38,14 +38,11 @@
             object-fit: cover
             pointer-events: none
             width: 100%
-    
-    &-cover-darken
-        img
-            filter: brightness(.3)
-        & + div
-            color: white
-            .btn + .btn
-                @include button-outline-variant($light)
+
+        iframe,
+        img,
+        video
+            filter: brightness(.75)
 
     iframe
         aspect-ratio: 16 / 9
@@ -61,18 +58,6 @@
             height: auto
             min-height: 100%
             min-width: 100vw
-    
-    .btn
-        --bs-btn-color: $white
-        --bs-btn-bg: transparent
-        --bs-btn-hover-color: $white
-        --bs-btn-hover-bg: transparent
-        --bs-btn-focus-shadow-rgb: 217, 217, 217
-        --bs-btn-active-color: $white
-        --bs-btn-active-bg: transparent
-        --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-        --bs-btn-disabled-color: #000000;
-        --bs-btn-disabled-bg: #ffffff;
     
     .is-playing
         iframe

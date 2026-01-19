@@ -5,33 +5,15 @@
         left: 0
         position: fixed
         right: 0
-        .logo
-            transition: filter .3s ease
-        // &:not(.is-sticky)
-        //     background-color: transparent
-        //     .logo
-        //         filter: invert(1)
-        //     .btn-menu > span
-        //         --bs-navbar-toggler-icon-bg: #{$navbar-dark-toggler-icon-bg}
-        //     .main-menu .nav a
-        //         @include media-breakpoint-up(lg)
-        //             --bs-nav-link-color: white
-        //             --bs-nav-link-hover-color: white
+
     .hero
         .container
-            min-height: 90vh
-            min-height: 90svh
+            aspect-ratio: 9 / 16
+            max-height: 90vh
+            max-height: 90svh
             @media (orientation: landscape)
                 aspect-ratio: 16 / 9
         
         h1
             font-size: clamp(2.25rem, 5vw, 6rem)
             // @include font-size($home-hero-h1-font-size)
-
-        &:has(.btn:hover) .btn
-            opacity: .5
-        
-        .btn
-            transition: all .3s ease
-            &:hover
-                opacity: 1 !important
