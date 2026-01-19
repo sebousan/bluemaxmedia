@@ -38,15 +38,16 @@ admin:
   # CMS
   cms: sveltiacms
   repo: sebousan/bluemaxmedia
+  branch: __BRANCH__
 
   # CDN
   media:
-    media_folder: false
-    public_folder: false
+    # media_folder: false
+    # public_folder: false
     cloud:
-      - name: uploadcare
-        public_key: 0a94e9f2f59315581638
-        tabs: "['file', 'url', 'gdrive']"
+      name: uploadcare
+      public_key: 0a94e9f2f59315581638
+      tabs: "['file', 'url', 'gdrive']"
   
   # Lang
   i18n:
@@ -64,8 +65,23 @@ admin:
 
     indexes:
       enable: false
-    
+      fields:
+        - title_page
+        - description
+        - featured_image
+        - hero
+        - blocks
+
     pages:
+      fields:
+        - is_page
+        - draft
+        - title_page
+        - description
+        - featured_image
+        - hero
+        - body
+        - blocks
       nested:
         depth: 1
       view:

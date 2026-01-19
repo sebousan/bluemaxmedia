@@ -2,18 +2,18 @@
 isPage: true
 draft: false
 title: About
+description: ''
 blocks:
   - type: paragraph
     title: Founded in 2015 with passion and technicity
-    text: Built to operate in real action environments and capture authentic
-      performance, and trusted by bold brands for its reliability, cultural
-      understanding, and ability to deliver credible, high-impact stories in
-      demanding conditions.
+    text: Built to operate in real action environments and capture authentic performance, and trusted by bold brands for its reliability, cultural understanding, and ability to deliver credible, high-impact stories in demanding conditions.
     grid: container
   - type: informations
-    column: 4
     heading:
+      surtitle: ''
       title: The core team
+      text: ''
+    column: 4
     items:
       - title: Executive Producer - Director
         text: Nicolas Roubin
@@ -31,4 +31,6 @@ blocks:
         text: Etienne Mérel
         image:
           src: /images/uploads/Montec-Daydreams.png
+slug: ''
 ---
+

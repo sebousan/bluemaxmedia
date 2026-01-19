@@ -64,14 +64,22 @@ blocks:
     heading:
       title: They trust us
     items:
-      - src: /images/uploads/logo-tf1.svg
-      - src: /images/uploads/logo-salomon.svg
-      - src: /images/uploads/logo-airbnb.svg
-      - src: /images/uploads/logo-montec.svg
-      - src: /images/uploads/logo-insta360.svg
-      - src: /images/uploads/logo-bfgoodrich.svg
-      - src: /images/uploads/logo-redbull.svg
-      - src: /images/uploads/logo-audi.svg
-      - src: /images/uploads/logo-michelin.svg
-      - src: /images/uploads/logo-faction.svg
+      - src: https://ucarecdn.com/95d52371-51d8-4219-9507-8d53a63e77a7/logosalomon.svg
+        title: Salomon
+      - src: https://ucarecdn.com/c3e09738-523c-414e-bee8-fbb7f1ed58e3/logoredbull.svg
+        title: Red Bull
+      - src: https://ucarecdn.com/a77557be-6b76-44dc-86ed-ca7495322fee/logoaudi.svg
+        title: Audi
+      - src: https://ucarecdn.com/0c993528-c49d-4d99-939c-78c775114ba8/logofaction.svg
+        title: Faction
+      - src: https://ucarecdn.com/090dc570-bb71-4410-b2df-5d6a5a55ce0d/logomichelin.svg
+        title: Michelin
+      - src: https://ucarecdn.com/ef99c27e-76e7-45ef-b108-f6f96be93ab3/logoairbnb.svg
+        title: Airbnb
+      - src: https://ucarecdn.com/980176e6-3d4d-4b83-9378-76f4cae794f1/logomontec.svg
+        title: Montec
+      - src: https://ucarecdn.com/82b7f008-f44a-4826-8f0b-f5d660ecef78/logoinsta360.svg
+        title: Insta360
+      - src: https://ucarecdn.com/6010095a-b672-4278-b490-9834819e5ebd/logobfgoodrich.svg
+        title: BFGoodrich
 ---
