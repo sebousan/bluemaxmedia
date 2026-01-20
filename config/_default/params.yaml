@@ -1,5 +1,11 @@
 _merge: deep
 
+# Change menu to modal opening
+header:
+  layout: modal
+  modal:
+    size: fullscreen
+
 # Image
 hero:
   cover: '1600x750'
@@ -28,7 +34,7 @@ animation: true
 carousel: true
 map: false
 bootstrap:
-  modal: false
+  modal: true
 # vimeo: true
 youtube: true
 
