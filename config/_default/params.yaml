@@ -41,8 +41,8 @@ admin:
 
   # CDN
   media:
-    # media_folder: false
-    # public_folder: false
+    media_folder: false
+    public_folder: false
     cloud:
       name: uploadcare
       public_key: 0a94e9f2f59315581638
@@ -90,6 +90,7 @@ admin:
 
     projects:
       fields:
+        - is_not_index
         - draft
         - date
         - title_page

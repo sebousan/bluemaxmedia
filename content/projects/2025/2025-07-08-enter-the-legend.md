@@ -1,21 +1,17 @@
 ---
+isIndex: false
 draft: false
 date: 2025-07-08T16:59:00
 title: Enter the legend
 description: Lorem ipsum
 projects_types:
-  - Commercial
   - commercial
 projects_tags:
-  - Clip
-  - Sport
-  - Horse
-  - F1
+  - clip
   - horse
   - f1
   - sport
 projects_clients:
-  - CWD Sellier
   - cwd-sellier
 image:
   src: https://ucarecdn.com/e4ac7cc7-57e0-41c1-a7e6-81d0381884ee/
@@ -45,6 +41,5 @@ images:
     alt: ''
     credit: ''
     legend: ''
-isIndex: false
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec est urna, pellentesque a pretium sit amet, consequat a purus. Pellentesque sed ante ac risus tincidunt fringilla non sed purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec est urna, pellentesque a pretium sit amet, consequat a purus. Pellentesque sed ante ac risus tincidunt fringilla non sed purus.
