@@ -3,7 +3,7 @@
     <p class="surtitle">
     {{- range . }}
       <a href="{{ .Permalink }}">
-        {{- partial "func/PrepareHTML.html" .Title }}
+        {{- partial "func/PrepareHTML.html" .Title -}}
       </a>
     {{- end }}
     </p>

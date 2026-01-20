@@ -4,5 +4,11 @@
             @include surtitle
     .name
         @include title
+    a
+        transition: color $global-transition
+        &:hover
+            color: var(--bs-link-hover-color)
+        .name
+            text-decoration: none
     .media
         border-radius: $border-radius

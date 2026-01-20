@@ -1,4 +1,5 @@
 .btn:not(.btn-filter)
+    --bs-btn-hover-color: #{$link-hover-color}
     &::after
         @include icon("arrow-right")
         font-size: 1.4rem
@@ -10,10 +11,6 @@
                 transform: translateX(.3rem)
         &::after
             transition: transform $transition-duration $transition-effect
-
-.btn-filter
-    --bs-btn-color: $white
-    --bs-btn-bg: $gray
 
 .btn
     text-transform: uppercase

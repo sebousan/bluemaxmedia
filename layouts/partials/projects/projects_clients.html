@@ -1,5 +1,5 @@
 {{ with .GetTerms "projects_clients" }}
   {{ range . }}
-    <p><a href="{{ .Permalink }}">{{ .Title }}</a></p>
+    <p><a href="{{ .Permalink }}">{{ partial "func/PrepareHTML.html" .Title }}</a></p>
   {{ end }}
 {{ end }}

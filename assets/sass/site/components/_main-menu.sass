@@ -2,6 +2,10 @@
     .nav
         --bs-nav-link-font-weight: 800
         text-transform: uppercase
+    .nav-link
+        text-decoration: none
+        transition: all $global-transition
+        &:hover
 
     @include media-breakpoint-down($navbar-expand)
         .modal-dialog
