@@ -77,9 +77,11 @@ blocks:
       params:
         autoplay: true
         arrows: true
+        interval: 2000
         pagination: false
         type: loop
         perPage: 5
+        perMove: 1
         padding: null
         gap: null
       responsive:
@@ -87,7 +89,7 @@ blocks:
           params:
             focus: false
             autoplay: true
-            arrows: true
+            arrows: false
             pagination: false
             type: loop
             perPage: 3

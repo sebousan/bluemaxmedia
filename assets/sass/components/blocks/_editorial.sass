@@ -9,10 +9,10 @@
             gap: 0
     h2, p
         text-wrap: balance
-    .text:not(:last-child)
-        margin-bottom: $paragraph-margin-bottom
     p:last-child
         margin-bottom: 0
+    .text:not(:last-child)
+        margin-bottom: $paragraph-margin-bottom
     figure
         display: block
         margin-bottom: 0
@@ -22,6 +22,8 @@
     img
         height: auto
         width: 100%
+    .cta
+        align-items: flex-start
     &-rtl
         .container
             @include media-breakpoint-up(md)
