@@ -78,6 +78,20 @@ blocks:
         autoplay: true
         arrows: true
         pagination: false
+        type: loop
         perPage: 5
+        padding: null
+        gap: null
+      responsive:
+        - breakpoints: '640'
+          params:
+            focus: false
+            autoplay: true
+            arrows: true
+            pagination: false
+            type: loop
+            perPage: 3
+            padding: null
+            gap: null
 ---
 
