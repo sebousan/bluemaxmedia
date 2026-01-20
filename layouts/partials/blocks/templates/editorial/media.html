@@ -1,0 +1,19 @@
+{{- $lazy := partial "func/isLazyImage" (dict "first" .first) -}}
+{{- with .media }}
+  <div class="media">
+    {{ if or (hasSuffix . "mp4") (hasSuffix . "webm") }}
+      {{- $args := (dict "autoplay" true "loop" true "muted" true) }}
+      {{ if hasSuffix . "webm" }}
+        {{- $args = merge $args (dict "webm" .) }}
+      {{ else }}
+        {{- $args = merge $args (dict "mp4" .) }}
+      {{ end }}
+      {{- partial "commons/video.html" $args -}}
+    {{ else }}
+      {{- $desktop := site.Params.blocks.editorial.desktop | default false -}}
+      {{- $mobile := site.Params.blocks.editorial.mobile | default false -}}
+      {{- $figure := dict "src" . "desktop" $desktop "mobile" $mobile "lazy" $lazy "parallax" true -}}
+      {{- partial "commons/figure.html" $figure -}}
+    {{ end }}
+  </div>
+{{ end -}}

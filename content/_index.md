@@ -35,8 +35,7 @@ blocks:
     ctas:
       - text: Learn more about us
         url: /about/
-    image:
-      src: https://ucarecdn.com/afd7d55c-98ce-48c1-a907-f54749879e7a/fairyflight.jpg
+    media: https://ucarecdn.com/4425664a-e83b-49ec-9a3f-ce23ef1eb6a8/VIDEO20260120182536.mp4
   - type: editorial
     direction: ltr
     title: A live action expert
@@ -44,10 +43,7 @@ blocks:
     ctas:
       - text: Learn more works
         url: /works/
-    image:
-      src: https://ucarecdn.com/afd7d55c-98ce-48c1-a907-f54749879e7a/
-      alt: ''
-      credit: ''
+    media: https://ucarecdn.com/afd7d55c-98ce-48c1-a907-f54749879e7a/
   - type: logos
     heading:
       title: They trust us

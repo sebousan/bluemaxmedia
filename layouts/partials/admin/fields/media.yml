@@ -1,0 +1,7 @@
+{{- $args := dict 
+  "label" "Media"
+  "name" "media"
+  "extensions" (slice "mp4" "webm" "webp" "png" "jpg" "jpeg")
+  -}}
+
+{{ partial "admin/widgets/file.js" $args }}

@@ -35,7 +35,8 @@
       "strong",
       "time",
       "title",
-      "ul"
+      "ul",
+      "video"
     ],
     "classes": [
       "404-page",
@@ -80,12 +81,14 @@
       "hugolify",
       "information",
       "instagram",
+      "is-lazy",
       "item",
       "item-adjacent",
       "items",
       "items-3",
       "items-4",
       "js-carousel",
+      "js-video",
       "js-video-play-pause",
       "js-vimeo-player",
       "js-youtube-player",
