@@ -14,8 +14,6 @@ btnsPlayPause.forEach(playPause => {
         let id = video.dataset.videoId;
         let player = null;
         
-        console.log(YT);
-
         // Try to get YouTube player instance if YT API is ready
         if (typeof YT !== 'undefined' && typeof YT.get === 'function' && id) {
           player = YT.get(id); // Access player via YouTube ID (requires ID on DOM element)
@@ -23,7 +21,9 @@ btnsPlayPause.forEach(playPause => {
 
         if (player && typeof player.playVideo === 'function') {
           player.playVideo();
-          wrapper.classList.toggle('is-playing');
+          setTimeout(() => {
+            wrapper.classList.toggle('is-playing');
+          }, 200);
         } else {
             console.warn('YouTube Player not found or API not ready for ID:', id);
         }
