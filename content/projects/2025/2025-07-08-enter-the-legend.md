@@ -1,38 +1,38 @@
 ---
 draft: false
-projects_clients:
-  - CWD Sellier
-isIndex: false
-date: 2025-07-08T14:59:51.000Z
+date: 2025-07-08T16:59:00
 title: Enter the legend
 description: Lorem ipsum
 projects_types:
   - Commercial
+  - commercial
 projects_tags:
   - Clip
   - Sport
   - Horse
   - F1
+  - horse
+  - f1
+  - sport
+projects_clients:
+  - CWD Sellier
+  - cwd-sellier
 image:
-  src: /images/uploads/cwd.jpg
-images:
-  - src: /images/uploads/cwd.jpg
-  - src: /images/uploads/cameramanbike1.jpg
-  - src: /images/uploads/cwd.jpg
-  - src: /images/uploads/cwd.jpg
-photos:
-  - src: /images/uploads/cwd.jpg
-  - src: /images/uploads/cwd.jpg
-  - src: /images/uploads/cwd.jpg
-  - src: /images/uploads/cwd.jpg
-  - src: /images/uploads/cwd.jpg
-  - src: /images/uploads/cwd.jpg
-  - src: /images/uploads/cwd.jpg
-  - src: /images/uploads/cwd.jpg
-  - src: /images/uploads/cwd.jpg
+  src: https://ucarecdn.com/e4ac7cc7-57e0-41c1-a7e6-81d0381884ee/
+  alt: ''
 video_embed:
-  id: 5CK4pQRNXL4
   platform: youtube
+  id: 5CK4pQRNXL4
+photos:
+  - src: https://ucarecdn.com/e4ac7cc7-57e0-41c1-a7e6-81d0381884ee/
+    alt: ''
+    credit: ''
+  - src: https://ucarecdn.com/e4ac7cc7-57e0-41c1-a7e6-81d0381884ee/
+    alt: ''
+    credit: ''
+  - src: https://ucarecdn.com/e4ac7cc7-57e0-41c1-a7e6-81d0381884ee/
+    alt: ''
+    credit: ''
 datas:
   - title: Producer
     text: John Doe
@@ -40,5 +40,11 @@ datas:
     text: John Doe
   - title: Agency
     text: John Doe
+images:
+  - src: https://ucarecdn.com/e4ac7cc7-57e0-41c1-a7e6-81d0381884ee/
+    alt: ''
+    credit: ''
+    legend: ''
+isIndex: false
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec est urna, pellentesque a pretium sit amet, consequat a purus. Pellentesque sed ante ac risus tincidunt fringilla non sed purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec est urna, pellentesque a pretium sit amet, consequat a purus. Pellentesque sed ante ac risus tincidunt fringilla non sed purus. 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec est urna, pellentesque a pretium sit amet, consequat a purus. Pellentesque sed ante ac risus tincidunt fringilla non sed purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec est urna, pellentesque a pretium sit amet, consequat a purus. Pellentesque sed ante ac risus tincidunt fringilla non sed purus.
