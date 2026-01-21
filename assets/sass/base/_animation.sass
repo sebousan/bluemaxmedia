@@ -79,17 +79,6 @@
         &[data-anim-show]
             opacity: 1
 
-    // [data-anim="details"]
-    //     opacity: 0
-    //     transform: translateY($transition-translate)
-    //     transition-delay: calc(#{$transition-delay} * 0.5)
-    //     transition-duration: $transition-duration
-    //     transition-property: opacity, transform
-    //     transition-timing-function: $transition-effect
-    //     &[data-anim-show]
-    //         opacity: 1
-    //         transform: translateY(0)
-
     [data-anim="block"]
         h2
             opacity: 0
@@ -128,7 +117,7 @@
                 transition-delay: calc(#{$transition-delay} * 1)
 
         &.block-logos
-            .logos
+            .carousel
                 opacity: 0
                 transform: translateY($transition-translate)
                 transition-delay: calc(#{$transition-delay} * 1)
@@ -136,7 +125,7 @@
                 transition-property: opacity, transform
                 transition-timing-function: $transition-effect
             &[data-anim-show]
-                .logos
+                .carousel
                     opacity: 1
                     transform: translateY(0)
 

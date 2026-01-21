@@ -2,17 +2,16 @@
     .container
         display: flex
         flex-direction: column-reverse
-        gap: $gutter-mobile
-        @include media-breakpoint-up(md)
-            align-items: center
-            flex-direction: row
-            gap: 0
+    .media
+        margin-bottom: -1rem
+        margin-left: - $gutter-mobile
+        margin-right: - $gutter-mobile
     h2, p
         text-wrap: balance
     p:last-child
         margin-bottom: 0
     .text:not(:last-child)
-        margin-bottom: $paragraph-margin-bottom
+        margin-bottom: $grid-gutter-width
     figure
         display: block
         margin-bottom: 0
@@ -26,17 +25,16 @@
         width: 100%
     .cta
         align-items: flex-start
-    &-rtl
-        .container
-            @include media-breakpoint-up(md)
-                flex-direction: row-reverse
-    
-    .media
-        margin-left: - $gutter-mobile
-        margin-right: - $gutter-mobile
 
     @include media-breakpoint-up(md)
+        .container
+            align-items: center
+            flex-direction: row
+        &-rtl
+            .container
+                flex-direction: row-reverse
         .media
+            margin-bottom: 0
             margin-left: -6rem
             margin-right: -6rem
             width: calc(60% + 12rem)
@@ -44,9 +42,22 @@
             position: relative
             width: 40%
             z-index: 1
+        figure,
+        picture,
+        img,
+        video
+            height: 100%
+            object-fit: cover
         & + &
             padding-top: 0
             @include margin-top(- $global-spacing)
+    
+    @include media-breakpoint-only(md)
+        .media
+            aspect-ratio: 1.5
+            width: calc(50% + 12rem)
+        .content
+            width: 50%
 
     @include media-breakpoint-up(xxl)
         .media
