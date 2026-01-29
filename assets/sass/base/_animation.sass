@@ -94,7 +94,8 @@
 
         &.block-editorial
             .cta,
-            .text
+            .text,
+            video
                 opacity: 0
                 transform: translateY($transition-translate)
                 transition-duration: $transition-duration
@@ -105,10 +106,13 @@
                 transition-delay: calc(#{$transition-delay} * 0.6)
             h2 + .text + .cta,
                 transition-delay: calc(#{$transition-delay} * 0.9)
+            video
+                transition-delay: calc(#{$transition-delay} * 0.5)
             &[data-anim-show]
                 .surtitle,
                 .cta,
-                .text
+                .text,
+                video
                     opacity: 1
                     transform: translateY(0)
         

@@ -1,0 +1,34 @@
+{{- $noop := .Content -}}{{/* https://gohugo.io/troubleshooting/faq/#why-is-my-page-scratch-or-store-missing-a-value */}}
+  
+{{- $desktop := site.Params.projects.thumbnail.desktop | default false -}}
+{{- $mobile := site.Params.projects.thumbnail.mobile | default false -}}
+{{- if .Scratch.Get "scrollsnap" -}}
+  {{- $mobile = site.Params.projects.thumbnail.scrollsnap | default site.Params.projects.thumbnail.scrollsnap -}}
+{{- end -}}
+{{- if .Scratch.Get "large" -}}
+  {{- $desktop = site.Params.projects.thumbnail.desktop_large | default site.Params.thumbnail.desktop_large -}}
+{{- end -}}
+
+{{- $lazy := .Scratch.Get "lazy" | default true -}}
+  
+<div class="media js-hover-video">
+  {{- with .Params.hover_video }}
+    {{- $video := . }}
+    {{- $video = $video | merge (dict "autoplay" 0) }}
+    {{- $video = $video | merge (dict "controls" 0) }}
+    {{- $video = $video | merge (dict "loop" 1) }}
+    {{- partial "commons/video.html" $video }}
+  {{ end -}}
+  {{- with .Params.image }}
+    {{- if .src }}
+    {{- $args := merge . (dict "itemprop" "image" "lazy" $lazy "desktop" $desktop "mobile" $mobile) }}
+    {{- partial "commons/image.html" $args -}}
+    {{ end -}}
+  {{ end -}}
+</div>
+
+{{- .Scratch.Delete "lazy" -}}
+{{- .Scratch.Delete "scrollsnap" -}}
+{{- .Scratch.Delete "large" -}}
+
+

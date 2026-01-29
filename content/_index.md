@@ -35,7 +35,7 @@ blocks:
     ctas:
       - text: Learn more about us
         url: /about/
-    media: https://ucarecdn.com/4425664a-e83b-49ec-9a3f-ce23ef1eb6a8/VIDEO20260120182536.mp4
+    media: https://ucarecdn.com/4425664a-e83b-49ec-9a3f-ce23ef1eb6a8/VIDEO-2026-01-20-18-25-36.mp4
   - type: editorial
     direction: ltr
     title: A live action expert
@@ -76,8 +76,8 @@ blocks:
         interval: 2000
         pagination: false
         type: loop
-        perPage: 5
         perMove: 1
+        perPage: 5
         padding: null
         gap: null
       responsive:
@@ -92,4 +92,3 @@ blocks:
             padding: null
             gap: null
 ---
-

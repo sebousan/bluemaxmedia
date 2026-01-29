@@ -1,0 +1,12 @@
+{{- $fields := slice 
+  "video_mp4" 
+  "video_webm" -}}
+{{- $fields = partial "admin/func/GetFields.html" (dict "field" . "fields" $fields) -}}
+
+{{- $args := dict 
+  "label" "Hover video"
+  "name" "hover_video"
+  "fields" $fields
+  -}}
+
+{{ partial "admin/widgets/object.js" $args }}

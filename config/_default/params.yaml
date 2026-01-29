@@ -114,6 +114,7 @@ admin:
             collection: projects_athletes
             multiple: true
         - featured_image
+        - hover_video
         - video_embed
         - photos
         - datas

@@ -1,13 +1,21 @@
 .card
     .media
         background-color: black
+        video
+            object-fit: cover
+        &--hover
+            img
+                opacity: 0
 
     @media (prefers-reduced-motion: no-preference)
-        a ~.media
-            img
+        a ~ .media
+            picture
                 transition: opacity $global-transition
         a:hover 
             & ~ .media
-                img
+                picture
                     opacity: .7
+                img
                     transform: none
+                video + picture
+                    opacity: 0

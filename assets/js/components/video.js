@@ -82,3 +82,23 @@ btnsPlayPause.forEach(playPause => {
       }
   });
 });
+
+
+// Hover video
+const hoverVideos = document.querySelectorAll('.project .content');
+hoverVideos.forEach(hoverVideo => {
+  hoverVideo.addEventListener('mouseenter', () => {
+    let media = hoverVideo.nextElementSibling;
+    let video = media.querySelector('.js-video');
+    if (video) {
+        media.classList.add('media--hover');
+        video.play();
+      }
+  });
+  hoverVideo.addEventListener('mouseleave', () => {
+    let video = hoverVideo.nextElementSibling.querySelector('.js-video');
+    if (video) {
+        video.pause();
+      }
+  });
+});
