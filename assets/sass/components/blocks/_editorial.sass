@@ -2,6 +2,9 @@
     .container
         display: flex
         flex-direction: column-reverse
+    .content
+        position: relative
+        z-index: 1
     .media
         margin-bottom: -1rem
         margin-left: - $gutter-mobile
@@ -39,9 +42,7 @@
             margin-right: -6rem
             width: calc(60% + 12rem)
         .content
-            position: relative
             width: 40%
-            z-index: 1
         figure,
         picture,
         img,
