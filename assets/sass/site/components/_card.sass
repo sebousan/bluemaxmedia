@@ -3,11 +3,11 @@
         background-color: black
         video
             object-fit: cover
+
+    @media (prefers-reduced-motion: no-preference) and (hover: hover) and (pointer: fine)
         &--hover
             img
                 opacity: 0
-
-    @media (prefers-reduced-motion: no-preference) and (hover: hover) and (pointer: fine)
         a ~ .media
             picture
                 transition: opacity $global-transition
