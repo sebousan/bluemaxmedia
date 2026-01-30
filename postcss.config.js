@@ -22,6 +22,7 @@ module.exports = {
             'showing',
             'hide',
             'fade',
+            'media--hover',
             /-backdrop$/,
             /^is-/,
             /^splide_/
