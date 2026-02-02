@@ -91,7 +91,6 @@ hoverVideos.forEach(hoverVideo => {
     let media = hoverVideo.nextElementSibling;
     let video = media.querySelector('.js-video');
     if (video) {
-        media.classList.add('media--hover');
         video.play();
       }
   });
