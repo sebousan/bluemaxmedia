@@ -2,7 +2,7 @@
 draft: false
 isIndex: false
 date: 2021-10-20T11:33:10.000Z
-title: Alpe D'Huez Winter
+title: Winter
 projects_types:
   - Commercial
 projects_clients:

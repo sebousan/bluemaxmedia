@@ -10,6 +10,7 @@ projects_clients:
   - Volvic
 image:
   src: "/images/uploads/airbnb-volvic-vignette.jpg"
+video_embed:
+  id: "632757755"
+  platform: vimeo
 ---
-
-https://vimeo.com/632757755/153c502d4c

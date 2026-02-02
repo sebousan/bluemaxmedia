@@ -1,7 +1,7 @@
 ---
 isIndex: false
 draft: false
-title: "Alpina Watches - Alpiner Extreme Automatic"
+title: Alpiner Extreme Automatic
 date: 2024-08-05T14:29:11.000Z
 projects_types: 
   - Content

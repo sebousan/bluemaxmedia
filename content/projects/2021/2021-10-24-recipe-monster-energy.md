@@ -1,7 +1,7 @@
 ---
 isIndex: false
 draft: false
-title: "Recipe -  Monster Energy"
+title: Recipe
 date: 2021-10-24T12:53:07.000Z
 projects_types: 
   - Documentaries

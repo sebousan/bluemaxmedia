@@ -1,7 +1,7 @@
 ---
 isIndex: false
 draft: false
-title: "Faction - Roots"
+title: Roots
 date: 2021-10-28T10:59:18.000Z
 projects_types: 
   - Documentaries

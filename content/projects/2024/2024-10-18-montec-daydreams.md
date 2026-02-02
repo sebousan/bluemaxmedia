@@ -1,7 +1,7 @@
 ---
 isIndex: false
 draft: false
-title: "Montec - Daydreams"
+title: Daydreams
 date: 2024-10-18T14:07:58.000Z
 projects_types: 
   - Content

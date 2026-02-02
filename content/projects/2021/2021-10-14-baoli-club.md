@@ -1,7 +1,7 @@
 ---
 isIndex: false
 draft: false
-title: "Baoli Club"
+title: Baoli Club
 date: 2021-10-14T11:45:57.000Z
 projects_types: 
   - Commercial

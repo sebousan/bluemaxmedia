@@ -1,7 +1,7 @@
 ---
 isIndex: false
 draft: false
-title: Portraits - Faction
+title: Portraits
 date: 2025-02-18T09:35:48.000Z
 projects_types: 
   - Content

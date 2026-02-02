@@ -1,7 +1,7 @@
 ---
 isIndex: false
 draft: false
-title: "Red Bull - Flying Over Panama City"
+title: Flying Over Panama City
 date: 2021-10-24T10:02:13.000Z
 projects_types: 
   - Content

@@ -1,7 +1,7 @@
 ---
 isIndex: false
 draft: false
-title: Red Bull - From Avoriaz With Love
+title: From Avoriaz With Love
 date: 2021-10-28T08:15:21.000Z
 projects_types: 
   - Content

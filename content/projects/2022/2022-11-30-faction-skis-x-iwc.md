@@ -1,7 +1,7 @@
 ---
 isIndex: false
 draft: false
-title: Faction Skis X IWC
+title: Faction Skis x IWC Schaffhausen
 date: 2022-11-30T10:10:07.000Z
 projects_types: 
   - Content

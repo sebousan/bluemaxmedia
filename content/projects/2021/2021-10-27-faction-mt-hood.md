@@ -1,7 +1,7 @@
 ---
 isIndex: false
 draft: false
-title: Faction - Alta
+title: Alta
 date: 2021-10-27T07:42:22.000Z
 projects_types: 
   - Documentaries

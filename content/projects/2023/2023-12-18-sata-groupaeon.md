@@ -1,7 +1,7 @@
 ---
 isIndex: false
 draft: false
-title: "Sata Group - Aeon"
+title: Aeon
 date: 2023-12-18T09:12:27.000Z
 projects_types: 
   - Content

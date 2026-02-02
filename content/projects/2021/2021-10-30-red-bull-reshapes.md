@@ -1,7 +1,7 @@
 ---
 isIndex: false
 draft: false
-title: Red Bull x Prada - Reshapes
+title: Reshapes
 date: 2021-10-30T08:14:34.000Z
 projects_clients:
   - Prada

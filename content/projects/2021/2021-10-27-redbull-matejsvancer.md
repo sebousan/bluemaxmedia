@@ -1,7 +1,7 @@
 ---
 isIndex: false
 draft: false
-title: "Red Bull - Skiing Through a School"
+title: Skiing Through a School
 date: 2021-10-27T10:59:54.000Z
 projects_types: 
   - Content

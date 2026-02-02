@@ -19,11 +19,4 @@ image:
 video_embed:
   id: "NHrwcQQ38bA"
   platform: youtube
-datas:
-  - title: Producer
-    text: John Doe
-  - title: Director
-    text: John Doe
-  - title: Agency
-    text: John Doe
 ---

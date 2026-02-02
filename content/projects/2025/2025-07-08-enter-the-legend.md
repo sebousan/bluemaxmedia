@@ -3,7 +3,6 @@ isIndex: false
 draft: false
 date: 2025-07-08T16:59:00
 title: Enter the legend
-description: Lorem ipsum
 projects_types:
   - commercial
 projects_tags:

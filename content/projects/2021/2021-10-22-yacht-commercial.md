@@ -7,6 +7,7 @@ projects_types:
   - Commercial
 image:
   src: "/images/uploads/miniature-scaled.jpg"
+video_embed:
+  id: "506099187"
+  platform: vimeo
 ---
-
-https://vimeo.com/506099187/12d8737c71

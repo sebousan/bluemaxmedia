@@ -1,7 +1,7 @@
 ---
 isIndex: false
 draft: false
-title: "The North Face - Walk In The Park"
+title: Walk In The Park
 date: 2021-10-26T09:01:53.000Z
 projects_types: 
   - Content
