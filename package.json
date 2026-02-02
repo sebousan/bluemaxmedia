@@ -38,5 +38,8 @@
     "cms": "yarn cms:decapcms",
     "cms:decapcms": "npx decap-server",
     "cms:netlifycms": "npx netlify-cms-proxy-server"
+  },
+  "dependencies": {
+    "splitting": "^1.1.0"
   }
 }
