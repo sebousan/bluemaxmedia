@@ -1,20 +1,28 @@
 ---
 isIndex: false
 draft: false
+date: 2025-03-03T12:58:00
 title: Floating Shapes
-date: 2025-03-03T11:58:12.000Z
-projects_types: 
+description: ''
+projects_types:
   - Content
+  - content
 projects_tags:
-  - Clip 
+  - Clip
   - Sport
   - Snowboard
+  - snowboard
+  - sport
 projects_clients:
   - Prada
   - Red Bull
+  - red-bull
+  - projects_clients
+projects_athletes:
+  - pierre-vaultier
 image:
   src: /images/uploads/prada-redbull-floattingshape.jpg
 video_embed:
-  id: "4ncw-uvR7wA"
   platform: youtube
+  id: 4ncw-uvR7wA
 ---
