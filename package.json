@@ -16,11 +16,14 @@
     "@fullhuman/postcss-purgecss": "^5.0.0",
     "@hugolify/prettier-config": "^0.3.1",
     "autoprefixer": "^10.4.13",
+    "bootstrap-icons": "^1.13.1",
     "cssnano": "^5.1.14",
+    "js-yaml": "^4.1.1",
     "netlify-plugin-hugo-cache-resources": "^0.2.1",
     "postcss": "^8.4.21",
     "postcss-cli": "^10.1.0",
-    "postcss-sass": "^0.5.0"
+    "postcss-sass": "^0.5.0",
+    "subset-font": "^2.4.0"
   },
   "packageManager": "yarn@1.22.22",
   "scripts": {
