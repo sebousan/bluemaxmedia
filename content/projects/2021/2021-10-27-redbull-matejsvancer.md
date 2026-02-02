@@ -4,12 +4,12 @@ draft: false
 title: Skiing Through a School
 date: 2021-10-27T10:59:54.000Z
 projects_types: 
-  - Content
+  - content
 projects_tags: 
-  - Freestyle
-  - Ski
+  - freestyle
+  - ski
 projects_clients:
-  - Red Bull
+  - red-bull
 image:
   src: "/images/uploads/maxresdefault-1.jpg"
 video_embed:

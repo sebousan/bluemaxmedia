@@ -4,12 +4,12 @@ draft: false
 title: Portraits
 date: 2025-02-18T09:35:48.000Z
 projects_types: 
-  - Content
+  - content
 projects_tags:
-  - Clip 
-  - Sport
+  - clip 
+  - sport
 projects_clients:
-  - Faction
+  - faction
 image:
   src: "/images/uploads/Portraits-Faction-scaled.jpg"
 video_embed:

@@ -4,14 +4,14 @@ draft: false
 title: Making Of In Paris
 date: 2021-10-20T17:50:00.000Z
 projects_types: 
-  - Commercial
+  - commercial
 projects_tags:
-  - Car
-  - Clip 
+  - car
+  - clip 
   - "making-of-work"
-  - Advertisement
+  - advertisement
 projects_clients:
-  - Cupra
+  - cupra
 image:
   src: "/images/uploads/cupra-bts.jpg"
 ---

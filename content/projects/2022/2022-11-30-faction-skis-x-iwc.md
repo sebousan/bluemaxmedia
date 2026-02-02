@@ -4,12 +4,12 @@ draft: false
 title: Faction Skis x IWC Schaffhausen
 date: 2022-11-30T10:10:07.000Z
 projects_types: 
-  - Content
+  - content
 projects_tags: 
-  - Sport
-  - Watches
+  - sport
+  - watches
 projects_clients:
-  - Faction
+  - faction
   - IWC
 image:
   src: "/images/uploads/Cover-IWC-FACTION-SKI.jpg"

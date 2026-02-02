@@ -6,10 +6,10 @@ date: 2021-10-28T10:59:18.000Z
 projects_types: 
   - Documentaries
 projects_tags: 
-  - Sport
-  - Ski
+  - sport
+  - ski
 projects_clients:
-  - Faction
+  - faction
 image:
   src: "/images/uploads/maxresdefault.jpg"
 video_embed:

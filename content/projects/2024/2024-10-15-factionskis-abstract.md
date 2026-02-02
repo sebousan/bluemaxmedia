@@ -4,14 +4,14 @@ draft: false
 title: Abstract
 date: 2024-10-15T12:21:13.000Z
 projects_types: 
-  - Content
+  - content
 projects_tags:
-  - Clip 
-  - Freestyle
-  - Sport
-  - Ski
+  - clip 
+  - freestyle
+  - sport
+  - ski
 projects_clients:
-  - Faction
+  - faction
 image:
   src: "/images/uploads/faction-abstract.png"
 video_embed:

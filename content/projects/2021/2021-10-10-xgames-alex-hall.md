@@ -4,16 +4,16 @@ draft: false
 title: "Xgames - Alex Hall"
 date: 2021-10-10T15:58:20.000Z
 projects_types:
-  - Content
+  - content
 projects_tags: 
-  - Freestyle
-  - Ski
-  - Sport
-  - X Games
+  - freestyle
+  - ski
+  - sport
+  - x-games
 projects_clients:
-  - Faction
+  - faction
 projects_athletes:
-  - Alex Hall
+  - alex-hall
 image:
   src: "/images/uploads/ALEXHALL_REALSKI2021.jpg"
 ---

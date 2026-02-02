@@ -4,14 +4,14 @@ draft: false
 title: Shapes
 date: 2021-10-22T13:45:36.000Z
 projects_clients:
-  - Red Bull
+  - red-bull
 projects_types: 
-  - Content
+  - content
 projects_tags: 
   - Photo
-  - Sport
-  - Speed riding
-  - Ski
+  - sport
+  - speed-riding
+  - ski
 image:
   src: "/images/uploads/DSF8086.jpg"
 ---

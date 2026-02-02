@@ -4,11 +4,11 @@ draft: false
 title: The Reverso Stories Exhibition in Paris
 date: 2021-10-24T08:18:50.000Z
 projects_types: 
-  - Content
+  - content
 projects_tags:
-  - Clip 
+  - clip 
   - Photo
-  - Watches
+  - watches
 projects_clients:
   - Jaeger LeCoultre
 datas:

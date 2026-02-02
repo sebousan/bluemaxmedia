@@ -4,18 +4,18 @@ draft: false
 title: Wings vs Wheels
 date: 2023-12-18T10:19:12.000Z
 projects_types: 
-  - Content
+  - content
 projects_tags:
-  - Advertisement
-  - Bike 
-  - Clip 
-  - Speed flying
-  - Sport
+  - advertisement
+  - bike 
+  - clip 
+  - speed-flying
+  - sport
 projects_athletes:
-  - Fabio Wibmer
-  - Valentin Delluc
+  - fabio-wibmer
+  - valentin-delluc
 projects_clients:
-  - Insta 360
+  - insta-360
 image:
   src: "/images/uploads/INSTA360.png"
 video_embed:

@@ -4,13 +4,13 @@ draft: false
 title: Cruzando Bogotá
 date: 2021-10-27T09:53:59.000Z
 projects_types: 
-  - Content
+  - content
 projects_tags: 
-  - Clip 
-  - Sport
+  - clip 
+  - sport
   - Slackline
 projects_clients:
-  - Red Bull
+  - red-bull
 image:
   src: "/images/uploads/maxresdefault-2.jpg"
 video_embed:

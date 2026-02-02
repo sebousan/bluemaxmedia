@@ -4,12 +4,12 @@ draft: false
 title: In Paris
 date: 2021-10-23T13:03:56.000Z
 projects_types: 
-  - Commercial
+  - commercial
 projects_tags: 
-  - Advertisement
-  - Car
+  - advertisement
+  - car
 projects_clients:
-  - Cupra
+  - cupra
 image:
   src: "/images/uploads/cupra-tbnl.jpg"
 video_embed:

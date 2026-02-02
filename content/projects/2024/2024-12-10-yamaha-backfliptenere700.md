@@ -4,15 +4,15 @@ isIndex: false
 date: 2024-12-10T14:25:06.000Z
 title: Ténéré 700 Rally Edition
 projects_types:
-  - Content
+  - content
 projects_tags:
-  - Clip
-  - Freestyle
-  - Sport
-  - Moto
-  - Motocross
+  - clip
+  - freestyle
+  - sport
+  - moto
+  - motocross
 projects_clients:
-  - Yamaha
+  - yamaha
 image:
   src: /images/uploads/YamahaTenere700-BMM.jpg
 video_embed:

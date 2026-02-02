@@ -4,14 +4,14 @@ draft: false
 title: Flying Over Panama City
 date: 2021-10-24T10:02:13.000Z
 projects_types: 
-  - Content
+  - content
 projects_tags:
-  - Clip 
-  - Speed flying
-  - Sport
-  - Tourism
+  - clip 
+  - speed-flying
+  - sport
+  - tourism
 projects_clients:
-  - Red Bull
+  - red-bull
 projects_athletes:
   - Raphael Goberna
 image:

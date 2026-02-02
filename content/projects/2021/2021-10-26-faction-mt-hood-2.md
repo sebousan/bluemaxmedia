@@ -6,16 +6,16 @@ date: 2021-10-26T08:23:34.000Z
 projects_types: 
   - Documentaries
 projects_tags: 
-  - Freestyle
-  - Ski
-  - Sport
+  - freestyle
+  - ski
+  - sport
 projects_clients:
-  - Faction
+  - faction
 projects_athletes:
-  - Alex Hall
-  - Blake Wilson
-  - Mac Forehand
-  - Will Berman
+  - alex-hall
+  - blake-wilson
+  - mac-forehand
+  - will-berman
 image:
   src: "/images/uploads/mt-hood-thumbnail.jpg"
 video_embed:

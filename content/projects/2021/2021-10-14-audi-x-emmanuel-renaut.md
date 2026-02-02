@@ -4,10 +4,10 @@ draft: false
 title: "Audi x Emmanuel Renaut"
 date: 2021-10-14T15:35:38.000Z
 projects_types: 
-  - Content
+  - content
 projects_tags:
-  - Car
-  - Clip
+  - car
+  - clip
 projects_clients:
   - Audi
 image:

@@ -4,15 +4,15 @@ draft: false
 title: Aeros
 date: 2021-10-27T11:30:54.000Z
 projects_types: 
-  - Content
+  - content
 projects_clients:
-  - Salomon
+  - salomon
 projects_tags:
-  - Clip 
+  - clip 
   - Photo
-  - Advertisement
+  - advertisement
   - Running
-  - Sport
+  - sport
 image:
   src: "/images/uploads/M3A2187_salomon_lowres_www.louisgarnierphoto.com_.jpg"
 ---

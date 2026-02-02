@@ -4,10 +4,10 @@ draft: false
 title: Manufacture
 date: 2021-10-27T12:47:14.000Z
 projects_types: 
-  - Content
+  - content
 projects_tags:
-  - Clip 
-  - Watches
+  - clip 
+  - watches
 projects_clients:
   - Frederique Constant
 image:

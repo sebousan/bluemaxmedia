@@ -4,11 +4,11 @@ draft: false
 title: Trail
 date: 2021-10-08T15:41:06.000Z
 projects_types: 
-  - Content
+  - content
 projects_tags: 
   - Trail
 projects_clients:
-  - Salomon
+  - salomon
 image:
   src: "/images/uploads/Trail-salomon-2020.jpg"
 video_embed:

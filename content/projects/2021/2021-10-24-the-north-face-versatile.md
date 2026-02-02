@@ -6,8 +6,8 @@ date: 2021-10-24T09:01:45.000Z
 projects_types: 
   - Documentaries
 projects_tags: 
-  - Alpes
-  - Sport
+  - alpes
+  - sport
 projects_clients:
   - The North Face
 image:

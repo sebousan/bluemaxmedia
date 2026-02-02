@@ -4,16 +4,16 @@ draft: false
 title: Fairy Flight
 date: 2022-10-27T09:41:53.000Z
 projects_types: 
-  - Content
+  - content
 projects_tags:
-  - Clip 
-  - Advertisement
-  - Sport
-  - Speed flying
+  - clip 
+  - advertisement
+  - sport
+  - speed-flying
 projects_athletes:
-  - Valentin Delluc
+  - valentin-delluc
 projects_clients:
-  - Red Bull
+  - red-bull
 image:
   src: "/images/uploads/Cover-Fairy-Flight.jpg"
 video_embed: 

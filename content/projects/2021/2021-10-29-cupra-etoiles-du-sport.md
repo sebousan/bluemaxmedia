@@ -4,14 +4,14 @@ draft: false
 title: Étoiles du Sport
 date: 2021-10-29T10:53:17.000Z
 projects_types: 
-  - Content
+  - content
 projects_tags: 
-  - Advertisement
-  - Sport
-  - Car
-  - Advertisement
+  - advertisement
+  - sport
+  - car
+  - advertisement
 projects_clients:
-  - Cupra
+  - cupra
 image:
   src: "/images/uploads/CUPRA-x-Étoiles-du-Sport.jpg"
 video_embed:

@@ -4,10 +4,10 @@ draft: false
 title: Extreme Automatic
 date: 2022-10-04T09:25:54.000Z
 projects_types: 
-  - Content
+  - content
 projects_tags: 
-  - Sport
-  - Watches
+  - sport
+  - watches
 projects_clients:
   - Alpina
 image:

@@ -5,12 +5,12 @@ title: Reshapes
 date: 2021-10-30T08:14:34.000Z
 projects_clients:
   - Prada
-  - Red Bull
+  - red-bull
 projects_types:
   - Documentaries
 projects_tags: 
-  - Sport
-  - Snowboard
+  - sport
+  - snowboard
 projects_athletes:
   - Pierre Vaultier
 image:

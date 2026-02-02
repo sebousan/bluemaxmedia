@@ -4,12 +4,12 @@ draft: false
 title: Counting to three
 date: 2024-10-15T10:52:54.000Z
 projects_types: 
-  - Content
+  - content
 projects_tags:
-  - Clip 
-  - Advertisement
-  - Sport
-  - X Games
+  - clip 
+  - advertisement
+  - sport
+  - x-games
   - Triple cork
 projects_clients:
   - Monster

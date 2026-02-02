@@ -5,19 +5,14 @@ date: 2025-03-03T12:58:00
 title: Floating Shapes
 description: ''
 projects_types:
-  - Content
   - content
 projects_tags:
-  - Clip
-  - Sport
-  - Snowboard
+  - clip
   - snowboard
   - sport
 projects_clients:
-  - Prada
-  - Red Bull
+  - prada
   - red-bull
-  - projects_clients
 projects_athletes:
   - pierre-vaultier
 image:

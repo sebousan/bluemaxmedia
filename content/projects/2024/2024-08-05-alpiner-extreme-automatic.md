@@ -4,12 +4,12 @@ draft: false
 title: Alpiner Extreme Automatic
 date: 2024-08-05T14:29:11.000Z
 projects_types: 
-  - Content
+  - content
 projects_tags:
-  - Clip 
-  - Advertisement
+  - clip 
+  - advertisement
   - Skateboard
-  - Sport
+  - sport
 projects_athletes:
   - Greg Ruhoff
 projects_clients:

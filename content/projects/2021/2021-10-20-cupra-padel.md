@@ -4,13 +4,13 @@ draft: false
 title: "Cupra - Padel"
 date: 2021-10-20T15:18:00.000Z
 projects_types: 
-  - Content
+  - content
 projects_tags:
-  - Car
-  - Padel
-  - Sport
+  - car
+  - padel
+  - sport
 projects_clients:
-  - Cupra
+  - cupra
 image:
   src: "/images/uploads/Cupra_Padel.jpg"
 ---

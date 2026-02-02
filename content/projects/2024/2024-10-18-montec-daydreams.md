@@ -4,12 +4,12 @@ draft: false
 title: Daydreams
 date: 2024-10-18T14:07:58.000Z
 projects_types: 
-  - Content
+  - content
 projects_tags:
-  - Clip 
-  - Sport
+  - clip 
+  - sport
 projects_clients:
-  - Montec
+  - montec
 image:
   src: "/images/uploads/Montec-Daydreams.jpg"
 ---

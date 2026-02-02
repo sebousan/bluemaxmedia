@@ -4,7 +4,7 @@ draft: false
 title: What We Do
 date: 2021-10-19T10:59:49.000Z
 projects_types: 
-  - Content
+  - content
 projects_clients:
   - Axians
 image:

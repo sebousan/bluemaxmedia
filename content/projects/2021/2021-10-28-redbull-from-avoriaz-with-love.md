@@ -4,15 +4,15 @@ draft: false
 title: From Avoriaz With Love
 date: 2021-10-28T08:15:21.000Z
 projects_types: 
-  - Content
+  - content
 projects_tags: 
-  - Sport
-  - Speed riding
-  - Ski
+  - sport
+  - speed-riding
+  - ski
 projects_clients:
-  - Red Bull
+  - red-bull
 projects_athletes:
-  - Valentin Delluc
+  - valentin-delluc
 image:
   src: "/images/uploads/val-delluc-vignette.jpg"
 video_embed:

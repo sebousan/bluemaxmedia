@@ -4,9 +4,9 @@ draft: false
 title: All or nothing love
 date: 2021-10-14T11:41:26.000Z
 projects_types: 
-  - Content
+  - content
 projects_tags:
-  - Clip
+  - clip
 projects_clients:
   - Clare Maguire
 image:

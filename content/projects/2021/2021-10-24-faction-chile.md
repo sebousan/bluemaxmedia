@@ -6,11 +6,11 @@ date: 2021-10-24T11:30:57.000Z
 projects_types: 
   - Documentaries
 projects_tags: 
-  - Freestyle
-  - Ski
-  - Sport
+  - freestyle
+  - ski
+  - sport
 projects_clients:
-  - Faction
+  - faction
 image:
   src: "/images/uploads/maxresdefault.jpg"
 video_embed:

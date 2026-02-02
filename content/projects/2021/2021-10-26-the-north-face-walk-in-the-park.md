@@ -4,9 +4,9 @@ draft: false
 title: Walk In The Park
 date: 2021-10-26T09:01:53.000Z
 projects_types: 
-  - Content
+  - content
 projects_tags: 
-  - Sport
+  - sport
   - Running
   - Trail
 projects_clients:

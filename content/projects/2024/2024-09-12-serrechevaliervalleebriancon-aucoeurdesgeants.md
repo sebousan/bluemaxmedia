@@ -4,15 +4,16 @@ draft: false
 title: Au Coeur des Géants
 date: 2024-09-12T10:23:48.000Z
 projects_types: 
-  - Content
+  - content
 projects_tags:
-  - Clip 
-  - Advertisement
-  - Sport
+  - clip 
+  - advertisement
+  - sport
 projects_clients:
-  - Serre Chevalier Vallée Briançon
+  - serre-chevalier-vallee-briancon
 image:
   src: "/images/uploads/Image-2-Au-Coeurs-des-Geants.jpeg"
+video_embed:
+  id: "W-DMBSC_Ows"
+  platform: youtube
 ---
-
-{{< youtube W-DMBSC\_Ows >}}

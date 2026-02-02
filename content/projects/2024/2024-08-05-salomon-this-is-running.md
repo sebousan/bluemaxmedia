@@ -4,17 +4,16 @@ draft: false
 title: This is running
 date: 2024-08-05T14:10:08.000Z
 projects_types: 
-  - Content
+  - content
 projects_tags:
-  - Clip 
-  - Advertisement
-  - Sport
+  - clip 
+  - advertisement
+  - sport
 projects_clients:
-  - Salomon
+  - salomon
 image:
   src: "/images/uploads/Salomon-running.png"
+video_embed:
+  id: JRgMBw6K6Eg
+  platform: youtube
 ---
-
-## #Salomon #Thisisrunning #Trail #Running
-
-![Salomon-This is running](https://bluemaxmedia.com/wp-content/uploads/2024/07/GRID_SALOMON.jpg) {{< youtube JRgMBw6K6Eg >}}

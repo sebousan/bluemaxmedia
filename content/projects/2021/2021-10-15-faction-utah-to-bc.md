@@ -4,12 +4,12 @@ draft: false
 title: Utah to BC
 date: 2021-10-15T15:52:05.000Z
 projects_types: 
-  - Content
+  - content
 projects_tags:
-  - Ski
-  - Sport
+  - ski
+  - sport
 projects_clients:
-  - Faction
+  - faction
 image:
   src: "/images/uploads/UTAH-TO-BC-_-The-Faction-Collective.jpg"
 ---

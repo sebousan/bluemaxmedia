@@ -4,7 +4,7 @@ draft: false
 title: "Yacht Commercial"
 date: 2021-10-22T14:30:33.000Z
 projects_types: 
-  - Commercial
+  - commercial
 image:
   src: "/images/uploads/miniature-scaled.jpg"
 video_embed:
