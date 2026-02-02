@@ -1,74 +1,76 @@
-var playerElements = document.querySelectorAll('.js-youtube-player');
+const players = document.querySelectorAll('.js-youtube-player');
+if (!players.length) return;
 
-if (!playerElements.length) return;
-
-function loadYouTubeAPI() {
-    return new Promise(function (resolve) {
-        if (window.YT && window.YT.Player) {
+/**
+ * Load YouTube Iframe API (once)
+ */
+const loadYouTubeAPI = () =>
+    new Promise(resolve => {
+        if (window.YT?.Player) {
             resolve();
             return;
         }
 
-        var tag = document.createElement('script');
-        tag.src = 'https://www.youtube.com/iframe_api';
-        tag.defer = true;
+        const script = document.createElement('script');
+        script.src = 'https://www.youtube.com/iframe_api';
+        script.defer = true;
+
         window.onYouTubeIframeAPIReady = resolve;
-
-        document.head.appendChild(tag);
+        document.head.appendChild(script);
     });
-}
 
-// 2. This function creates an <iframe> (and YouTube player) after the API code downloads
-loadYouTubeAPI().then(function () {
-    playerElements.forEach(function(playerElement) {
-        // Extract the video ID from the "data-video-id" attribute
-        var videoId = playerElement.dataset.videoId;
-        var videoAutoplay = playerElement.dataset.videoAutoplay === undefined ? 1 : parseInt(playerElement.dataset.videoAutoplay);
-        var videoControls = playerElement.dataset.videoControls === undefined ? 0 : parseInt(playerElement.dataset.videoControls);
+/**
+ * Player ready handler
+ */
+const onPlayerReady = (event, autoplay) => {
+    if (!autoplay) return;
 
-        new YT.Player(playerElement, {
-            videoId: videoId, // Insert the extracted ID here
+    event.target.mute(); // required for autoplay
+    event.target.playVideo();
+};
+
+/**
+ * Player state change handler
+ */
+const onPlayerStateChange = ({ data, target }) => {
+    if (data !== YT.PlayerState.PLAYING) return;
+
+    const iframe = target.getIframe();
+    iframe?.parentElement?.classList.add('is-playing');
+};
+
+/**
+ * Init players
+ */
+loadYouTubeAPI().then(() => {
+    players.forEach(playerEl => {
+        const {
+            videoId,
+            videoAutoplay = '1',
+            videoControls = '0'
+        } = playerEl.dataset;
+
+        const autoplay = Number(videoAutoplay);
+        const controls = Number(videoControls);
+
+        new YT.Player(playerEl, {
+            videoId,
             host: 'https://www.youtube-nocookie.com',
             playerVars: {
-                'autoplay': videoAutoplay,   // Auto-play the video
-                'controls': videoControls,   // Hide player controls
-                'showinfo': 0,               // Hide video title and info
-                'modestbranding': 1,         // Minimize YouTube logo
-                'loop': 1,                   // Loop the video
-                'fs': 0,                     // Hide fullscreen button
-                'cc_load_policy': 0,         // Hide closed captions
-                'iv_load_policy': 3,         // Hide annotations
-                'autohide': 0,               // Auto-hide controls
-                'playsinline': 1,            // Play inline on mobile
-                'playlist': videoId          // REQUIRED: The video ID is needed here again to loop a single video
+                autoplay,
+                controls,
+                modestbranding: 1,
+                loop: 1,
+                fs: 0,
+                cc_load_policy: 0,
+                iv_load_policy: 3,
+                playsinline: 1,
+                playlist: videoId
             },
             events: {
-                'onReady': function(event) {
-                    onPlayerReady(event, videoAutoplay);
-                },
-                'onStateChange': function(event) {
-                    onPlayerStateChange(event);
-                }
+                onReady: e => onPlayerReady(e, autoplay),
+                onStateChange: onPlayerStateChange
             }
         });
     });
 });
-
-// 3. The API will call this function when the video player is ready
-function onPlayerReady(event, autoplay) {
-    if (autoplay) {
-        // CRITICAL: Mute the video to allow autoplay on modern browsers (Chrome, Safari, etc.)
-        event.target.mute();
-        event.target.playVideo();
-    }
-}
-
-function onPlayerStateChange(event) {
-    // YT.PlayerState.PLAYING is 1
-    if (event.data === 1) {
-        var iframe = event.target.getIframe();
-        if (iframe && iframe.parentNode) {
-            iframe.parentNode.classList.add('is-playing');
-        }
-    }
-}
