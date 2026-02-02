@@ -22,14 +22,14 @@ module.exports = {
             'showing',
             'hide',
             'fade',
+            'iframe',
             /-backdrop$/,
             /^is-/,
             /^splide_/
           ],
           greedy: [
             /^data-anim/,
-            /^splide_/,
-            /^featured-video/
+            /^splide_/
           ]
         },
         defaultExtractor: (content) => {
