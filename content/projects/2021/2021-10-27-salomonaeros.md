@@ -5,6 +5,8 @@ title: "Salomon - Aeros"
 date: 2021-10-27T11:30:54.000Z
 projects_types: 
   - Content
+projects_clients:
+  - Salomon
 projects_tags:
   - Clip 
   - Photo
