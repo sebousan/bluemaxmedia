@@ -14,9 +14,6 @@ projects_athletes:
   - Valentin Delluc
 projects_clients:
   - Red Bull
-datas:
-  - title: Place
-    text: Cappadocia, Turkey
 image:
   src: "/images/uploads/Cover-Fairy-Flight.jpg"
 video_embed: 

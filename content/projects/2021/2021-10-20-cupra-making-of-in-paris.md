@@ -12,9 +12,6 @@ projects_tags:
   - Advertisement
 projects_clients:
   - Cupra
-datas:
-  - title: Place
-    text: Paris, France
 image:
   src: "/images/uploads/cupra-bts.jpg"
 ---

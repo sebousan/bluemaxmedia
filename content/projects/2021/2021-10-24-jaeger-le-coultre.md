@@ -12,8 +12,6 @@ projects_tags:
 projects_clients:
   - Jaeger LeCoultre
 datas:
-  - title: Place
-    text: Paris
   - title: Actor
     text: Nicholas Hoult
 image:

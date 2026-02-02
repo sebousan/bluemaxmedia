@@ -15,7 +15,4 @@ image:
 video_embed:
   id: "4koMwdzRjDs"
   platform: youtube
-datas:
-  - title: Place
-    text: Geneva, Switzerland
 ---

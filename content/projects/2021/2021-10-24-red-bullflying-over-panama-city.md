@@ -14,9 +14,6 @@ projects_clients:
   - Red Bull
 projects_athletes:
   - Raphael Goberna
-datas:
-  - title: Place
-    text: Panama City, Panama
 image:
   src: "/images/uploads/panama-2.jpg"
 video_embed:
