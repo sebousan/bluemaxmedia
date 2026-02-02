@@ -89,15 +89,32 @@ const hoverVideos = document.querySelectorAll('.project .content');
 hoverVideos.forEach(hoverVideo => {
   hoverVideo.addEventListener('mouseenter', () => {
     let media = hoverVideo.nextElementSibling;
+    if (!media) {
+      return;
+    }
     let video = media.querySelector('.js-video');
-    if (video) {
-        video.play();
+    if (video && typeof video.play === 'function') {
+      video.muted = true;
+      const playPromise = video.play();
+      if (playPromise !== undefined) {
+        playPromise.catch(error => {
+          // Ignore NotAllowedError as it's a browser policy/user permission issue
+          // also ignore AbortError if playback was interrupted by mouseleave (pause)
+          if (error.name !== 'NotAllowedError' && error.name !== 'AbortError') {
+              console.log('Video play failed:', error);
+          }
+          });
       }
+    }
   });
   hoverVideo.addEventListener('mouseleave', () => {
-    let video = hoverVideo.nextElementSibling.querySelector('.js-video');
-    if (video) {
-        video.pause();
-      }
+    let media = hoverVideo.nextElementSibling;
+    if (!media) {
+      return;
+    }
+    let video = media.querySelector('.js-video');
+    if (video && typeof video.pause === 'function') {
+      video.pause();
+    }
   });
 });
