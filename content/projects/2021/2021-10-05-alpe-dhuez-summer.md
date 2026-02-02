@@ -6,7 +6,7 @@ date: 2021-10-05T08:57:30.000Z
 projects_types: 
   - content
 projects_clients:
-  - Alpe D'Huez
+  - alpe-dhuez
 projects_tags: 
   - alpes
   - bike
