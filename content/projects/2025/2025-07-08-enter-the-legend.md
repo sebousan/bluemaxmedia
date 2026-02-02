@@ -17,8 +17,8 @@ image:
   src: https://ucarecdn.com/e4ac7cc7-57e0-41c1-a7e6-81d0381884ee/
   alt: ''
 hover_video:
-  mp4: https://ucarecdn.com/4425664a-e83b-49ec-9a3f-ce23ef1eb6a8/VIDEO-2026-01-20-18-25-36.mp4
-  webm: ''
+  mp4: https://ucarecdn.com/765708d7-bc55-440b-b41b-bdb3207e9962/thumbnail-cwd.mp4
+  webm: https://ucarecdn.com/17c06324-134e-48b7-8681-4566db600fda/thumbnail-cwd.webm
 video_embed:
   platform: youtube
   id: 5CK4pQRNXL4
