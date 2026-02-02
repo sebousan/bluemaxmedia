@@ -28,7 +28,8 @@ module.exports = {
           ],
           greedy: [
             /^data-anim/,
-            /^splide_/
+            /^splide_/,
+            '.featured-video'
           ]
         },
         defaultExtractor: (content) => {
