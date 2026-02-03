@@ -10,8 +10,6 @@ projects_tags:
   - sport
 projects_clients:
   - faction
-image:
-  src: "/images/uploads/Portraits-Faction-scaled.jpg"
 video_embed:
   id: "Ts1AZ6XHHoc"
   platform: youtube

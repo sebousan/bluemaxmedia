@@ -54,8 +54,15 @@ const initYouTube = () => {
       const autoplay = Number(videoAutoplay);
       const controls = Number(videoControls);
 
+      const getYouTubeId = (url) => {
+        const match = url.match(
+          /(?:youtube\.com\/(?:[^\/]+\/.+\/|(?:v|e(?:mbed)?|shorts)\/|.*[?&]v=)|youtu\.be\/)([^"&?\/ ]{11})/i
+        );
+        return match && match[1] ? match[1] : url;
+      };
+
       new YT.Player(playerEl, {
-          videoId,
+          videoId: getYouTubeId(videoId),
           host: 'https://www.youtube-nocookie.com',
           playerVars: {
             autoplay,

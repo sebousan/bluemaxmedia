@@ -15,9 +15,7 @@ projects_clients:
   - red-bull
 projects_athletes:
   - pierre-vaultier
-image:
-  src: /images/uploads/prada-redbull-floattingshape.jpg
 video_embed:
   platform: youtube
-  id: 4ncw-uvR7wA
+  id: KVfxtR4qjtE
 ---
