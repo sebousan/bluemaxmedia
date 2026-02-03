@@ -1,20 +1,27 @@
 ---
 isIndex: false
 draft: false
+date: 2024-10-15T14:21:00
 title: Abstract
-date: 2024-10-15T12:21:13.000Z
-projects_types: 
-  - content
+description: ''
+projects_types:
+  - films
 projects_tags:
-  - clip 
   - freestyle
   - sport
   - ski
 projects_clients:
   - faction
+projects_athletes:
+  - alex-hall
 image:
-  src: "/images/uploads/faction-abstract.png"
+  src: /images/uploads/faction-abstract.png
+  alt: ''
+hover_video: null
 video_embed:
-  id: "xi9katdH2ZM"
   platform: youtube
+  id: xi9katdH2ZM
+datas:
+  - title: ''
+    text: ''
 ---
