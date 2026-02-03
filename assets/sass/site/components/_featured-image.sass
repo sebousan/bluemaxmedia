@@ -40,7 +40,8 @@
     &--shorts
         iframe
             aspect-ratio: 9/16
-            max-width: 400px
+            @include media-breakpoint-up(md)
+                max-width: 25rem
 
     &.is-playing
         .poster

@@ -18,4 +18,5 @@ projects_athletes:
 video_embed:
   platform: youtube
   id: KVfxtR4qjtE
+  shorts: true
 ---
