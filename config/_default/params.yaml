@@ -99,6 +99,7 @@ admin:
         - is_not_index
         - draft
         - date
+        - weight
         - title_page
         - description
         - relation:
@@ -119,6 +120,7 @@ admin:
         - photos
         - datas
         - images
+        - body
       summary: "{{year}} - {{title | upper}} - {{projects_clients.0}} {{projects_clients.1}}"
       
     projects_clients:

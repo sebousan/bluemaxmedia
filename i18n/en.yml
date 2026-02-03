@@ -9,6 +9,10 @@ admin:
         one: Athlete
         other: Athletes
   fields:
+    images:
+      label: 
+        one: Image
+        other: Images (BTS)
     photos:
       label: 
         one: Photo
