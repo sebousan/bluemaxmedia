@@ -118,6 +118,10 @@ admin:
         - featured_image
         - hover_video
         - video_embed
+        - video_embed_2
+        - video_embed_3
+        - video_embed_4
+        - video_embed_5
         - photos
         - datas
         - images
