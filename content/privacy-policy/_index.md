@@ -2,11 +2,12 @@
 isPage: true
 draft: false
 title: Privacy policy
+description: ''
 ---
 
-Effective Date: 01/01/2026
+Effective Date: 01/02/2026
 
-At BlueMax Media, we value your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website.
+At Bluemax Media, we value your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website.
 
 ## Audience measurement
 
