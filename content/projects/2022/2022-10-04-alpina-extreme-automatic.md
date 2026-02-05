@@ -1,18 +1,23 @@
 ---
 isIndex: false
 draft: false
+date: 2022-10-04T11:25:00
 title: Extreme Automatic
-date: 2022-10-04T09:25:54.000Z
-projects_types: 
+description: ''
+projects_types:
   - content
-projects_tags: 
+projects_tags:
   - sport
   - watches
 projects_clients:
   - Alpina
 image:
-  src: "/images/uploads/miniature.jpg"
+  src: https://ucarecdn.com/a9ced15c-c670-4c46-a636-5ab691b15d87/THUMBNAIL_ALPINA_ALPINER_EXTREME_AUTOMATIC.jpg
+  alt: ''
+hover_video:
+  mp4: ''
+  webm: https://ucarecdn.com/412c59ae-c3c7-49e9-8e27-2b91793c5332/THUMBNAIL_ALPINA_ALPINER_EXTREME_AUTOMATIC.webm
 video_embed:
-  id: "DCCJ84l7_60"
   platform: youtube
+  id: DCCJ84l7_60
 ---
