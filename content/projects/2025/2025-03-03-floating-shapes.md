@@ -25,4 +25,30 @@ video_embed:
   platform: youtube
   id: KVfxtR4qjtE
   shorts: true
+images:
+  - src: https://ucarecdn.com/faf838fb-5ac3-436a-b2ac-773665f806c0/_DSF1334_LouisGarnierXBlueMaxMedia_RedBullFloating_Lowres.jpg
+    alt: ''
+    credit: ''
+    legend: Pierre Vaultier
+    half: false
+  - src: https://ucarecdn.com/aad6a1d7-ab8c-456a-97b8-3543f1ee7709/_VGL2131_LouisGarnierXBlueMaxMedia_RedBullFloating_Lowres.jpg
+    alt: ''
+    credit: ''
+    legend: Etienne Mérel
+    half: false
+  - src: https://ucarecdn.com/f0ae8dd9-6657-41e3-a4b8-1f472901c468/_M3A1970_LouisGarnierXBlueMaxMedia_RedBullFloating_Lowres.jpg
+    alt: ''
+    credit: ''
+    legend: Nicolas Roubin
+    half: false
+  - src: https://ucarecdn.com/e2f89752-a7ff-494b-a4bd-a06a2534874a/_M3A2393_LouisGarnierXBlueMaxMedia_RedBullFloating_Lowres.jpg
+    alt: ''
+    credit: ''
+    legend: Geoffroy Le Moal
+    half: false
+  - src: ''
+    alt: ''
+    credit: ''
+    legend: ''
+    half: false
 ---
