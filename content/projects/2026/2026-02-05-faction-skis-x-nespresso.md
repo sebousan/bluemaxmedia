@@ -1,6 +1,6 @@
 ---
 isIndex: false
-draft: true
+draft: false
 date: 2026-02-05T16:35:00
 weight: 20
 title: Faction Skis X Nespresso
@@ -28,3 +28,4 @@ images: []
 ---
 
 Collaboration entre Faction Skis x Nespresso
+Gamme de ski et batons
