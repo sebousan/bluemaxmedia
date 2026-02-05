@@ -1,22 +1,27 @@
 ---
 isIndex: false
 draft: false
+date: 2024-08-05T16:29:00
 title: Alpiner Extreme Automatic
-date: 2024-08-05T14:29:11.000Z
-projects_types: 
+description: ''
+projects_types:
   - content
 projects_tags:
-  - clip 
+  - clip
   - advertisement
   - Skateboard
   - sport
-projects_athletes:
-  - Greg Ruhoff
 projects_clients:
   - Alpina
+projects_athletes:
+  - Greg Ruhoff
 image:
-  src: "/images/uploads/Alpiner.png"
+  src: https://ucarecdn.com/2926da5c-d899-4aa1-bdbe-c9192858e257/THUMBNAIL_ALPINA_ALPINER_EXTREME_AUTOMATIC.jpg
+  alt: ''
+hover_video:
+  mp4: ''
+  webm: https://ucarecdn.com/902c4f5c-4f61-42ee-ba13-555bdb334ce8/THUMBNAIL_ALPINA_ALPINER_EXTREME_AUTOMATIC.webm
 video_embed:
-  id: "PzyVEViQh_0"
-  platform: "youtube"
+  platform: youtube
+  id: PzyVEViQh_0
 ---
