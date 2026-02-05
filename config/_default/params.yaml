@@ -53,6 +53,7 @@ admin:
       name: uploadcare
       public_key: 0a94e9f2f59315581638
       tabs: "['file', 'url', 'gdrive']"
+    providers: false
   
   # Lang
   i18n:
