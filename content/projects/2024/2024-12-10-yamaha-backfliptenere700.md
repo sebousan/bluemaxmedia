@@ -1,8 +1,9 @@
 ---
-draft: false
 isIndex: false
-date: 2024-12-10T14:25:06.000Z
+draft: false
+date: 2024-12-10T15:25:00
 title: Ténéré 700 Rally Edition
+description: ''
 projects_types:
   - content
 projects_tags:
@@ -14,8 +15,12 @@ projects_tags:
 projects_clients:
   - yamaha
 image:
-  src: /images/uploads/YamahaTenere700-BMM.jpg
+  src: https://ucarecdn.com/7275947b-ba67-4e62-95ce-327cbeee93a5/THUMBNAIL_YAMAHA_TENERE_700_RALLY_EDITION.jpg
+  alt: ''
+hover_video:
+  mp4: ''
+  webm: https://ucarecdn.com/8c76293b-17fe-4803-9549-3d30e1a7ceba/THUMBNAIL_YAMAHA_TENERE_700_RALLY_EDITION.webm
 video_embed:
-  id: -2H8Os6XXT8
   platform: youtube
+  id: -2H8Os6XXT8
 ---
