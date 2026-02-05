@@ -2,7 +2,7 @@
 isPage: true
 draft: false
 title: Legal mentions
-description: Legal mentions page
+description: ''
 ---
 
 By using this site, you acknowledge having read the provisions below and you agree to respect them. The legal notices indicated below may change, we invite you to consult them regularly.
@@ -15,7 +15,7 @@ The [bluemaxmedia.com](https://bluemaxmedia.com/) website is the property of Blu
 
 The site [bluemaxmedia.com](https://bluemaxmedia.com/) is hosted at:
 
-**Netlify**\
+\*\*Netlify\*\*\
 2325 3rd Street, \
 Suite 296, \
 San Francisco, \
@@ -27,7 +27,6 @@ United States
 ## Conception
 
 This site was developed with {{< blank_link link="https://www.hugolify.io" text="Hugolify" >}}, an open-source Jamstack solution, which allows you to design a site that is as environmentally friendly as possible and closest to accessibility criteria.
-
 
 ## Credits
 
