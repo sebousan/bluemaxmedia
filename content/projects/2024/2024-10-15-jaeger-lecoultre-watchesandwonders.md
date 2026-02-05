@@ -1,19 +1,24 @@
 ---
 isIndex: false
 draft: false
+date: 2024-10-15T15:30:00
 title: Watches and Wonders 2025
-date: 2024-10-15T13:30:31.000Z
-projects_types: 
+description: ''
+projects_types:
   - content
+  - commercial
 projects_tags:
-  - clip 
-  - sport
+  - clip
   - watches
 projects_clients:
   - jaeger-lecoultre
 image:
-  src: "/images/uploads/Jaeger-LeCoultre-WatchesandWondersGeneva2024.png"
+  src: https://ucarecdn.com/d8d58694-610c-47f5-9d1f-e9a6cd8ebd51/THUMBNAIL_JAEGER_LECOULTRE_WATCHES_AND_WONDERS_2025.jpg
+  alt: ''
+hover_video:
+  mp4: ''
+  webm: https://ucarecdn.com/48a98163-1796-42bb-91dd-8d739bd5ff3c/THUMBNAIL_JAEGER_LECOULTRE_WATCHES_AND_WONDERS_2025.webm
 video_embed:
-  id: "TTO_8Rjb3fY"
   platform: youtube
+  id: TTO_8Rjb3fY
 ---
