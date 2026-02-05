@@ -1,7 +1,7 @@
 ---
 isIndex: false
 draft: false
-date: 2026-02-05T16:35:00
+date: 2026-02-05T17:06:00
 weight: 20
 title: Faction Skis X Nespresso
 description: ''
@@ -10,7 +10,8 @@ projects_types:
 projects_tags:
   - ski
   - sport
-projects_clients: []
+projects_clients:
+  - faction
 projects_athletes: []
 image:
   src: https://ucarecdn.com/fc7a8d77-5665-4fa7-9a52-7fb674996709/nespresso_faction_landingpage_images_footer_01_4.png
