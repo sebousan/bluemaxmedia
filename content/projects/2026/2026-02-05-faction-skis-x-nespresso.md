@@ -1,8 +1,8 @@
 ---
 isIndex: false
 draft: false
-date: 2026-02-05T17:06:00
-weight: null
+date: 2026-02-05T13:06:00
+weight: 20
 title: Faction Skis X Nespresso
 description: ''
 projects_types:
