@@ -14,7 +14,7 @@ projects_clients:
   - faction
 projects_athletes: []
 image:
-  src: https://ucarecdn.com/fc7a8d77-5665-4fa7-9a52-7fb674996709/nespresso_faction_landingpage_images_footer_01_4.png
+  src: https://ucarecdn.com/3dee6aa6-1422-4430-86be-3e17c84d141b/Nespresso.png
   alt: ''
 hover_video:
   mp4: ''
