@@ -12,7 +12,6 @@ projects_tags:
 projects_clients:
   - dope-snow
 projects_athletes:
-  - jesper-tjader
   - jesper-tjäder
 image:
   src: https://ucarecdn.com/a81a4a9a-3edd-4499-93fa-45f088bad956/THUMBNAIL_ DOPESNOW_JESPER_TRADER_X_DOPE_SNOW2425.jpg
