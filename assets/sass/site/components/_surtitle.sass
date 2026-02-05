@@ -3,4 +3,5 @@
     position: relative
     a
         text-decoration: none
-        transition: color $global-transition
+        @media (prefers-reduced-motion: no-preference)
+            transition: color $global-transition

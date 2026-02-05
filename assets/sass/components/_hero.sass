@@ -53,8 +53,9 @@
         position: absolute
         top: 50%
         transform: translate(-50%, -50%)
-        transition: opacity $global-transition
         width: auto
+        @media (prefers-reduced-motion: no-preference)
+            transition: opacity $global-transition
         @media (orientation: landscape)
             height: auto
             min-height: 100%

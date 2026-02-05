@@ -16,6 +16,8 @@
     background-color: #ebebeb
     letter-spacing: .05em
     text-transform: uppercase
-    transition: all .3s ease
-    &:hover
-        background-color: #d7d7d7
+    @media (prefers-reduced-motion: no-preference)
+        transition: all .3s ease
+    @media (hover: hover) and (pointer: fine)
+        &:hover
+            background-color: #d7d7d7

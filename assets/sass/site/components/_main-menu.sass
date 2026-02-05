@@ -4,8 +4,8 @@
         text-transform: uppercase
     .nav-link
         text-decoration: none
-        transition: all $global-transition
-        &:hover
+        @media (prefers-reduced-motion: no-preference)
+            transition: all $global-transition
 
     @include media-breakpoint-down($navbar-expand)
         .modal-dialog

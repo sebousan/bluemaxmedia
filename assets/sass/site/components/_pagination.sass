@@ -1,8 +1,9 @@
 .pagination-between
     a
         --bs-pagination-hover-color: #{$link-hover-color}
-        &:hover
-            text-decoration: none
+        @media (hover: hover) and (pointer: fine)
+            &:hover
+                text-decoration: none
     .surtitle + span
         @include font-size($h3-font-size)
         font-family: $headings-font-family

@@ -14,12 +14,14 @@
         cursor: pointer
         inset: 0
         position: absolute
-        transition: opacity $global-transition
+        @media (prefers-reduced-motion: no-preference)
+            transition: opacity $global-transition
         img
             height: 100%
             object-fit: cover
-            transition: opacity $global-transition
             width: 100%
+            @media (prefers-reduced-motion: no-preference)
+                transition: opacity $global-transition
         &::after
             @include icon("play-circle-fill")
             color: white
@@ -28,9 +30,10 @@
             position: absolute
             top: 50%
             transform: translate(-50%, -50%)
-        &:hover
-            img
-                opacity: .7
+        @media (hover: hover) and (pointer: fine)
+            &:hover
+                img
+                    opacity: .7
     iframe
         aspect-ratio: 16/9
         height: auto

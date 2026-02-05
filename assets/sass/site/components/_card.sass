@@ -4,10 +4,11 @@
         video
             object-fit: cover
 
-    @media (prefers-reduced-motion: no-preference) and (hover: hover) and (pointer: fine)
+    @media (prefers-reduced-motion: no-preference)
         a ~ .media
             picture
                 transition: opacity $global-transition
+    @media (hover: hover) and (pointer: fine)
         a:hover 
             & ~ .media
                 picture
