@@ -2,7 +2,7 @@
 isPage: true
 draft: false
 title: Home
-description: ''
+description: test
 hero:
   title: Crafted for action. Trusted by adventurous brands
   ctas:
