@@ -1,5 +1,0 @@
-on:
-  push:
-    branches: [$default-branch]
-  repository_dispatch:
-    types: [sveltia-cms-publish]
