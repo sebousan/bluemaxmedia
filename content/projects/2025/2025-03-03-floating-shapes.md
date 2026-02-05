@@ -52,3 +52,5 @@ images:
     legend: ''
     half: false
 ---
+
+Pierre Vaultier revient avec un troisième projet encore plus fou.
