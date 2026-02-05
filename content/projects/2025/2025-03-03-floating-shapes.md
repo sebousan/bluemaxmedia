@@ -23,8 +23,8 @@ hover_video:
   webm: https://ucarecdn.com/e88cfeef-f546-4cd4-9e31-d4edfee106cc/THUMBNAIL_PRADA_REDBULL_FLOATING_SHAPES.webm
 video_embed:
   platform: youtube
-  id: KVfxtR4qjtE
-  shorts: true
+  id: 4ncw-uvR7wA
+  shorts: false
 images:
   - src: https://ucarecdn.com/faf838fb-5ac3-436a-b2ac-773665f806c0/_DSF1334_LouisGarnierXBlueMaxMedia_RedBullFloating_Lowres.jpg
     alt: ''
