@@ -12,7 +12,6 @@ projects_tags:
   - advertisement
   - sport
 projects_clients:
-  - serre-chevalier-vallee-briancon
   - serre-chevalier-vallée-briançon
 image:
   src: https://ucarecdn.com/4c565639-de5a-442c-bba5-405cc5785774/THUMBNAIL_SERRE_CHEVALIER_VALLEE_BRIANCON_AU_COEUR_DES_GEANTS.jpg

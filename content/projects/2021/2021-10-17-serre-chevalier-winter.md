@@ -1,10 +1,10 @@
 ---
 draft: false
-projects_clients:
-  - Serre Chevalier Vallée Briançon
 isIndex: false
 date: 2021-10-17T11:20:06.000Z
 title: Serre Chavelier Vallée Briançon - Winter
+projects_clients:
+  - serre-chevalier-vallée-briançon
 projects_types:
   - commercial
 projects_tags:
