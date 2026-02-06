@@ -12,6 +12,8 @@ projects_tags:
   - sport
 projects_clients:
   - red-bull
+projects_athletes:
+  - matěj-švancer
 image:
   src: https://ucarecdn.com/12ff2a6c-8fc4-44ff-bdb4-1f9756e52662/THUMBNAIL_REDBULL_SKIING_TROUGHT_SCHOOL.jpg
   alt: ''
