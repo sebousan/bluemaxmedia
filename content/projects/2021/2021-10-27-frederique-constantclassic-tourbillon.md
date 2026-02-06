@@ -1,18 +1,24 @@
 ---
 isIndex: false
 draft: false
+date: 2021-10-27T14:47:00
 title: Manufacture
-date: 2021-10-27T12:47:14.000Z
-projects_types: 
+description: ''
+projects_types:
   - content
 projects_tags:
-  - clip 
+  - clip
   - watches
 projects_clients:
   - Frederique Constant
+  - frederique-constant
 image:
-  src: "/images/uploads/FC_WEB_V3.2-1.00_00_48_23.Still014.jpg"
+  src: https://ucarecdn.com/c38b8716-c136-43d0-99af-58cedb1f05f4/THUMBNAIL_FREDERIQUE_CONSTANT_MANUFACTURE.jpg
+  alt: ''
+hover_video:
+  mp4: ''
+  webm: https://ucarecdn.com/24aa700a-df04-4219-92fb-16635bc2bff6/THUMBNAIL_FREDERIQUE_CONSTANT_MANUFACTURE.webm
 video_embed:
-  id: "4koMwdzRjDs"
   platform: youtube
+  id: 4koMwdzRjDs
 ---
