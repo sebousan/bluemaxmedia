@@ -1,19 +1,25 @@
 ---
 isIndex: false
 draft: false
+date: 2021-10-27T09:42:00
 title: Alta
-date: 2021-10-27T07:42:22.000Z
-projects_types: 
+description: ''
+projects_types:
   - Documentaries
-projects_tags: 
+  - films
+projects_tags:
   - freestyle
   - ski
   - sport
 projects_clients:
   - faction
 image:
-  src: "/images/uploads/altathumbnail.jpg"
+  src: https://ucarecdn.com/3e919086-c45a-4695-bd15-c8bf7bd28de8/THUMBNAIL_FACTION_ALTA.jpg
+  alt: ''
+hover_video:
+  mp4: ''
+  webm: https://ucarecdn.com/b2c36ebf-39bb-45da-ae92-92fb84957917/THUMBNAIL_FACTION_ALTA.webm
 video_embed:
-  id: "JQ7z6m-L9WQ"
   platform: youtube
+  id: JQ7z6m-L9WQ
 ---
