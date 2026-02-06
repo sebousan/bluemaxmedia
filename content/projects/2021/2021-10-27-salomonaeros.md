@@ -1,18 +1,27 @@
 ---
 isIndex: false
 draft: false
+date: 2021-10-27T13:30:00
 title: Aeros
-date: 2021-10-27T11:30:54.000Z
-projects_types: 
+description: ''
+projects_types:
   - content
-projects_clients:
-  - salomon
 projects_tags:
-  - clip 
+  - clip
   - Photo
   - advertisement
   - Running
   - sport
+projects_clients:
+  - salomon
 image:
-  src: "/images/uploads/M3A2187_salomon_lowres_www.louisgarnierphoto.com_.jpg"
+  src: https://ucarecdn.com/2ed46edc-ff70-4aaf-a692-1bc7f23cbf29/THUMBNAIL_SALOMON_AEROS.jpg
+  alt: ''
+hover_video:
+  mp4: ''
+  webm: https://ucarecdn.com/e6075c12-c871-4a97-9302-b7fd04f09ce6/THUMBNAIL_SALOMON_AEROS.webm
+video_embed:
+  platform: youtube
+  id: vsyj9xltEWw/edit
+  shorts: false
 ---
