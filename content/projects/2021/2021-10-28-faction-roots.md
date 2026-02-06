@@ -6,6 +6,7 @@ title: Roots
 description: ''
 projects_types:
   - Documentaries
+  - films
 projects_tags:
   - sport
   - ski
@@ -14,6 +15,8 @@ projects_clients:
 projects_athletes:
   - sam-anthamatten
   - alex-hall
+  - elisabeth-gerritzen
+  - kadi-gomis
 image:
   src: https://ucarecdn.com/748908b7-686c-43ef-9266-19b9decdc971/THUMBNAIL_FACTION_ROOTS.jpg
   alt: ''
