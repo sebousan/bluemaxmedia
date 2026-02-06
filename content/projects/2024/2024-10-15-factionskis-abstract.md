@@ -14,6 +14,7 @@ projects_clients:
   - faction
 projects_athletes:
   - alex-hall
+  - sam-anthamatten
 image:
   src: https://ucarecdn.com/92902153-1625-4e75-beaa-c4353ae6a855/THUMBNAIL_FACTION_ABSTRACT.jpg
   alt: ''
