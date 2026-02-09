@@ -23,4 +23,21 @@ hover_video:
 video_embed:
   platform: youtube
   id: Ts1AZ6XHHoc
+video_embed_2:
+  platform: youtube
+  id: LhnPlRgxCrg
+  shorts: false
+video_embed_3:
+  platform: youtube
+  id: duksLTCnsaY
+  shorts: false
+datas:
+  - title: Director
+    text: Etienne Mérel
+  - title: Production
+    text: Blue Max Media
+  - title: Producer
+    text: Irena Umek & Henrik Lampert
 ---
+
+**Portraits** is a mini documentary series highlighting three athletes from the Faction Skis team—three icons of the global freeski scene: Alex Hall, Sam Anthamatten, and Elisabeth Gerritzen.
