@@ -26,7 +26,7 @@ video_embed:
   shorts: false
 photos: []
 datas:
-  - title: Executive Producer
+  - title: Producer
     text: Irena Umek
   - title: Production
     text: Blue Max Media
