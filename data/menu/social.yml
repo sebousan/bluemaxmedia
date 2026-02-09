@@ -1,9 +1,13 @@
 links:
   - title: Youtube
     url: https://www.youtube.com/channel/UCfdONdkGwJQUyF3x_-J2WZQ
+    blank: true
   - title: Instagram
     url: https://www.instagram.com/bluemaxmedia/
+    blank: true
   - title: Threads
     url: https://www.threads.com/@bluemaxmedia
+    blank: true
   - title: Linkedin
     url: https://fr.linkedin.com/company/blue-max-media
+    blank: true
