@@ -12,6 +12,7 @@ projects_tags:
   - sport
 projects_clients:
   - faction
+  - nespresso
 projects_athletes: []
 image:
   src: https://ucarecdn.com/3dee6aa6-1422-4430-86be-3e17c84d141b/Nespresso.png
