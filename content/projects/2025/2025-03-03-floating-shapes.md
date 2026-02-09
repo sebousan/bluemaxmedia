@@ -27,9 +27,28 @@ video_embed:
   id: 4ncw-uvR7wA
   shorts: false
 photos:
-  - src: ''
+  - src: https://ucarecdn.com/cbb07aea-a6cc-4545-a693-5a37588e5a61/_VGL2125_RedBullFloating_LouisGarnier_HD.jpg
     alt: ''
     credit: ''
+  - src: https://ucarecdn.com/0c3c9cd7-27d4-4a61-9064-c4938b0c3c6f/DJI_0706 _RedBullFloating_LouisGarnier_HD.jpg
+    alt: ''
+    credit: ''
+  - src: https://ucarecdn.com/bd06e162-5c9d-4d70-9414-dfe0328d23d1/_M3A3275_RedBullFloating_LouisGarnier_HD.jpg
+    alt: ''
+    credit: ''
+  - src: https://ucarecdn.com/c3dc4329-2a4e-4fa1-8215-cd39d886f9f0/_M3A3874_RedBullFloating_LouisGarnier_HD.jpg
+    alt: ''
+    credit: ''
+  - src: https://ucarecdn.com/daf2ef84-d47e-4192-96cc-9ce57d04baa3/_M3A4287_RedBullFloating_LouisGarnier_HD.jpg
+    alt: ''
+    credit: ''
+datas:
+  - title: Producer
+    text: Victor Saliba
+  - title: Production
+    text: Blue Max Media
+  - title: Photographer
+    text: Louis Garnier & Mark Clinton
 images:
   - src: https://ucarecdn.com/faf838fb-5ac3-436a-b2ac-773665f806c0/_DSF1334_LouisGarnierXBlueMaxMedia_RedBullFloating_Lowres.jpg
     alt: ''
