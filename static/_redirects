@@ -1,0 +1,39 @@
+# --- 1. Pages Principales (Priorité Haute) ---
+/                     /                       301
+/portfolio/           /works/                 301
+/client/              /works/clients/         301
+/team/                /about/                 301
+/showreel/            /                       301
+/films/               /works/films/           301
+
+# --- 2. Version Anglaise ---
+/en/                  /                       301
+/en/portfolio/        /works/                 301
+/en/client/           /works/clients/         301
+/en/team/             /about/                 301
+/en/contact/          /contact/               301
+/en/films/            /works/films/           301
+
+# --- 3. Projets Spécifiques ---
+
+/pradaxredbull-floatingshapes/      /works/2025-floating-shapes/    301
+/cwd-sellier/                       /works/2025-enter-the-legend/    301
+/portraits-faction/                 /works/2025-portraits/          301
+/jespertjaderxdopesnow24-25/        /works/2024-jesper-tjader-x-dope-snow-24/25/         301
+/redbullring-valentindelluc/        /works/2024-around-the-ring/    301
+/yamaha-backfliptenere700/          /works/2024-tenere-700-rally-edition/ 301
+/insta-360wings-vs-wheels/          /works/2023-wings-vs-wheels/    301
+/the-north-face-versatile/          /works/2021-versatile/ 301
+/en/the-north-face-versatile/       /works/2021-versatile/ 301
+/grenoble/                          /works/2021-aimer-le-futur/ 301
+/salomonaeros/                      /works/2021-aeros/ 301
+/baoli-club/                        /works/2021-baoli-club/ 301
+/faction-chile/                     /works/2021-chile-spirit-of-the-volcano/ 301
+/serrechevaliervalleebriancon-aucoeurdesgeants/ /works/2024-au-coeur-des-geants/ 301
+/redbull-matejsvancer/              /works/2021-skiing-through-a-school/ 301
+/red-bull-reshapes/                 /works/2021-reshapes/ 301
+/sata-groupaeon/                    /works/2023-aeon/ 301
+
+# --- 5. Nettoyage ---
+/category/* /works/                 301
+/* /                                301
