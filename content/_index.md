@@ -43,7 +43,7 @@ blocks:
     ctas:
       - text: Learn more works
         url: /works/
-    media: https://ucarecdn.com/afd7d55c-98ce-48c1-a907-f54749879e7a/
+    media: https://ucarecdn.com/bf55360b-847d-459d-9766-da85d67fe078/7-DJI_0039.jpg
   - type: logos
     heading:
       title: They trust us
