@@ -12,6 +12,7 @@ projects_tags:
   - ski
 projects_clients:
   - faction
+  - red-bull
 projects_athletes:
   - alex-hall
   - sam-anthamatten
