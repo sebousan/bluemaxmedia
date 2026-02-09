@@ -13,6 +13,7 @@ projects_tags:
 projects_clients:
   - prada
   - red-bull
+  - projects_clients
 projects_athletes:
   - pierre-vaultier
 image:
@@ -25,6 +26,10 @@ video_embed:
   platform: youtube
   id: 4ncw-uvR7wA
   shorts: false
+photos:
+  - src: ''
+    alt: ''
+    credit: ''
 images:
   - src: https://ucarecdn.com/faf838fb-5ac3-436a-b2ac-773665f806c0/_DSF1334_LouisGarnierXBlueMaxMedia_RedBullFloating_Lowres.jpg
     alt: ''
@@ -53,4 +58,6 @@ images:
     half: false
 ---
 
-Pierre Vaultier revient avec un troisième projet encore plus fou.
+**Floating Shapes:** Pierre Vaultier, former Olympic champion, rides water in all its forms.
+
+After _Shapes_ and _Reshapes_, we wanted to take on the challenge of riding this dreamlike pump track, set on a frozen lake in the French Alps.
