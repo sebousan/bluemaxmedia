@@ -3,7 +3,7 @@ isIndex: false
 draft: false
 date: 2026-02-05T13:06:00
 weight: 20
-title: Faction Skis X Nespresso
+title: Peak Innovation
 description: ''
 projects_types:
   - commercial
@@ -24,9 +24,26 @@ video_embed:
   id: 2R0kw5Kk2rw
   shorts: false
 photos: []
-datas: []
-images: []
+datas:
+  - title: Executive Producer
+    text: Irena Umek
+  - title: Production
+    text: Blue Max Media
+  - title: Gaffer
+    text: Jour Blanc Studio
+images:
+  - src: ''
+    alt: ''
+    credit: ''
+    legend: ''
+    half: false
+  - src: ''
+    alt: ''
+    credit: ''
+    legend: ''
+    half: false
 ---
 
-Collaboration entre Faction Skis x Nespresso
-Gamme de ski et batons
+Ever wondered where your coffee capsule ends up?
+
+In this exclusive brand collab, we’ve paired up as two Swiss brands with mountainous backyards, fusing material from capsules into our products you can ride.
