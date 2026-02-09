@@ -3,6 +3,7 @@ isIndex: false
 draft: false
 date: 2025-07-08T16:59:00
 title: Enter the legend
+description: ''
 projects_types:
   - commercial
 projects_tags:
@@ -31,12 +32,12 @@ photos:
     alt: ''
     credit: ''
 datas:
-  - title: Producer
-    text: John Doe
+  - title: Production
+    text: Blue Max Media
   - title: Director
-    text: John Doe
+    text: Tom Lafay
   - title: Agency
-    text: John Doe
+    text: Lim Group
 images:
   - src: https://ucarecdn.com/e4ac7cc7-57e0-41c1-a7e6-81d0381884ee/
     alt: ''
@@ -44,4 +45,10 @@ images:
     legend: ''
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec est urna, pellentesque a pretium sit amet, consequat a purus. Pellentesque sed ante ac risus tincidunt fringilla non sed purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec est urna, pellentesque a pretium sit amet, consequat a purus. Pellentesque sed ante ac risus tincidunt fringilla non sed purus.
+The legendary Spa-Francorchamps® circuit is where the CWD stable is based.
+
+At the heart of this paddock of excellence, the team functions as a break-through laboratory of innovation, where cutting-edge technology and elite sporting standards merge to create equipment built for victory.
+The Pit Stop, supported by an fast-acting Pit Crew, offers tailor-made technical support.
+Here, every detail is mastered, every adjustment makes the difference.
+
+Welcome to the world of CWD — where precision paves the way for legends.
