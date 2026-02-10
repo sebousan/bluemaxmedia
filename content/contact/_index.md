@@ -20,13 +20,11 @@ blocks:
       text: ''
     column: 4
     items:
-      - title: Lyon
-        text: 3 Place Giovanni da Verrazzano 69009 Lyon France
       - title: Briançon
         text: 73 Route de Grenoble 05100 Briançon France
+        icon: ''
       - title: Bourg St Maurice
         text: 24 B Rue des Glières 73700 Séez France
         icon: ''
 slug: ''
 ---
-
