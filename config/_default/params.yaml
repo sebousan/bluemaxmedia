@@ -186,6 +186,7 @@ admin:
       fields:
         - title
         - text_markdown
+        - ctas
         - grid
     
     video:
