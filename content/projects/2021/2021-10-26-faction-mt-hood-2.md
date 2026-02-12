@@ -18,7 +18,7 @@ projects_athletes:
   - mac-forehand
   - will-berman
 image:
-  src: https://ucarecdn.com/07e4cec5-f61a-487d-a89e-fd360c861856/THUMBNAIL_FACTION_MT_HOOD.jpg
+  src: https://ucarecdn.com/68a9a4a0-108f-446b-bac4-fc65acb4ed79/THUMBNAIL_FACTION_MT_HOOD_T.jpg
   alt: ''
 hover_video:
   mp4: ''
