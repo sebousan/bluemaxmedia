@@ -1,6 +1,6 @@
 ---
 isIndex: false
-draft: true
+draft: false
 date: 2026-02-05T12:53:00
 weight: ''
 title: Winter Holiday
