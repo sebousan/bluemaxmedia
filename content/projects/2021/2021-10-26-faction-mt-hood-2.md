@@ -1,11 +1,12 @@
 ---
 isIndex: false
 draft: false
+date: 2021-10-26T10:23:00
 title: Mt. Hood
-date: 2021-10-26T08:23:34.000Z
-projects_types: 
+description: ''
+projects_types:
   - Documentaries
-projects_tags: 
+projects_tags:
   - freestyle
   - ski
   - sport
@@ -17,8 +18,12 @@ projects_athletes:
   - mac-forehand
   - will-berman
 image:
-  src: "/images/uploads/mt-hood-thumbnail.jpg"
+  src: https://ucarecdn.com/07e4cec5-f61a-487d-a89e-fd360c861856/THUMBNAIL_FACTION_MT_HOOD.jpg
+  alt: ''
+hover_video:
+  mp4: ''
+  webm: https://ucarecdn.com/8433e93f-2beb-4b1f-b1f0-b9e26ab59483/THUMBNAIL_FACTION_MT_HOOD.webm
 video_embed:
-  id: "nqLbasvT-Zo"
   platform: youtube
+  id: nqLbasvT-Zo
 ---
