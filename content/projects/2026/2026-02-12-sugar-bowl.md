@@ -1,14 +1,22 @@
 ---
 isIndex: false
-draft: true
+draft: false
 date: 2026-02-12T14:43:00
 weight: ''
 title: Sugar Bowl
 description: The Faction Collective pulls into Sugar Bowl, California, in search of the sweet highs of an all-star freestyle session. This is a showcase of the chemistry of Faction’s current generation of skiers, each a public figure in their own right.
-projects_types: []
-projects_tags: []
-projects_clients: []
-projects_athletes: []
+projects_types:
+  - content
+projects_tags:
+  - freestyle
+  - sport
+  - ski
+projects_clients:
+  - faction
+projects_athletes:
+  - alex-hall
+  - matěj-švancer
+  - kadi-gomis
 image:
   src: https://ucarecdn.com/ad6411ad-9289-4a0f-a10c-6a1ff8471e9a/Faction_SUGAR_BOWL_2025_@Pondella_7353-1 - copie.jpeg
   alt: ''
