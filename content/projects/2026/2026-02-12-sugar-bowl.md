@@ -20,7 +20,9 @@ projects_athletes:
 image:
   src: https://ucarecdn.com/ad6411ad-9289-4a0f-a10c-6a1ff8471e9a/Faction_SUGAR_BOWL_2025_@Pondella_7353-1 - copie.jpeg
   alt: ''
-hover_video: null
+hover_video:
+  mp4: ''
+  webm: https://ucarecdn.com/e059179b-4304-42cc-b6c8-5aff4afecca2/THUMBNAIL_FACTION_SUGAR_BOWL.webm
 video_embed:
   platform: youtube
   id: iUxLgreswyE
