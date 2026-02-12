@@ -2,6 +2,7 @@
 isIndex: false
 draft: false
 date: 2021-10-28T10:15:00
+weight: 60
 title: From Avoriaz With Love
 description: ''
 projects_types:
