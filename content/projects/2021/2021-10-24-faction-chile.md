@@ -1,19 +1,22 @@
 ---
 isIndex: false
 draft: false
+date: 2021-10-24T13:30:00
 title: Chile, Spirit of the Volcano
-date: 2021-10-24T11:30:57.000Z
-projects_types: 
+description: ''
+projects_types:
   - Documentaries
-projects_tags: 
+projects_tags:
   - freestyle
   - ski
   - sport
 projects_clients:
   - faction
 image:
-  src: "/images/uploads/maxresdefault.jpg"
+  src: https://ucarecdn.com/bf9f284f-fa96-45cf-b51f-7de0096d4783/CHILE.jpg
+  alt: ''
 video_embed:
-  id: "5A6YPoPqYtU"
   platform: youtube
+  id: 5A6YPoPqYtU
+  shorts: false
 ---
