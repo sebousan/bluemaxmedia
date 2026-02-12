@@ -1,7 +1,7 @@
 ---
 isIndex: false
 draft: false
-date: 2026-02-05T13:06:00
+date: 2026-02-06T13:06:00
 weight: 20
 title: Peak Innovation
 description: ''
