@@ -2,7 +2,7 @@
 isIndex: false
 draft: false
 date: 2024-12-13T14:38:00
-title: Jesper Tjäder x Dope Snow 24/25
+title: Jesper Tjäder Kit 24/25
 description: ''
 projects_types:
   - content
