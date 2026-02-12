@@ -21,6 +21,6 @@ hover_video:
 video_embed:
   platform: youtube
   id: ckbD_Q27b1k
-  shorts: true
+  shorts: false
 video_embed_2: null
 ---
