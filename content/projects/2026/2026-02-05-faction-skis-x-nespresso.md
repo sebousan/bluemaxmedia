@@ -19,7 +19,7 @@ image:
   alt: ''
 hover_video:
   mp4: ''
-  webm: https://ucarecdn.com/f623f3db-32ff-4093-9ca3-84514c3a2b77/THUMBNAIL_FACTION_NESPRESSO.webm
+  webm: https://ucarecdn.com/5d8d8c71-2296-4b13-bcb2-1318494b09d7/THUMBNAIL_NESPRESSO.webm
 video_embed:
   platform: youtube
   id: 2R0kw5Kk2rw
