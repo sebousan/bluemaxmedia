@@ -6,12 +6,17 @@ title: Recipe
 description: ''
 projects_types:
   - Documentaries
+  - films
 projects_tags:
   - ski
   - sport
 projects_clients:
   - Monster
   - monster
+projects_athletes:
+  - coline-ballet-baz
+  - sarah-hoefflin
+  - megan-oldham
 image:
   src: https://ucarecdn.com/fd4c1c17-8580-4c24-9300-ecddfa7936f5/THUMBNAIL_MONSTER_RECIPE.jpg
   alt: ''
