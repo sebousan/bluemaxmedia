@@ -8,8 +8,9 @@ blocks:
     title: Get In Touch
     text: We understand that every request comes with specific needs, this is why we would love to hear about your project, we are always available to brainstorm about your video production needs. Let’s work together!
     ctas:
-      - text: bluemaxmediafrance@gmail.com
-        url: mailto:bluemaxmediafrance@gmail.com
+      - text: info@bluemaxmedia.com
+        url: mailto:info@bluemaxmedia.com
+        lang: ''
       - text: +33 06 88 86 76 42
         url: tel:+330688867642
     grid: large
