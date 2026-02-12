@@ -11,10 +11,14 @@ projects_tags:
   - social-content
 projects_clients:
   - red-bull
-projects_athletes: []
+projects_athletes:
+  - jules-charraud
 image: null
 hover_video: null
-video_embed: null
+video_embed:
+  platform: youtube
+  id: kf_7DX6dDSU&t=2s
+  shorts: false
 video_embed_2: null
 video_embed_3: null
 video_embed_4: null
