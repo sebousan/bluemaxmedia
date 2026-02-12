@@ -1,18 +1,25 @@
 ---
 isIndex: false
 draft: false
+date: 2021-10-24T14:53:00
 title: Recipe
-date: 2021-10-24T12:53:07.000Z
-projects_types: 
+description: ''
+projects_types:
   - Documentaries
-projects_tags: 
+projects_tags:
   - ski
   - sport
 projects_clients:
   - Monster
+  - monster
 image:
-  src: "/images/uploads/recipe-miniature.jpg"
+  src: https://ucarecdn.com/fd4c1c17-8580-4c24-9300-ecddfa7936f5/THUMBNAIL_MONSTER_RECIPE.jpg
+  alt: ''
+hover_video:
+  mp4: ''
+  webm: https://ucarecdn.com/15d1fec4-36d0-493d-b4e3-8ed2a4f83389/THUMBNAIL_MONSTER_RECIPE.webm
 video_embed:
-  id: "O6XkOpm6rnk"
   platform: youtube
+  id: O6XkOpm6rnk
+  shorts: false
 ---
