@@ -1,19 +1,25 @@
 ---
 isIndex: false
 draft: false
+date: 2021-10-26T11:01:00
 title: Walk In The Park
-date: 2021-10-26T09:01:53.000Z
-projects_types: 
+description: ''
+projects_types:
   - content
-projects_tags: 
+projects_tags:
   - sport
   - Running
   - Trail
 projects_clients:
   - The North Face
 image:
-  src: "/images/uploads/TNF_WITP_THEAU-21lq-scaled.jpg"
+  src: https://ucarecdn.com/05629d20-6318-4c99-9584-7703d34c9b05/site-blue-max.jpg
+  alt: ''
+hover_video:
+  mp4: ''
+  webm: https://ucarecdn.com/7e778702-a54a-40e5-afd9-268c21c949ff/THUMBNAIL_TNF_WALK_IN_THE_PARK.webm
 video_embed:
-  id: "7kZUxvuU69c"
   platform: youtube
----  
+  id: 7kZUxvuU69c
+  shorts: false
+---
