@@ -2,6 +2,7 @@
 isIndex: false
 draft: false
 date: 2025-03-03T12:58:00
+weight: 40
 title: Floating Shapes
 description: ''
 projects_types:
