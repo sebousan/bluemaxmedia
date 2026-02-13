@@ -13,8 +13,12 @@ projects_tags:
 projects_clients:
   - alpe-dhuez
 image:
-  src: /images/uploads/alpe_dhuez_-_winter_commercial-Original.00_00_09_21.Still001.jpg
+  src: https://ucarecdn.com/29b26223-2f87-4be1-b17e-3ddf815b6522/THUMBNAIL_ALPES_D'HUEZ.jpg
+  alt: ''
+hover_video:
+  mp4: ''
+  webm: https://ucarecdn.com/6767357e-bddc-4168-957b-2b202a64d320/THUMBNAIL_ALPES_DHUEZ.webm
 video_embed:
-  platform: vimeo
-  id: '266652474'
+  platform: youtube
+  id: BvkgbO6sLGk
 ---
