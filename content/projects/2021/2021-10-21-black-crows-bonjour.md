@@ -1,18 +1,21 @@
 ---
 isIndex: false
 draft: false
+date: 2021-10-21T16:44:00
 title: Bonjour, it's starting
-date: 2021-10-21T14:44:37.000Z
-projects_types: 
+description: ''
+projects_types:
   - content
 projects_tags:
   - ski
   - sport
 projects_clients:
   - Black Crows
+  - black-crows
 image:
-  src: "/images/uploads/bonjour-its-starting-blackcrows-skiing-winter-2021.jpg"
+  src: https://ucarecdn.com/99def8c0-ebfe-473c-82a7-e11244fe25c7/THUMBNAIL_BC_BONJOUR.jpg
+  alt: ''
 video_embed:
-  id: "Y4ve3L-ZlyA"
   platform: youtube
+  id: 6O9lfZ83OK8
 ---
