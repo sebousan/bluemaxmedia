@@ -1,14 +1,15 @@
 ---
 isIndex: false
 draft: false
-title: "Champagne"
-date: 2021-10-22T12:09:30.000Z
-projects_types: 
+date: 2021-03-01T14:09:00
+title: Champagne
+description: ''
+projects_types:
   - content
 projects_tags:
-  - clip 
+  - clip
   - advertisement
   - tourism
 image:
-  src: "/images/uploads/champ-Tbn.jpg"
+  src: /images/uploads/champ-Tbn.jpg
 ---
