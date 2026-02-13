@@ -12,12 +12,10 @@ projects_tags:
 projects_clients:
   - cupra
 image:
-  src: /images/uploads/cupra-tbnl.jpg
+  src: https://ucarecdn.com/c23f4c5e-e6dd-4785-8053-56e699dad3b2/THUMBNAIL_CUPRA_IN_PARIS.jpg
   alt: ''
-hover_video:
-  mp4: ''
-  webm: https://ucarecdn.com/0eb2fd7e-ad77-4336-be0c-26a576e969f5/THUMBNAIL_CUPRA_PARIS.webm
+hover_video: null
 video_embed:
-  platform: vimeo
-  id: '368537015'
+  platform: youtube
+  id: IvblTiHSO9w
 ---
