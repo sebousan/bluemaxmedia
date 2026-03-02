@@ -11,5 +11,13 @@ projects_tags:
   - advertisement
   - tourism
 image:
-  src: /images/uploads/champ-Tbn.jpg
+  src: https://ucarecdn.com/dedf4d18-b659-41fa-b709-3d4b8ea4ed4f/THUMBNAIL_CHAMPAGNE.jpg
+  alt: ''
+hover_video:
+  mp4: ''
+  webm: https://ucarecdn.com/3d78b4ee-3d4b-41a7-a871-d47072d01fe3/THUMBNAIL_CHAMPAGNE.webm
+video_embed:
+  platform: youtube
+  id: iNiy3j5wZ4o
+  shorts: false
 ---
