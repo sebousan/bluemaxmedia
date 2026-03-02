@@ -1,17 +1,23 @@
 ---
-draft: false
 isIndex: false
-date: 2021-10-17T11:20:06.000Z
+draft: false
+date: 2021-10-17T13:20:00
 title: Serre Chavelier Vallée Briançon - Winter
-projects_clients:
-  - serre-chevalier-vallée-briançon
+description: ''
 projects_types:
   - commercial
 projects_tags:
   - ski
+projects_clients:
+  - serre-chevalier-vallée-briançon
 image:
-  src: /images/uploads/serre-chevalier_2019-Original.00_00_27_16.Still002-scaled.jpg
+  src: https://ucarecdn.com/391bab38-cb67-4983-8fa2-2432b4171751/THUMBNAIL_SVC_WINTER.jpg
+  alt: ''
+hover_video:
+  mp4: ''
+  webm: https://ucarecdn.com/b2343cdd-f999-4bb4-bdd9-765680c5f47a/THUMBNAIL_SVC_WINTER.webm
 video_embed:
-  id: "294436272"
-  platform: vimeo
+  platform: youtube
+  id: JMFV_m1aiOY
+  shorts: false
 ---
