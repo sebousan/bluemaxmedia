@@ -1,17 +1,22 @@
 ---
 isIndex: false
 draft: false
+date: 2021-10-14T13:41:00
 title: All or nothing love
-date: 2021-10-14T11:41:26.000Z
-projects_types: 
+description: ''
+projects_types:
   - content
 projects_tags:
   - clip
 projects_clients:
   - Clare Maguire
 image:
-  src: "/images/uploads/clare_maguire_-_all_or_nothing_love-Original.00_01_38_08.Still010.jpg"
+  src: https://ucarecdn.com/6bc319e3-98f2-4d8e-97a0-ebe7a5b6a450/THUMBNAIL_CLARE_MAGUIRE.jpg
+  alt: ''
+hover_video:
+  mp4: ''
+  webm: https://ucarecdn.com/b52d37d4-61a0-44da-951d-b92e573ecc2d/THUMBNAIL_CLARE_MAGUIRE.webm
 video_embed:
-  id: "264967762"
-  platform: vimeo
+  platform: youtube
+  id: bfm-UEOwfhA
 ---
