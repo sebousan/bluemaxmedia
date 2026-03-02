@@ -1,6 +1,6 @@
 ---
 isIndex: false
-draft: true
+draft: false
 date: 2025-03-19T14:18:00
 weight: ''
 title: 150 Hours from home
