@@ -1,17 +1,18 @@
 ---
 isIndex: false
-draft: false
+draft: true
+date: 2021-10-15T13:35:00
 title: Fossil Free Island Porto Santo
-date: 2021-10-15T11:35:31.000Z
-projects_types: 
+description: ''
+projects_types:
   - commercial
-projects_clients:
-  - Renault
 projects_tags:
   - car
+projects_clients:
+  - Renault
 image:
-  src: "/images/uploads/groupe_renault_-_fossil_free_island_porto_santo_vf-Original.00_01_39_18.Still005.jpg"
+  src: /images/uploads/groupe_renault_-_fossil_free_island_porto_santo_vf-Original.00_01_39_18.Still005.jpg
 video_embed:
-  id: "344046376"
   platform: vimeo
+  id: '344046376'
 ---
