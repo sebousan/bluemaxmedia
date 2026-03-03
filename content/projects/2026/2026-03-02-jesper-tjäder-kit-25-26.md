@@ -4,10 +4,7 @@ draft: false
 date: 2025-11-27T14:35:00
 weight: ''
 title: JESPER TJÄDER KIT 25/26
-description: |-
-  Jesper Tjäder's style is the result of seasons of work. Ideas sketched, fits refined, details rebuilt again and again.
-  Built from the pieces that shaped a legend and designed for what’s next, this signature drop pulls from the moments that shaped his ride.
-  Past, present, pro, it’s the gear linked to his biggest moments and the ones that pushed him forward. We’re not recreating history. We’re using it.
+description: ''
 projects_types:
   - content
 projects_tags:
@@ -34,3 +31,5 @@ photos: []
 datas: []
 images: []
 ---
+
+Jesper Tjäder's style is the result of seasons of work. Ideas sketched, fits refined, details rebuilt again and again. Built from the pieces that shaped a legend and designed for what’s next, this signature drop pulls from the moments that shaped his ride. Past, present, pro, it’s the gear linked to his biggest moments and the ones that pushed him forward. We’re not recreating history. We’re using it.
