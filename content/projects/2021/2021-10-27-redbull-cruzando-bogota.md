@@ -24,3 +24,9 @@ video_embed:
   id: A_DxkPYF6q0
   shorts: false
 ---
+
+Jaan Roose, Red Bull athlete from Estonia, came to Bogotá, Colombia, to set up a 1,500-meter slackline between Monserrate Hill and the Guadalupe Sanctuary.
+
+At 3,100 meters above sea level, with panoramic views of Bogotá, Jaan and his team of compatriots—Oskar, Sergei, and Veiko spent several hours, with the help of drones, laying a fishing line to later set up stronger ropes that would support a one-inch-wide slackline.
+
+This 1.5 km slackline is the longest rope Jaan has ever crossed in his career.
