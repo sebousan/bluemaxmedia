@@ -26,3 +26,5 @@ video_embed:
   platform: youtube
   id: -hXi9_RTN4o
 ---
+
+Pierre Vaultier is back to ride a brand-new, even more impressive snow structure in Serre-Chevalier. A meticulously sculpted line with precise jumps and daring cliffside landings, the 2017 World Champion and two-time Olympic snowboard cross champion makes riding it look almost effortless.
