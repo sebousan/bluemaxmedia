@@ -15,6 +15,9 @@ projects_clients:
 image:
   src: https://ucarecdn.com/bf9f284f-fa96-45cf-b51f-7de0096d4783/CHILE.jpg
   alt: ''
+hover_video:
+  mp4: ''
+  webm: https://ucarecdn.com/c22fc044-f8f2-4cb8-bb47-2780d4d6f5c5/THUMBNAIL_FACTION_CHILE.webm
 video_embed:
   platform: youtube
   id: 5A6YPoPqYtU
