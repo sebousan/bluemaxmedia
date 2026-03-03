@@ -16,7 +16,7 @@ image:
   alt: ''
 hover_video:
   mp4: ''
-  webm: ''
+  webm: https://ucarecdn.com/08a018a7-b07b-484b-8604-58f2660cec1f/THUMBNAIL_DAYDREAMS1_1.webm
 video_embed:
   platform: youtube
   id: RqWOxfcYFbY
