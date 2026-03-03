@@ -25,3 +25,6 @@ video_embed:
   id: dKTZat7yW-4
   shorts: false
 ---
+
+**Valentin Delluc Takes a Spin Around the Red Bull Ring.**
+When it comes to getting some altitude, Valentin Delluc will use any means: hot air balloons, mountains… This time, a 650-horsepower race car towed him, with Luc Alphand behind the wheel, above  the Red Bull Ring.
