@@ -12,12 +12,20 @@ projects_tags:
 projects_clients:
   - Alpina
 image:
-  src: https://ucarecdn.com/a9ced15c-c670-4c46-a636-5ab691b15d87/THUMBNAIL_ALPINA_ALPINER_EXTREME_AUTOMATIC.jpg
+  src: https://ucarecdn.com/7e5e473d-1a12-4e27-ab7c-011399e347ef/THUMBNAIL_ALPINA_EXTREME_AUTOMATIC.jpg
   alt: ''
 hover_video:
   mp4: ''
-  webm: https://ucarecdn.com/412c59ae-c3c7-49e9-8e27-2b91793c5332/THUMBNAIL_ALPINA_ALPINER_EXTREME_AUTOMATIC.webm
+  webm: https://ucarecdn.com/acd24493-024b-4375-a0df-3966aa80ecb2/THUMBNAIL_ALPINA_2.webm
 video_embed:
   platform: youtube
-  id: DCCJ84l7_60
+  id: qLiXtOYRCb0
+video_embed_2:
+  platform: youtube
+  id: Wl_eg_eakEs
+  shorts: false
+video_embed_3:
+  platform: youtube
+  id: R-aRbsvh90I
+  shorts: false
 ---
