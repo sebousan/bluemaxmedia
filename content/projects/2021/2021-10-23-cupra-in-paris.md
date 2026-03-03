@@ -19,3 +19,7 @@ video_embed:
   platform: youtube
   id: IvblTiHSO9w
 ---
+
+Born on the track, built for the city, **CUPRA** meets Paris like never before. **Cupra in Paris** turns the rooftops of **Paris **into a suspended circuit, where speed and city life collide.
+
+An immersive film, a one-of-a-kind visual experience, where the adrenaline of motorsport merges with the energy of the capital.
