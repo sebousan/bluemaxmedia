@@ -27,3 +27,5 @@ video_embed:
   platform: youtube
   id: dfg_cLwwiZc&t=2540s
 ---
+
+The Faction Collective’s third feature film uncovers the foundations of freeskiing as seen by the current generation of skiers. From the caves of the Dolomites to the nightscapes of Ruka and the mythic peaks surrounding Verbier, "Roots" takes us on a journey through the vibrant spectrum of freeskiing.
