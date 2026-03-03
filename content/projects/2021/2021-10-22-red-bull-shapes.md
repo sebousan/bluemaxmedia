@@ -26,3 +26,5 @@ video_embed:
   id: aUHxiT823U8
   shorts: false
 ---
+
+French snowboarder **Pierre Vaultier**, ambassador of the resort, has reinvented boardercross by creating a completely new kind of snow pumptrack. This film captures every twist, jump, and moment of his innovative ride, bringing the thrill of the track to life.
