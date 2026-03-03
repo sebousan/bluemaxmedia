@@ -26,3 +26,7 @@ video_embed:
 seo:
   title: Ski the world - Audi Quattro x Candide Thovex
 ---
+
+Follow Candide Thovex as he skis across the world’s most unexpected surfaces: grass, sand, rocks, The Great Wall of Chine. water, deserts, and jungles.
+
+Filmed on Planet Earth.
