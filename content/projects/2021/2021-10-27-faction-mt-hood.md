@@ -23,3 +23,5 @@ video_embed:
   platform: youtube
   id: JQ7z6m-L9WQ
 ---
+
+The Faction Collective team descends on Alta, Utah for a spring session to remember. From sailing through deep pow to slashing through springtime slush, follow in the flow as the team ride through every type of terrain in Alta’s renowned winter playground.
