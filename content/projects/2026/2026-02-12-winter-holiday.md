@@ -31,3 +31,5 @@ photos: []
 datas: []
 images: []
 ---
+
+For most riders, winter means packing the board away. Not for **Jules Charraud**. Teaming up with **Red Bull**, Jules flips the script on the cold season with _Winter Holidays._
