@@ -24,3 +24,5 @@ video_embed:
   platform: youtube
   id: -2H8Os6XXT8
 ---
+
+We already knew the Ténéré 700 could ride around the world, tackle the highest mountain passes, win the toughest rallies, and perform in motocross, trial, and enduro… But what challenge was left? Freestyle, of course, taking on one of the hardest tricks: the backflip! A feat never before attempted on the Ténéré 700, given its size and weight for this discipline…
