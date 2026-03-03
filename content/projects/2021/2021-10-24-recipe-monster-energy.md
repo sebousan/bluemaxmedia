@@ -28,3 +28,7 @@ video_embed:
   id: O6XkOpm6rnk
   shorts: false
 ---
+
+RECIPE is a 100% female freeski documentary, filmed during the winter of 2021/22.
+
+From the steep mountains of the French Alps to the streets of Salt Lake City, this movie highlights the current level of women's freeskiing, while going deep into the motivations, mindset and shared sense of purpose needed to push their limits on skis. It's a movie about the strength of a female action sports' collective.
