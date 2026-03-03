@@ -22,3 +22,5 @@ video_embed:
   platform: youtube
   id: TTO_8Rjb3fY
 ---
+
+This year at Watches and Wonders 2025 in Geneva, Jaeger-LeCoultre pays homage to the origins of the Reverso with the 1931 Polo Club. The immersive booth reinterprets the grand stables of aristocratic houses, where polo was played on private fields when the Reverso was born.
