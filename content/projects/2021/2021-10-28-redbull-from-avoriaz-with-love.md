@@ -25,3 +25,5 @@ video_embed:
   platform: youtube
   id: xsEMjWdgRdw
 ---
+
+Always known for pushing his limits by combining freestyle and speedriding, Valentin Delluc is back at it again but this time he’s taking on the deserted alpine resort Avoriaz. From the cables of the chairlifts to barrels, keys and wall rides, the French speedrider uses the empty French Alps resort as his own personal playground to pull off some insane tricks he’s never even done before.
