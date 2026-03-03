@@ -25,3 +25,5 @@ video_embed:
   id: uJl98t69m2k
   shorts: false
 ---
+
+First thing you want to do after finally graduating from school?! Get out as soon as possible to do what you are destined to do. And that's exactly what Matej Svancer is doing. In his very own unicorn way!
