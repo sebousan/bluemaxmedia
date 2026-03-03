@@ -16,3 +16,5 @@ video_embed:
   platform: vimeo
   id: '506099187'
 ---
+
+A film capturing a yacht in action, focusing on its design, performance, and life on board.
