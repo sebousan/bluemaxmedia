@@ -27,3 +27,5 @@ video_embed:
   platform: youtube
   id: nqLbasvT-Zo
 ---
+
+An all-star team makes the spring journey to Mount Hood for hand built booters and deep slush action.
