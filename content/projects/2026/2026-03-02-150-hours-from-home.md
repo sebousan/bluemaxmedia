@@ -35,3 +35,9 @@ photos: []
 datas: []
 images: []
 ---
+
+A return to skiing's birthplace.
+
+The Faction crew sought out untracked 4,000-meter peaks via air, road and camel in one of Central Asia’s most isolated mountain ranges. Glacial rivers freeze solid by dawn and rage by afternoon. Wind strips faces to blue ice overnight. With rescue days away, stakes were high. All to be in Mongolia’s remote Altai Mountains, where skiing originated over 10,000 years ago.
+
+Filmed on-location in the Altai Mountains, Mongolia
