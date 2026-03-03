@@ -26,3 +26,5 @@ video_embed:
   platform: youtube
   id: 8HvWxwZWPJ8&t=583s
 ---
+
+Both experts in their disciplines, Victor De Le Rue and Sam Anthamatten are always in search of fun and new adventures. As team athletes and freeriders, they’re redefining the way we move in the mountains. The goal is no longer just reaching a summit and descending -they now jump over crevasses, charge down steep slopes, climb ice walls to master them, and use their paragliders to overcome obstacles.
