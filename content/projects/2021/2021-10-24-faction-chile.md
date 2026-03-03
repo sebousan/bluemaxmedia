@@ -20,3 +20,5 @@ video_embed:
   id: 5A6YPoPqYtU
   shorts: false
 ---
+
+The Faction Collective travels to Chile for a ski touring adventure. The mission? Discover and ski some of the most impressive volcanoes on a road-trip south, connecting with the local community to understand the significance of the volcano in Chilean culture.
