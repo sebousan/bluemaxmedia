@@ -27,3 +27,5 @@ video_embed:
   platform: youtube
   id: TgjMdIq_jc8
 ---
+
+Speedflying with Valentin Delluc or downhill freeriding with Fabio Wibmer? Why not both. The Red Bull athletes deliver incredible stunts, epic shots and a real thrill ride from your seat.
