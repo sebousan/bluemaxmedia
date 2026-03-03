@@ -25,3 +25,5 @@ video_embed:
   platform: youtube
   id: _KjLscTn-yI
 ---
+
+French speedrider Valentin Delluc descends from a hot air balloon for a speedflying adventure over the magical Turkish region of Cappadocia.
