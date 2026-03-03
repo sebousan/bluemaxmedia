@@ -14,4 +14,19 @@ projects_clients:
 image:
   src: https://ucarecdn.com/95c1c5a1-2e74-448e-ba6c-075beef0c927/THUMBNAIL_MONTEC_DAY_DREAMS_2.jpg
   alt: ''
+hover_video:
+  mp4: ''
+  webm: ''
+video_embed:
+  platform: youtube
+  id: RqWOxfcYFbY
+  shorts: true
+video_embed_2:
+  platform: youtube
+  id: QKQgW0qyq5I
+  shorts: true
+video_embed_3:
+  platform: youtube
+  id: fJX-wuWKu94
+  shorts: true
 ---
