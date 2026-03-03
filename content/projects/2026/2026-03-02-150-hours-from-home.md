@@ -15,7 +15,7 @@ projects_athletes:
   - elisabeth-gerritzen
   - sam-anthamatten
 image:
-  src: https://ucarecdn.com/6e5af2d5-5e1e-4bb9-b761-6883f8504bb4/MONGOLIE.jpg
+  src: https://ucarecdn.com/38286c0b-f304-4b8b-9e9b-8e6a068e6d9e/THUMBNAIL_MONGOLIE.jpg
   alt: ''
 hover_video:
   mp4: ''
