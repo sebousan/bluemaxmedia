@@ -25,3 +25,5 @@ video_embed:
   platform: youtube
   id: PzyVEViQh_0
 ---
+
+Pro skater **Greg Ruhoff** takes center stage in this high energy capsule, showcasing his skills and unique style. Through dynamic movement and immersive visuals, the video brings to life the bold spirit and precision of **Alpiner Extreme Automatic** watches.
