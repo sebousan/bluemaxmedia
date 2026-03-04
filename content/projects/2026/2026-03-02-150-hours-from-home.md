@@ -7,6 +7,7 @@ title: 150 Hours from home
 description: ''
 projects_types:
   - films
+  - documentaries
 projects_tags:
   - ski
 projects_clients:
