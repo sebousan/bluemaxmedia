@@ -2,7 +2,7 @@
 isIndex: false
 draft: false
 date: 2025-07-08T16:59:00
-weight: 50
+weight: 60
 title: Enter the legend
 description: ''
 projects_types:
