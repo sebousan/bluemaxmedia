@@ -30,3 +30,5 @@ video_embed_3:
   id: fJX-wuWKu94
   shorts: true
 ---
+
+**Montec-  The Line Is Yours** is a video capsule series showcasing the ski and streetwear world of Montec. Each episode highlights the brand’s creativity and style through dynamic, immersive visuals, reflecting its bold and innovative spirit.
