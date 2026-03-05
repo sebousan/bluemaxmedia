@@ -71,11 +71,6 @@ images:
     credit: ''
     legend: Geoffroy Le Moal
     half: false
-  - src: ''
-    alt: ''
-    credit: ''
-    legend: ''
-    half: false
 ---
 
 **Floating Shapes:** Pierre Vaultier, former Olympic champion, rides water in all its forms.

@@ -33,19 +33,31 @@
             top: calc(100% + 1.5rem)
     
     .carousel
+        // aspect-ratio: 2.3
         .splide__track
+            height: 100%
             overflow: visible
+        .splide__slide
+            height: 100%
+            max-width: 100%
+        figure,
+        picture
+            height: 100%
         img
-            height: auto
+            height: 100%
             display: block
-            width: 100%
+            width: auto
             @include media-breakpoint-up(md)
                 border-radius: $border-radius
                 overflow: hidden
-    
-    // .photos
-    //     .splide__slide
-    //         width: 100%
+
+    .images
+        .carousel
+            margin-left: 0
+            margin-right: 0
+        figcaption 
+            p
+                font-size: .625rem
 
     .grid 
         gap: $grid-gutter-width

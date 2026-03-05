@@ -8,6 +8,8 @@
         overflow: hidden
 
 .featured-video
+    --video-ratio: 16/9
+    aspect-ratio: var(--video-ratio)
     position: relative
     .poster
         background-color: black
@@ -35,14 +37,14 @@
                 img
                     opacity: .7
     iframe
-        aspect-ratio: 16/9
+        aspect-ratio: var(--video-ratio)
         height: auto
         display: block
         width: 100%
     
     &--shorts
+        --video-ratio: 9/16
         iframe
-            aspect-ratio: 9/16
             @include media-breakpoint-up(md)
                 max-width: 25rem
 

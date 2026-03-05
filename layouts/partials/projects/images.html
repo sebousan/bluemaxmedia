@@ -1,5 +1,5 @@
 {{- with .Params.images }}
-<section>
+<section class="images">
   <h2>{{ i18n "projects.behind_scene" }}</h2>
   {{- $items := slice }}
   {{- range . }}
@@ -17,7 +17,7 @@
     "pagination" false 
     "gap" 24 
     "breakpoints" (dict 
-      "640" (dict "perPage" 1 "padding" 30)
+      "640" (dict "perPage" 1 "height" "12.5rem")
     ) }}
   {{- $args := (dict
           "context" (dict "items" $items "carouselParams" $carouselParams) 
