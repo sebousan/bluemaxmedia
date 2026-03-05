@@ -4,7 +4,7 @@ draft: false
 title: Home
 description: ''
 hero:
-  title: Crafted for action. Trusted by adventurous brands
+  title: Crafted for action. Trusted by adventurous brands.
   ctas:
     - text: Our works
       url: /works/
@@ -50,6 +50,7 @@ blocks:
     column: 5
     items:
       - title: Salomon
+        url: ''
         src: https://ucarecdn.com/95d52371-51d8-4219-9507-8d53a63e77a7/logosalomon.svg
       - title: Red Bull
         src: https://ucarecdn.com/c3e09738-523c-414e-bee8-fbb7f1ed58e3/logoredbull.svg
