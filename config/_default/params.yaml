@@ -7,6 +7,8 @@ header:
     size: fullscreen
 
 # Image
+logo:
+  header: "/assets/images/logo-header.svg"
 hero:
   cover: '1600x750'
 image:
