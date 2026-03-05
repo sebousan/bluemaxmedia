@@ -11,26 +11,67 @@ blocks:
   - type: informations
     heading:
       surtitle: ''
-      title: The core team
+      title: The founders
       text: ''
     column: 4
     items:
       - title: Executive Producer - Director
         text: Nicolas Roubin
+        icon: ''
         image:
           src: /images/uploads/Montec-Daydreams.png
       - title: Executive Producer - Director
         text: Jean-Clément Lelard
+        icon: ''
         image:
           src: /images/uploads/Montec-Daydreams.png
       - title: Executive Producer - Director
         text: Julien Eustache
+        icon: ''
         image:
           src: /images/uploads/Montec-Daydreams.png
       - title: Executive Producer - Director
         text: Etienne Mérel
+        icon: ''
         image:
           src: /images/uploads/Montec-Daydreams.png
+  - type: informations
+    heading:
+      surtitle: ''
+      title: The core team
+      text: ''
+    column: 4
+    items:
+      - title: Editor
+        text: Morgan Martin
+        icon: ''
+        image: null
+        cta: null
+      - title: Camera Operator
+        text: Robin Gerbelot
+        icon: ''
+        image: null
+        cta: null
+      - title: FPV Drone Pilot
+        text: Geoffroy Le Moal
+        icon: ''
+        image: null
+        cta: null
+      - title: Project Manager
+        text: Candice Bailly-Aubry
+        icon: ''
+        image: null
+        cta: null
+      - title: Colorist
+        text: Victor Allard
+        icon: ''
+        image: null
+        cta: null
+      - title: Sound Engineer
+        text: Simon Mourard
+        icon: ''
+        image: null
+        cta: null
+    background: false
 slug: ''
 ---
-
