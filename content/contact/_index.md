@@ -24,8 +24,5 @@ blocks:
       - title: Briançon
         text: 73 Route de Grenoble 05100 Briançon France
         icon: ''
-      - title: Bourg St Maurice
-        text: 24 B Rue des Glières 73700 Séez France
-        icon: ''
 slug: ''
 ---
