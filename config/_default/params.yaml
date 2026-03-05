@@ -19,8 +19,8 @@ projects:
     desktop: "x402"
     mobile: "x201"
   photos:
-    desktop: "1296x730"
-    mobile: "375x211"
+    desktop: "x730"
+    mobile: "x211"
 blocks:
   informations:
     image:
@@ -67,6 +67,7 @@ admin:
         - nav-primary
         - nav-social
         - nav-legal
+        - footer
         - seo
 
     indexes:
