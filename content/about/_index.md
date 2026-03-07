@@ -15,12 +15,12 @@ blocks:
       text: ''
     column: 4
     items:
-      - title: Executive Producer - Director
+      - title: Business Manager + CGO
         text: Nicolas Roubin
         icon: ''
         image:
           src: /images/uploads/Montec-Daydreams.png
-      - title: Executive Producer - Director
+      - title: Business Manager + Director
         text: Jean-Clément Lelard
         icon: ''
         image:
@@ -38,7 +38,7 @@ blocks:
   - type: informations
     heading:
       surtitle: ''
-      title: The core team
+      title: Our team
       text: ''
     column: 4
     items:
@@ -52,7 +52,7 @@ blocks:
         icon: ''
         image: null
         cta: null
-      - title: FPV Drone Pilot
+      - title: Drone Pilot
         text: Geoffroy Le Moal
         icon: ''
         image: null
