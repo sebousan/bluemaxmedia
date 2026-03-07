@@ -25,12 +25,12 @@ blocks:
         icon: ''
         image:
           src: /images/uploads/Montec-Daydreams.png
-      - title: Executive Producer - Director
+      - title: Executive Producer + Director
         text: Julien Eustache
         icon: ''
         image:
           src: /images/uploads/Montec-Daydreams.png
-      - title: Executive Producer - Director
+      - title: Executive Producer + Director
         text: Etienne Mérel
         icon: ''
         image:
@@ -47,7 +47,7 @@ blocks:
         icon: ''
         image: null
         cta: null
-      - title: Camera Operator
+      - title: Camera Operator + Editor
         text: Robin Gerbelot
         icon: ''
         image: null
