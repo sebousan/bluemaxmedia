@@ -72,6 +72,21 @@ blocks:
         icon: ''
         image: null
         cta: null
+      - title: Drone Pilot
+        text: Stephane Guigné
+        icon: ''
+        image: null
+        cta: null
+      - title: Camera Operator
+        text: Tom Lafay
+        icon: ''
+        image: null
+        cta: null
+      - title: Studio Director
+        text: Julien Regnier
+        icon: ''
+        image: null
+        cta: null
     background: false
 slug: ''
 ---
