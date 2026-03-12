@@ -47,6 +47,10 @@ admin:
   cms: sveltiacms
   repo: sebousan/bluemaxmedia
 
+  # Auth
+  auth:
+    netlify_identity: false
+
   # CDN
   media:
     media_folder: false
