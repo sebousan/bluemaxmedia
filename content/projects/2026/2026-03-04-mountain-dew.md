@@ -31,3 +31,5 @@ photos: []
 datas: []
 images: []
 ---
+
+This Mountain Dew commercial features kayaker Andrew Mattern navigating extreme rapids and dropping a waterfall, captured through dynamic outdoor cinematography.
