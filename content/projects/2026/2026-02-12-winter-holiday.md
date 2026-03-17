@@ -21,7 +21,7 @@ hover_video:
   webm: https://ucarecdn.com/0de53fa2-0452-4d97-b0f6-c3f0b2a95dd7/SHORTTHUMBNAIL_REDBULL_WINTER_HOLIDAY.webm
 video_embed:
   platform: youtube
-  id: kf_7DX6dDSU&t=2s
+  id: ePo2_HFiR74
   shorts: false
 video_embed_2: null
 video_embed_3: null
