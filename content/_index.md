@@ -22,8 +22,10 @@ blocks:
         title: experiences
       - prefix: +
         value: 100
+        suffix: ''
         limit: 100
         title: projects
+        text: ''
       - prefix: +
         value: 50
         limit: 100
@@ -38,8 +40,8 @@ blocks:
     media: https://ucarecdn.com/4425664a-e83b-49ec-9a3f-ce23ef1eb6a8/VIDEO-2026-01-20-18-25-36.mp4
   - type: editorial
     direction: ltr
-    title: A live action expert
-    text: We are athletes filming athletes. Riders, Mountaineers, explorers, runners… people who move with purpose and create with instinct.
+    title: Turn images into emotion
+    text: Through wild landscapes and real experiences, we craft films that connect people to something deeper.
     ctas:
       - text: Learn more works
         url: /works/
