@@ -22,6 +22,6 @@ hover_video:
   webm: https://ucarecdn.com/e6075c12-c871-4a97-9302-b7fd04f09ce6/THUMBNAIL_SALOMON_AEROS.webm
 video_embed:
   platform: youtube
-  id: vsyj9xltEWw/edit
+  id: mdHb_G3fKbM
   shorts: false
 ---
