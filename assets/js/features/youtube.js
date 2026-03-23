@@ -84,10 +84,8 @@ const initYouTube = () => {
   });
 };
 
-// Lazy load YouTube after a short delay to improve PageSpeed scores
-const scheduleYouTube = () => setTimeout(initYouTube, 300);
 if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', scheduleYouTube);
+  document.addEventListener('DOMContentLoaded', initYouTube);
 } else {
-  scheduleYouTube();
+  initYouTube();
 }
