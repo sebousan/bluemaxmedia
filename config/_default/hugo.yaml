@@ -12,6 +12,6 @@ markup:
   tableOfContents:
     ordered: true
 pagination:
-  pagerSize: 15
+  pagerSize: 24
 removePathAccents: true
 timeout: 100000

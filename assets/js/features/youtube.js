@@ -84,33 +84,10 @@ const initYouTube = () => {
   });
 };
 
-/**
- * Lazy load YouTube on user interaction
- * This significantly improves PageSpeed scores by deferring third-party scripts
- */
-let youtubeInitialized = false;
-
-const lazyLoadYouTube = () => {
-  if (youtubeInitialized) return;
-  youtubeInitialized = true;
-
-  // Remove event listeners once triggered
-  ['scroll', 'mousemove', 'touchstart', 'click'].forEach(event => {
-    window.removeEventListener(event, lazyLoadYouTube, { passive: true });
-  });
-
-  initYouTube();
-};
-
-// Wait for DOM to be ready, then attach interaction listeners
+// Lazy load YouTube after a short delay to improve PageSpeed scores
+const scheduleYouTube = () => setTimeout(initYouTube, 100);
 if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', () => {
-    ['scroll', 'mousemove', 'touchstart', 'click'].forEach(event => {
-      window.addEventListener(event, lazyLoadYouTube, { passive: true, once: true });
-    });
-  });
+  document.addEventListener('DOMContentLoaded', scheduleYouTube);
 } else {
-  ['scroll', 'mousemove', 'touchstart', 'click'].forEach(event => {
-    window.addEventListener(event, lazyLoadYouTube, { passive: true, once: true });
-  });
+  scheduleYouTube();
 }
