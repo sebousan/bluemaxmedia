@@ -32,17 +32,6 @@ datas:
     text: Blue Max Media
   - title: Gaffer
     text: Jour Blanc Studio
-images:
-  - src: ''
-    alt: ''
-    credit: ''
-    legend: ''
-    half: false
-  - src: ''
-    alt: ''
-    credit: ''
-    legend: ''
-    half: false
 ---
 
 Ever wondered where your coffee capsule ends up?

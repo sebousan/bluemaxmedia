@@ -24,11 +24,15 @@
     .content
         display: grid
         gap: $grid-gutter-width
-
+        &:has(.featured-video--shorts)
+            grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr))
+    
     .content-body
+        grid-column: 1 / -1
         max-width: 55rem
 
     .featured-video + .photos
+        grid-column: 1 / -1
         .splide__arrow
             top: calc(100% + 1.5rem)
     

@@ -24,6 +24,8 @@ projects:
     desktop: "x730"
     mobile: "x211"
 blocks:
+  editorial:
+    desktop: "1200x"
   informations:
     image:
       ratio: .75
