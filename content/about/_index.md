@@ -17,24 +17,12 @@ blocks:
     items:
       - title: Business Manager + CGO
         text: Nicolas Roubin
-        icon: ''
-        image:
-          src: /images/uploads/Montec-Daydreams.png
       - title: Business Manager + Director
         text: Jean-Clément Lelard
-        icon: ''
-        image:
-          src: /images/uploads/Montec-Daydreams.png
       - title: Executive Producer + Director
         text: Julien Eustache
-        icon: ''
-        image:
-          src: /images/uploads/Montec-Daydreams.png
       - title: Executive Producer + Director
         text: Etienne Mérel
-        icon: ''
-        image:
-          src: /images/uploads/Montec-Daydreams.png
   - type: informations
     heading:
       surtitle: ''
