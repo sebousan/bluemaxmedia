@@ -13,6 +13,13 @@ hero:
   cover: '1600x750'
 image:
   desktop: "1296x"
+  video:
+    landscap:
+      desktop: "1296x729"
+      mobile: "640x360"
+    portrait:
+      desktop: "405x720"
+      mobile: "406x721"
 projects:
   thumbnail:
     desktop: "416x312"

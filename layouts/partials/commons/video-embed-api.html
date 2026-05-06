@@ -11,14 +11,31 @@ Renders a platform video via API.
 {{- $poster := .poster | default false -}}
 {{- $desktop := .desktop | default false -}}
 {{- $mobile := .mobile | default false -}}
+{{- $shorts := .shorts | default false -}}
+
+{{- if eq $desktop false }}
+  {{- if eq $shorts true }}
+    {{- $desktop = site.Params.image.video.portrait.desktop | default false -}}
+  {{- else }}
+    {{- $desktop = site.Params.image.video.landscape.desktop | default false -}}
+  {{- end }}
+{{- end }}
+
+{{- if eq $mobile false }}
+  {{- if eq $shorts true }}
+    {{- $mobile = site.Params.image.video.portrait.mobile | default false -}}
+  {{- else }}
+    {{- $mobile = site.Params.image.video.landscape.mobile | default false -}}
+  {{- end }}
+{{- end }}
 
 {{- if and $platform $id }}
   {{- with $poster }}
     {{ partial "commons/image" (dict
       "src" . 
       "picture_class" "poster js-video-play-pause"
-      "desktop" "1296x729"
-      "mobile" "640x360"
+      "desktop" $desktop
+      "mobile" $mobile
       "lazy" false
     ) }}
   {{- end }}

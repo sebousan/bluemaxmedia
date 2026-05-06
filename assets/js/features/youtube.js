@@ -24,6 +24,7 @@ const initYouTube = () => {
    * Player ready handler
    */
   const onPlayerReady = (event, autoplay) => {
+    event.target.getIframe()?.classList.add('is-ready');
     if (!autoplay) return;
 
     event.target.mute(); // required for autoplay
@@ -84,8 +85,12 @@ const initYouTube = () => {
   });
 };
 
-if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', initYouTube);
+if (document.body.classList.contains('home-page')) {
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initYouTube);
+  } else {
+    initYouTube();
+  }
 } else {
-  initYouTube();
+  window.addEventListener('load', initYouTube);
 }
