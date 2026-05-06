@@ -13,6 +13,7 @@ hero:
   cover: '1600x750'
 image:
   desktop: "1296x"
+  quality: lighter
   video:
     landscape:
       desktop: "1296x729"
