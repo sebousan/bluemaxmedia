@@ -7,35 +7,35 @@
    
   {{- $video = $video | merge (dict "autoplay" 0) }}
   {{- $video = $video | merge (dict "controls" 1) }}
-  <div class="featured-video {{- if .shorts }} featured-video--shorts{{ end }}">
+  <div class="featured-video yt {{- if .shorts }} featured-video--shorts{{ end }}">
     {{- partial "commons/video-embed-api.html" $video }}
   </div>
 {{ end }}
 {{- with .Params.video_embed_2 }}
   {{- $video := . | merge (dict "autoplay" 0) }}
   {{- $video = $video | merge (dict "controls" 1) }}
-  <div class="featured-video {{- if .shorts }} featured-video--shorts{{ end }}">
+  <div class="featured-video yt {{- if .shorts }} featured-video--shorts{{ end }}">
     {{- partial "commons/video-embed-api.html" $video }}
   </div>
 {{ end }}
 {{- with .Params.video_embed_3 }}
   {{- $video := . | merge (dict "autoplay" 0) }}
   {{- $video = $video | merge (dict "controls" 1) }}
-  <div class="featured-video {{- if .shorts }} featured-video--shorts{{ end }}">
+  <div class="featured-video yt {{- if .shorts }} featured-video--shorts{{ end }}">
     {{- partial "commons/video-embed-api.html" $video }}
   </div>
 {{ end }}
 {{- with .Params.video_embed_4 }}
   {{- $video := . | merge (dict "autoplay" 0) }}
   {{- $video = $video | merge (dict "controls" 1) }}
-  <div class="featured-video {{- if .shorts }} featured-video--shorts{{ end }}">
+  <div class="featured-video yt {{- if .shorts }} featured-video--shorts{{ end }}">
     {{- partial "commons/video-embed-api.html" $video }}
   </div>
 {{ end }}
 {{- with .Params.video_embed_5 }}
   {{- $video := . | merge (dict "autoplay" 0) }}
   {{- $video = $video | merge (dict "controls" 1) }}
-  <div class="featured-video {{- if .shorts }} featured-video--shorts{{ end }}">
+  <div class="featured-video yt {{- if .shorts }} featured-video--shorts{{ end }}">
     {{- partial "commons/video-embed-api.html" $video }}
   </div>
 {{ end }}
