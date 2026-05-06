@@ -92,5 +92,7 @@ if (document.body.classList.contains('home-page')) {
     initYouTube();
   }
 } else {
-  window.addEventListener('load', initYouTube);
+  window.addEventListener('load', () => {
+    (window.requestIdleCallback ?? (cb => setTimeout(cb, 1)))(initYouTube);
+  });
 }
