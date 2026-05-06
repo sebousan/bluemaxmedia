@@ -25,7 +25,8 @@
         display: grid
         gap: $grid-gutter-width
         &:has(.featured-video--shorts)
-            grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr))
+            @include media-breakpoint-up(md)
+                grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr))
     
     .content-body
         grid-column: 1 / -1

@@ -16,7 +16,7 @@ image:
   video:
     landscape:
       desktop: "1296x729"
-      mobile: "640x360"
+      mobile: "375x211"
     portrait:
       desktop: "405x720"
       mobile: "406x721"
