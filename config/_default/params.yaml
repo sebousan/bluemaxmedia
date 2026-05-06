@@ -14,7 +14,7 @@ hero:
 image:
   desktop: "1296x"
   video:
-    landscap:
+    landscape:
       desktop: "1296x729"
       mobile: "640x360"
     portrait:
