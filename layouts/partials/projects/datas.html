@@ -4,11 +4,13 @@
   {{- $datas = $datas | append . }}
 {{- end }}
 {{- with .GetTerms "projects_athletes" }}
+  {{- $links := slice }}
   {{- range . }}
-    {{- $text := printf `<a href="%s">%s</a>` .Permalink .Title }}
-    {{- $talents := dict "title" (i18n "projects_athletes.title" 1) "text" $text }}
-    {{- $datas = $datas | append $talents }}
+    {{- $links = $links | append (printf `<a href="%s">%s</a>` .Permalink .Title) }}
   {{- end }}
+  {{- $text := delimit $links ", " }}
+  {{- $talents := dict "title" (i18n "projects_athletes.title" (len .)) "text" $text }}
+  {{- $datas = $datas | append $talents }}
 {{- end }}
 
 {{- with $datas }}
