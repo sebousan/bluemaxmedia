@@ -28,8 +28,10 @@ blocks:
         text: ''
       - prefix: +
         value: 50
+        suffix: ''
         limit: 100
-        title: athletes
+        title: talents
+        text: ''
   - type: editorial
     direction: rtl
     title: A live action expert
