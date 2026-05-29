@@ -15,7 +15,7 @@ The [bluemaxmedia.com](https://bluemaxmedia.com/) website is the property of Blu
 
 The site [bluemaxmedia.com](https://bluemaxmedia.com/) is hosted at:
 
-**Netlify**
+**Netlify** \
 2325 3rd Street, \
 Suite 296, \
 San Francisco, \
