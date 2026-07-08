@@ -1,6 +1,6 @@
 ---
 draft: false
-title: EMILY HARROP
+title: Emily Harrop
 description: ''
 image: null
 ---
