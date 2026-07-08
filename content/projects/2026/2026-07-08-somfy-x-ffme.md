@@ -1,6 +1,6 @@
 ---
 isIndex: false
-draft: true
+draft: false
 date: 2025-11-19T16:43
 weight: ''
 title: Somfy  x FFME
@@ -21,10 +21,22 @@ image:
 hover_video:
   mp4: https://ucarecdn.com/61b44a8d-1222-49ef-987c-2dc87e7b0ab1/THUMBNAIL_SOMFY.mp4
   webm: ''
-video_embed: null
-video_embed_2: null
-video_embed_3: null
-video_embed_4: null
+video_embed:
+  platform: youtube
+  id: https://youtube.com/shorts/pCEWFB84mNs
+  shorts: true
+video_embed_2:
+  platform: youtube
+  id: https://youtube.com/shorts/3oZKmk6J0Jk
+  shorts: true
+video_embed_3:
+  platform: youtube
+  id: https://youtube.com/shorts/DCCfHhYJH9U
+  shorts: true
+video_embed_4:
+  platform: youtube
+  id: https://youtube.com/shorts/lQDLT2rNY2A
+  shorts: true
 video_embed_5: null
 photos: []
 datas: []
