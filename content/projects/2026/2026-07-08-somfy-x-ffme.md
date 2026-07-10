@@ -7,6 +7,7 @@ title: Somfy  x FFME
 description: ''
 projects_types:
   - content
+  - commercial
 projects_tags:
   - ski
   - advertisement
