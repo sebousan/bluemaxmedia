@@ -8,7 +8,7 @@ description: ''
 projects_types:
   - content
 projects_tags:
-  - bike
+  - social-content
 projects_clients:
   - red-bull
 projects_athletes: []
