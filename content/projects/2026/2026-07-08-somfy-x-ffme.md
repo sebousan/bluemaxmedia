@@ -4,7 +4,7 @@ draft: false
 date: 2025-11-19T16:43
 weight: ''
 title: Somfy  x FFME
-description: ''
+description: Somfy reveal
 projects_types:
   - content
   - commercial
