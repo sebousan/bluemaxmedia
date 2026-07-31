@@ -1,7 +1,7 @@
 ---
 isIndex: false
 draft: false
-date: 2025-07-14T15:24
+date: 2025-07-14T15:24:00
 weight: ''
 title: Normandie with Valentin Delluc
 description: ''

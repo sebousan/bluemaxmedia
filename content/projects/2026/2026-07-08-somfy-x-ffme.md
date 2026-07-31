@@ -1,7 +1,7 @@
 ---
 isIndex: false
 draft: false
-date: 2025-11-19T16:43
+date: 2025-11-19T16:43:00
 weight: ''
 title: Somfy  x FFME
 description: Somfy reveal
