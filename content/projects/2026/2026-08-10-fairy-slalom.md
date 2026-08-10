@@ -3,14 +3,16 @@ isIndex: false
 draft: true
 date: 2026-08-10T13:18
 weight: ''
-title: Fairy slalom
+title: Fairy Slalom
 description: ''
 projects_types:
   - content
-projects_tags: []
+projects_tags:
+  - wingsuit
 projects_clients:
   - red-bull
-projects_athletes: []
+projects_athletes:
+  - marco-waltenspiel
 image:
   src: ''
   alt: ''
