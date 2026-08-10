@@ -25,11 +25,11 @@ hover_video:
 video_embed:
   platform: youtube
   id: https://youtube.com/shorts/pCEWFB84mNs?feature=share
-  shorts: true
+  shorts: false
 video_embed_2:
   platform: youtube
   id: https://youtube.com/shorts/3oZKmk6J0Jk
-  shorts: true
+  shorts: false
 video_embed_3:
   platform: youtube
   id: https://youtube.com/shorts/DCCfHhYJH9U
