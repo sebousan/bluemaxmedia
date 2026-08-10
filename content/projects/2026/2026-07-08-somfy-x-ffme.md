@@ -24,7 +24,7 @@ hover_video:
   webm: ''
 video_embed:
   platform: youtube
-  id: https://youtube.com/shorts/pCEWFB84mNs
+  id: https://youtube.com/shorts/pCEWFB84mNs?feature=share
   shorts: true
 video_embed_2:
   platform: youtube
