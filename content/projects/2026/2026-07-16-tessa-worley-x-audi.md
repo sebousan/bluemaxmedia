@@ -1,6 +1,6 @@
 ---
 isIndex: false
-draft: false
+draft: true
 date: 2026-01-21T15:13:00
 weight: ''
 title: Audi x Tessa Worley
@@ -13,7 +13,9 @@ projects_clients:
   - audi
 projects_athletes:
   - tessa-worley
-image: null
+image:
+  src: ''
+  alt: ''
 hover_video: null
 video_embed:
   platform: youtube
