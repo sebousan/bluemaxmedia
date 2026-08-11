@@ -1,6 +1,6 @@
 ---
 isIndex: false
-draft: true
+draft: false
 date: 2026-08-10T13:18
 weight: ''
 title: Fairy Slalom
@@ -14,16 +14,19 @@ projects_clients:
 projects_athletes:
   - marco-waltenspiel
 image:
-  src: ''
+  src: https://ucarecdn.com/da1d2cb9-e47d-41e8-b279-47fac94c5308/FAIRY_SLALOM.png
   alt: ''
 hover_video:
   mp4: ''
-  webm: ''
+  webm: https://ucarecdn.com/a7629567-8527-42b2-a043-f45c76a8a63a/THUMBNAIL_FAIRY_SLALOM.webm
 video_embed:
-  platform: ''
-  id: ''
-  shorts: false
-video_embed_2: null
+  platform: youtube
+  id: https://youtube.com/shorts/7CyvEj_Ygnc?si=SBX7BSSqAH8VJAIp
+  shorts: true
+video_embed_2:
+  platform: youtube
+  id: https://youtube.com/shorts/s666bfx25MA?si=NR6TL0vxqt2gbuJG
+  shorts: true
 video_embed_3: null
 video_embed_4: null
 video_embed_5: null
