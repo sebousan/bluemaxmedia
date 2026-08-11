@@ -4,7 +4,7 @@ draft: true
 date: 2026-08-10T13:18
 weight: ''
 title: Fairy Slalom
-description: ''
+description: Quand tant de montgolfières volent au-dessus de la Cappadoce, il suffit de faire du slalom.  Marco Waltenspiel le fait à environ 200 km/h à une altitude de 2 800 mètres.
 projects_types:
   - content
 projects_tags:
