@@ -3,16 +3,22 @@ isPage: true
 draft: false
 title: Home
 description: ''
+image: null
 hero:
   title: Crafted for action. Trusted by adventurous brands.
   ctas:
     - text: Our works
       url: /works/
+      lang: ''
+      blank: false
+  image: null
   video_embed:
     platform: youtube
     id: 6mzTBLU2pVw
+    shorts: false
 blocks:
   - type: datas
+    heading: null
     column: 3
     items:
       - prefix: +
@@ -20,6 +26,7 @@ blocks:
         suffix: years
         limit: 100
         title: experiences
+        text: ''
       - prefix: +
         value: 100
         suffix: ''
@@ -32,6 +39,7 @@ blocks:
         limit: 100
         title: talents
         text: ''
+    background: false
   - type: editorial
     direction: rtl
     title: A live action expert
@@ -39,6 +47,8 @@ blocks:
     ctas:
       - text: Learn more about us
         url: /about/
+        lang: ''
+        blank: false
     media: https://ucarecdn.com/4425664a-e83b-49ec-9a3f-ce23ef1eb6a8/VIDEO-2026-01-20-18-25-36.mp4
   - type: editorial
     direction: ltr
@@ -47,38 +57,51 @@ blocks:
     ctas:
       - text: Learn more works
         url: /works/
+        lang: ''
+        blank: false
     media: https://ucarecdn.com/bf55360b-847d-459d-9766-da85d67fe078/7-DJI_0039.jpg
   - type: logos
     heading:
+      surtitle: ''
       title: They trust us
+      text: ''
     column: 5
     items:
       - title: Salomon
         url: ''
         src: https://ucarecdn.com/95d52371-51d8-4219-9507-8d53a63e77a7/logosalomon.svg
       - title: Red Bull
+        url: ''
         src: https://ucarecdn.com/c3e09738-523c-414e-bee8-fbb7f1ed58e3/logoredbull.svg
       - title: Audi
+        url: ''
         src: https://ucarecdn.com/a77557be-6b76-44dc-86ed-ca7495322fee/logoaudi.svg
       - title: Faction
+        url: ''
         src: https://ucarecdn.com/0c993528-c49d-4d99-939c-78c775114ba8/logofaction.svg
       - title: Michelin
+        url: ''
         src: https://ucarecdn.com/090dc570-bb71-4410-b2df-5d6a5a55ce0d/logomichelin.svg
       - title: Airbnb
+        url: ''
         src: https://ucarecdn.com/ef99c27e-76e7-45ef-b108-f6f96be93ab3/logoairbnb.svg
       - title: Montec
+        url: ''
         src: https://ucarecdn.com/980176e6-3d4d-4b83-9378-76f4cae794f1/logomontec.svg
       - title: Insta360
+        url: ''
         src: https://ucarecdn.com/82b7f008-f44a-4826-8f0b-f5d660ecef78/logoinsta360.svg
       - title: BFGoodrich
+        url: ''
         src: https://ucarecdn.com/6010095a-b672-4278-b490-9834819e5ebd/logobfgoodrich.svg
     background: false
     layout: carousel
     carousel:
       params:
+        focus: true
         autoplay: true
         arrows: true
-        interval: 2000
+        interval: 2100
         pagination: false
         type: loop
         perMove: 1
@@ -91,8 +114,10 @@ blocks:
             focus: false
             autoplay: true
             arrows: false
+            interval: null
             pagination: false
             type: loop
+            perMove: null
             perPage: 3
             padding: null
             gap: null
