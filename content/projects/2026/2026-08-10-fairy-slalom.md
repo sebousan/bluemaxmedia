@@ -21,11 +21,11 @@ hover_video:
   webm: https://ucarecdn.com/a7629567-8527-42b2-a043-f45c76a8a63a/THUMBNAIL_FAIRY_SLALOM.webm
 video_embed:
   platform: youtube
-  id: https://youtube.com/shorts/7CyvEj_Ygnc?si=SBX7BSSqAH8VJAIp
+  id: 7CyvEj_Ygnc
   shorts: true
 video_embed_2:
   platform: youtube
-  id: https://youtube.com/shorts/s666bfx25MA?si=NR6TL0vxqt2gbuJG
+  id: s666bfx25MA
   shorts: true
 video_embed_3: null
 video_embed_4: null

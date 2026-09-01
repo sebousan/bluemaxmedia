@@ -24,19 +24,19 @@ hover_video:
   webm: ''
 video_embed:
   platform: youtube
-  id: https://youtube.com/shorts/pCEWFB84mNs?feature=share
-  shorts: false
+  id: pCEWFB84mNs
+  shorts: true
 video_embed_2:
   platform: youtube
-  id: https://youtube.com/shorts/3oZKmk6J0Jk
-  shorts: false
+  id: 3oZKmk6J0Jk
+  shorts: true
 video_embed_3:
   platform: youtube
-  id: https://youtube.com/shorts/DCCfHhYJH9U
+  id: DCCfHhYJH9U
   shorts: true
 video_embed_4:
   platform: youtube
-  id: https://youtube.com/shorts/lQDLT2rNY2A
+  id: lQDLT2rNY2A
   shorts: true
 video_embed_5: null
 photos: []

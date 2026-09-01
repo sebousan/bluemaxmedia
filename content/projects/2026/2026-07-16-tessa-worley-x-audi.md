@@ -22,7 +22,7 @@ hover_video:
   webm: ''
 video_embed:
   platform: youtube
-  id: https://www.youtube.com/watch?v=uvIzA9yFDBo
+  id: uvIzA9yFDBo
   shorts: false
 video_embed_2: null
 video_embed_3: null
