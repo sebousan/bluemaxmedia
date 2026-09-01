@@ -9,6 +9,7 @@ projects_types:
   - content
 projects_tags:
   - social-content
+  - car
 projects_clients:
   - audi
 projects_athletes:
