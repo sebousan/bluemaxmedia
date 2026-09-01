@@ -1,7 +1,7 @@
 ---
 isIndex: false
 draft: false
-date: 2026-08-10T13:18
+date: 2026-08-10T13:18:00
 weight: ''
 title: Fairy Slalom
 description: When so many hot-air balloons are flying over Cappadocia, all you have to do is slalom.  Marco Waltenspiel does it at around 200 km/h at an altitude of 2,800 meters.
