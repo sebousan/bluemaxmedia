@@ -56,6 +56,7 @@ admin:
   # CMS
   cms: sveltiacms
   repo: sebousan/bluemaxmedia
+  version: 0.206.1
 
   # Auth
   auth:
