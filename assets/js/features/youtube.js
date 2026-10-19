@@ -1,49 +1,62 @@
-const initYouTube = () => {
-  const players = document.querySelectorAll('.js-youtube-player');
-  if (!players.length) return;
+const players = document.querySelectorAll('.js-youtube-player');
+const instances = new Map(); // element id → ready YT.Player
+const playRequested = new Set(); // element ids clicked before their player was ready
 
-  /**
-   * Load YouTube Iframe API (once)
-   */
-  const loadYouTubeAPI = () =>
-    new Promise(resolve => {
-      if (window.YT?.Player) {
-        resolve();
-        return;
-      }
+/**
+ * Load YouTube Iframe API (once)
+ */
+const loadYouTubeAPI = () =>
+  new Promise(resolve => {
+    if (window.YT?.Player) {
+      resolve();
+      return;
+    }
 
-      const script = document.createElement('script');
-      script.src = 'https://www.youtube.com/iframe_api';
-      script.defer = true;
+    const script = document.createElement('script');
+    script.src = 'https://www.youtube.com/iframe_api';
 
-      window.onYouTubeIframeAPIReady = resolve;
-      document.head.appendChild(script);
-    });
+    window.onYouTubeIframeAPIReady = resolve;
+    document.head.appendChild(script);
+  });
 
-  /**
-   * Player ready handler
-   */
-  const onPlayerReady = (event, autoplay) => {
-    event.target.getIframe()?.classList.add('is-ready');
-    if (!autoplay) return;
+/**
+ * Player ready handler
+ */
+const onPlayerReady = (event, id, autoplay) => {
+  event.target.getIframe()?.classList.add('is-ready');
+  instances.set(id, event.target);
 
-    event.target.mute(); // required for autoplay
+  if (playRequested.has(id)) {
     event.target.playVideo();
-  };
+    return;
+  }
+  if (!autoplay) return;
 
-  /**
-   * Player state change handler
-   */
-  const onPlayerStateChange = ({ data, target }) => {
-    if (data !== YT.PlayerState.PLAYING) return;
+  event.target.mute(); // required for autoplay
+  event.target.playVideo();
+};
 
-    const iframe = target.getIframe();
-    iframe?.parentElement?.classList.add('is-playing');
-  };
+/**
+ * Player state change handler
+ */
+const onPlayerStateChange = ({ data, target }) => {
+  if (data !== YT.PlayerState.PLAYING) return;
 
-  /**
-   * Init players
-   */
+  const iframe = target.getIframe();
+  iframe?.parentElement?.classList.add('is-playing');
+};
+
+const getYouTubeId = (url) => {
+  const match = url.match(
+    /(?:youtube\.com\/(?:[^\/]+\/.+\/|(?:v|e(?:mbed)?|shorts)\/|.*[?&]v=)|youtu\.be\/)([^"&?\/ ]{11})/i
+  );
+  return match && match[1] ? match[1] : url;
+};
+
+/**
+ * Init players
+ */
+const initYouTube = () => {
   loadYouTubeAPI().then(() => {
     players.forEach(playerEl => {
       const {
@@ -52,18 +65,13 @@ const initYouTube = () => {
         videoControls = '0'
       } = playerEl.dataset;
 
+      const id = playerEl.id;
       const autoplay = Number(videoAutoplay);
       const controls = Number(videoControls);
-
-      const getYouTubeId = (url) => {
-        const match = url.match(
-          /(?:youtube\.com\/(?:[^\/]+\/.+\/|(?:v|e(?:mbed)?|shorts)\/|.*[?&]v=)|youtu\.be\/)([^"&?\/ ]{11})/i
-        );
-        return match && match[1] ? match[1] : url;
-      };
+      const youTubeId = getYouTubeId(videoId);
 
       new YT.Player(playerEl, {
-          videoId: getYouTubeId(videoId),
+          videoId: youTubeId,
           host: 'https://www.youtube-nocookie.com',
           playerVars: {
             autoplay,
@@ -74,10 +82,10 @@ const initYouTube = () => {
             cc_load_policy: 0,
             iv_load_policy: 3,
             playsinline: 1,
-            playlist: videoId
+            playlist: youTubeId
           },
           events: {
-            onReady: e => onPlayerReady(e, autoplay),
+            onReady: e => onPlayerReady(e, id, autoplay),
             onStateChange: onPlayerStateChange
           }
       });
@@ -85,14 +93,32 @@ const initYouTube = () => {
   });
 };
 
-if (document.body.classList.contains('home-page')) {
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initYouTube);
-  } else {
-    initYouTube();
-  }
-} else {
-  window.addEventListener('load', () => {
-    (window.requestIdleCallback ?? (cb => setTimeout(cb, 1)))(initYouTube);
+/**
+ * Poster: play the video on click, or as soon as its player is ready
+ */
+document.querySelectorAll('.js-video-play-pause').forEach(poster => {
+  const id = poster.nextElementSibling?.id;
+  if (!id) return;
+
+  poster.addEventListener('click', () => {
+    const player = instances.get(id);
+    if (player) {
+      player.playVideo();
+    } else {
+      playRequested.add(id);
+    }
   });
+});
+
+/**
+ * Load the API on the first user interaction only:
+ * keeps its weight and console errors out of the initial page load (PageSpeed)
+ */
+if (players.length) {
+  const events = ['pointerdown', 'pointermove', 'keydown', 'scroll', 'wheel', 'touchstart'];
+  const start = () => {
+    events.forEach(type => window.removeEventListener(type, start));
+    initYouTube();
+  };
+  events.forEach(type => window.addEventListener(type, start, { passive: true }));
 }
