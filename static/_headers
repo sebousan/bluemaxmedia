@@ -2,3 +2,10 @@
   X-Frame-Options: SAMEORIGIN
   X-XSS-Protection: 0
   X-Content-Type-Options: nosniff
+
+# Not fingerprinted: never replace a font under the same file name
+# bootstrap-icons is left out: yarn build:icons rewrites it under the same name
+/assets/fonts/PPMonumentExtended/*
+  Cache-Control: public, max-age=31536000, immutable
+/assets/fonts/KronaOne/*
+  Cache-Control: public, max-age=31536000, immutable
