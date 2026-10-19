@@ -1,9 +1,10 @@
 .block-datas
-    p.value
+    p.value,
+    p.title
         font-family: $headings-font-family
         font-weight: $headings-font-weight
-    p.value,
-    h3
         @include font-size($h4-font-size)
         line-height: 1
         text-transform: uppercase
+    p.title
+        margin-bottom: $headings-margin-bottom
