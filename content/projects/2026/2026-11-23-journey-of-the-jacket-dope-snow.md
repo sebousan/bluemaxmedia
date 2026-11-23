@@ -45,4 +45,14 @@ images:
     credit: ''
     legend: ''
     half: false
+  - src: https://ucarecdn.com/2a8b1971-4ae1-446f-9c39-e92bf26beb35/WhatsApp%20Image%202026-11-23%20at%2016.54.15%20%281%29.jpeg
+    alt: ''
+    credit: ''
+    legend: ''
+    half: false
+  - src: https://ucarecdn.com/d2e9ecd7-f5dc-4c8a-9bcd-19ea767f1109/WhatsApp%20Image%202026-11-23%20at%2016.54.15.jpeg
+    alt: ''
+    credit: ''
+    legend: ''
+    half: false
 ---
