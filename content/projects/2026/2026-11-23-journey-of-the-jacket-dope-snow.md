@@ -29,5 +29,20 @@ video_embed_4: null
 video_embed_5: null
 photos: []
 datas: []
-images: []
+images:
+  - src: https://ucarecdn.com/16d854c4-ab91-44ed-b81e-6f1838cab3dc/IMG_2941.jpg
+    alt: ''
+    credit: ''
+    legend: ''
+    half: false
+  - src: https://ucarecdn.com/902dbd03-03b4-4436-9d5e-453dddee08b0/IMG_3181.jpg
+    alt: ''
+    credit: ''
+    legend: ''
+    half: false
+  - src: https://ucarecdn.com/9c3f44d0-961c-47b0-83f2-4769de85c1fe/IMG_3041.jpg
+    alt: ''
+    credit: ''
+    legend: ''
+    half: false
 ---
