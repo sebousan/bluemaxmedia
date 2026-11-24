@@ -2,7 +2,7 @@
 isIndex: false
 draft: false
 date: 2026-07-13T11:17:00
-weight: null
+weight: 50
 title: We are Devoucoux
 description: ''
 projects_types:
