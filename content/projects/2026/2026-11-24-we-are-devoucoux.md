@@ -1,7 +1,7 @@
 ---
 isIndex: false
-draft: true
-date: 2026-11-24T11:17:00
+draft: false
+date: 2026-07-13T11:17:00
 weight: null
 title: We are Devoucoux
 description: ''
@@ -13,10 +13,10 @@ projects_clients:
   - devoucoux
 projects_athletes: []
 image:
-  src: ''
+  src: https://ucarecdn.com/54ffce6f-e852-402f-921e-10f1a550c843/THUMBNAIL_DEVOUCOUX.png
   alt: ''
 hover_video:
-  mp4: ''
+  mp4: https://ucarecdn.com/40a45802-48b4-4446-a499-eb9e6053d69c/THUMBNAIL_DEVOUCOUX.mp4
   webm: ''
 video_embed:
   platform: youtube
@@ -28,5 +28,10 @@ video_embed_4: null
 video_embed_5: null
 photos: []
 datas: []
-images: []
+images:
+  - src: ''
+    alt: ''
+    credit: ''
+    legend: ''
+    half: false
 ---
