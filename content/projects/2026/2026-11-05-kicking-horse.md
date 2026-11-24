@@ -3,7 +3,7 @@ isIndex: false
 draft: false
 date: 2026-11-05T16:08:00
 weight: null
-title: kicking horse
+title: Kicking horse
 description: ''
 projects_types:
   - films
