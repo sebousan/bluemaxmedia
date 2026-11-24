@@ -13,7 +13,7 @@ projects_clients:
   - jaeger-lecoultre
 projects_athletes: []
 image:
-  src: ''
+  src: https://ucarecdn.com/38b00876-12de-408a-9aeb-c93be6762492/THUMBNAIL_MIAMI.png
   alt: ''
 hover_video:
   mp4: ''
