@@ -2,7 +2,7 @@
 isIndex: false
 draft: false
 date: 2026-11-23T16:31:00
-weight: null
+weight: 30
 title: Journey of the jacket
 description: ''
 projects_types:
