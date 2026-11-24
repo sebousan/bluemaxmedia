@@ -18,7 +18,7 @@ projects_athletes:
   - duncan-adams
   - blake-wilson
 image:
-  src: ''
+  src: https://ucarecdn.com/17bb0659-f8fa-47c7-86a7-ffe81fbec4ef/THUMBNAIL_KICKING_HORSE.png
   alt: ''
 hover_video:
   mp4: ''
