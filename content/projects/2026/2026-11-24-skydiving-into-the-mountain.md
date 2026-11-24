@@ -1,7 +1,7 @@
 ---
 isIndex: false
 draft: true
-date: 2026-11-24T13:20:00
+date: 2026-10-28T13:24:00
 weight: null
 title: Skydiving into the mountain
 description: ''
