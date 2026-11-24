@@ -12,9 +12,16 @@ projects_tags:
 projects_clients:
   - salomon
 projects_athletes: []
-image: null
-hover_video: null
-video_embed: null
+image:
+  src: ''
+  alt: ''
+hover_video:
+  mp4: ''
+  webm: ''
+video_embed:
+  platform: ''
+  id: ''
+  shorts: false
 video_embed_2: null
 video_embed_3: null
 video_embed_4: null
