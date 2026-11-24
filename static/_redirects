@@ -1,3 +1,6 @@
+# The Netlify subdomain stays reachable after go-live: send it to the primary domain.
+https://bluemaxmedia.netlify.app/*  https://www.bluemaxmedia.com/:splat  301!
+
 # --- 1. Pages Principales (Priorité Haute) ---
 /                     /                       301
 /portfolio/           /works/                 301
