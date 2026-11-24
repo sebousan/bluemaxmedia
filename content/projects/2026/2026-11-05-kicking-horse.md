@@ -11,7 +11,12 @@ projects_tags:
   - ski
 projects_clients:
   - faction
-projects_athletes: []
+projects_athletes:
+  - andrew-pollard
+  - townsend-reed
+  - sophia-rouches
+  - duncan-adams
+  - blake-wilson
 image:
   src: ''
   alt: ''
@@ -20,7 +25,7 @@ hover_video:
   webm: ''
 video_embed:
   platform: youtube
-  id: https://www.youtube.com/watch?v=GKhsYC67H1A
+  id: GKhsYC67H1A
   shorts: false
 video_embed_2: null
 video_embed_3: null
