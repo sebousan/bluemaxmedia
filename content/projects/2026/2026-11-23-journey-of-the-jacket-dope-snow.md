@@ -14,7 +14,7 @@ projects_clients:
   - dope-snow
 projects_athletes: []
 image:
-  src: ''
+  src: https://ucarecdn.com/20bc8faf-3d81-49e4-8ce3-73b3a54598ba/THUMBNAIL_DOPE_JACKET.png
   alt: ''
 hover_video:
   mp4: https://ucarecdn.com/00b6ea2e-2d57-4dbd-ba39-d924fe6f9256/DOPE.mp4
