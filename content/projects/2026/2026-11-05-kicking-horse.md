@@ -21,7 +21,7 @@ image:
   src: https://ucarecdn.com/17bb0659-f8fa-47c7-86a7-ffe81fbec4ef/THUMBNAIL_KICKING_HORSE.png
   alt: ''
 hover_video:
-  mp4: ''
+  mp4: https://ucarecdn.com/650a5733-6e11-4495-ab80-8afb0fb7a387/THUMBNAIL_KICKING_HORSE.mp4
   webm: ''
 video_embed:
   platform: youtube
