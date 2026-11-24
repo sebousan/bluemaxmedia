@@ -1,6 +1,6 @@
 ---
 isIndex: false
-draft: true
+draft: false
 date: 2026-06-11T13:30:00
 weight: null
 title: The Perpetual Timekeeper exhibition in Milan
@@ -13,7 +13,7 @@ projects_clients:
   - jaeger-lecoultre
 projects_athletes: []
 image:
-  src: ''
+  src: https://ucarecdn.com/61d9ae57-ccf2-46a6-8021-d6ef64f1d51b/THUMBNAIL_MILAN.png
   alt: ''
 hover_video:
   mp4: ''
