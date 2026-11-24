@@ -16,7 +16,7 @@ image:
   src: https://ucarecdn.com/61d9ae57-ccf2-46a6-8021-d6ef64f1d51b/THUMBNAIL_MILAN.png
   alt: ''
 hover_video:
-  mp4: ''
+  mp4: https://ucarecdn.com/1e905a64-629e-4d24-a7ed-de11c8152d46/THUMBNAIL_MILAN.mp4
   webm: ''
 video_embed:
   platform: youtube
