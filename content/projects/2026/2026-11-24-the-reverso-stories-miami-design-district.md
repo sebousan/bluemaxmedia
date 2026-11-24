@@ -16,7 +16,7 @@ image:
   src: https://ucarecdn.com/38b00876-12de-408a-9aeb-c93be6762492/THUMBNAIL_MIAMI.png
   alt: ''
 hover_video:
-  mp4: ''
+  mp4: https://ucarecdn.com/caaf0ae5-a570-411a-ba31-88670481401f/THUMBNAIL_MIAMI.mp4
   webm: ''
 video_embed:
   platform: youtube
