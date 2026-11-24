@@ -4,7 +4,7 @@ draft: false
 date: 2026-11-23T16:31:00
 weight: null
 title: Journey of the jacket
-description: How is a Dope snowboard jacket actually made? We followed the Spartan from its first moodboard in Gothenburg, Sweden, through fabric development and manufacturing, to you riding the slopes.
+description: ''
 projects_types:
   - films
   - documentaries
@@ -56,3 +56,5 @@ images:
     legend: ''
     half: false
 ---
+
+How is a Dope snowboard jacket actually made? We followed the Spartan from its first moodboard in Gothenburg, Sweden, through fabric development and manufacturing, to you riding the slopes.
