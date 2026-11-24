@@ -24,6 +24,10 @@ video_embed:
   platform: youtube
   id: 2R0kw5Kk2rw
   shorts: false
+video_embed_2: null
+video_embed_3: null
+video_embed_4: null
+video_embed_5: null
 photos: []
 datas:
   - title: Producer
@@ -32,6 +36,12 @@ datas:
     text: Blue Max Media
   - title: Gaffer
     text: Jour Blanc Studio
+images:
+  - src: ''
+    alt: ''
+    credit: ''
+    legend: ''
+    half: false
 ---
 
 Ever wondered where your coffee capsule ends up?
