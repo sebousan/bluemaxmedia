@@ -17,7 +17,7 @@ image:
   alt: ''
 hover_video:
   mp4: https://ucarecdn.com/ea8fa4ba-e110-4c53-92b8-e68b26050144/THUMBNAIL_BOA_SALOMON.mp4
-  webm: ''
+  webm: https://ucarecdn.com/003b0b01-5f8c-447e-9500-9c243e6268c0/THUMBNAIL_BOA_SALOMON.webm
 video_embed:
   platform: youtube
   id: 1Zk9zLnFB-Y
