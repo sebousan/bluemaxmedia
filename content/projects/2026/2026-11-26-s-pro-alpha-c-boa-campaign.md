@@ -1,7 +1,7 @@
 ---
 isIndex: false
 draft: false
-date: 2026-11-26T10:17:00
+date: 2026-10-08T10:17:00
 weight: null
 title: S/PRO ALPHA C BOA campaign
 description: ''
