@@ -1,6 +1,6 @@
 ---
 draft: false
-title: ETIENNE GEOFFROY GAGNON
+title: Etienne Geoffroy Gagnon
 description: ''
 image: null
 ---
