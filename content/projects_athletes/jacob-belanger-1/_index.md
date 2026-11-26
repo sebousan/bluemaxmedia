@@ -1,6 +1,6 @@
 ---
 draft: false
-title: JACOB BELANGER
+title: Jacob Belanger
 description: ''
 image: null
 ---
