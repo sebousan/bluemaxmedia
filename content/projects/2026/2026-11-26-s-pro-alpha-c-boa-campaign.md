@@ -13,7 +13,7 @@ projects_clients:
   - salomon
 projects_athletes: []
 image:
-  src: https://ucarecdn.com/75f460c3-46e3-4f45-90c1-7d57cee3e2ad/THUMBNAIL_BOA_1.4.1.jpg
+  src: https://ucarecdn.com/cb01420a-b291-4f72-973c-ca40613ea131/BOA.png
   alt: ''
 hover_video:
   mp4: https://ucarecdn.com/ea8fa4ba-e110-4c53-92b8-e68b26050144/THUMBNAIL_BOA_SALOMON.mp4
