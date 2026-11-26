@@ -1,6 +1,6 @@
 ---
 draft: false
-title: GARRETT CAPEL
+title: Garrett Capel
 description: ''
 image: null
 ---
